@@ -967,6 +967,10 @@
         width: auto;
         height: auto;
     }
+    
+    .l-footer .links {
+        margin-top: 17px;
+    }
 
     /* Общие настройки обложек на станицах тайтлов */
 
