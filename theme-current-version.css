@@ -90,7 +90,7 @@
             border-right-width: 0px;
             border-radius: 0.2em;
             box-shadow: 0px 0px 0.25em var(--top-menu-border-color);
-            background-color: var(--submenu-back-color);
+            background-color: var(--top-menu-submenu-back-color);
         }
 
             .l-top_menu-v2 .submenu > a {
@@ -102,7 +102,7 @@
                 .l-top_menu-v2 .submenu > a:hover {
                     background-color: var(--top-menu-border-color);
                     font-weight: bold;
-                    color: var(--submenu-back-color);
+                    color: var(--top-menu-submenu-back-color);
                 }
 
         .l-top_menu-v2 .global-search input {
@@ -114,7 +114,7 @@
             font-family: var(--main-font) !important;
             border-radius: 0.2em;
             text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
-            background-color: var(--submenu-back-color);
+            background-color: var(--top-menu-submenu-back-color);
         }
 
     .b-ajax::before {
@@ -133,7 +133,7 @@
     }
 
     .l-top_menu-v2.is-search-mobile .global-search {
-        background-color: var(--submenu-back-color);
+        background-color: var(--top-menu-submenu-back-color);
         top: 38px;
     }
 
@@ -171,7 +171,7 @@
     }
 
     .to-top-fix {
-        background: #00000000;
+        background: #0000;
         border: none;
     }
 
@@ -434,7 +434,7 @@
     body[data-locale="en"] .b-offtopic_marker.active:hover::before, body .b-offtopic_marker.active:hover::before {
         background-color: #a03863;
         color: white;
-        border-color: #00000000;
+        border-color: #0000;
         box-shadow: 0 0 0.3em var(--sec-text-color);
     }
 
@@ -452,7 +452,7 @@
     body[data-locale="en"] .b-summary_marker.active:hover::before, body .b-summary_marker.active:hover::before {
         background-color: #3e8f3e;
         color: white;
-        border-color: #00000000;
+        border-color: #0000;
         box-shadow: 0 0 0.3em var(--sec-text-color);
     }
 
@@ -470,7 +470,7 @@
     body[data-locale="en"] .b-new_marker.active:hover::before, body .b-new_marker.active:hover::before, body[data-locale="en"] .b-new_marker.off:hover::before, body .b-new_marker.off:hover::before {
         background-color: #1d78b7;
         color: white;
-        border-color: #00000000;
+        border-color: #0000;
         box-shadow: 0 0 0.3em var(--sec-text-color);
     }
 
