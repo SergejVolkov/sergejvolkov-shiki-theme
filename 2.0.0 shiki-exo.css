@@ -1,3 +1,7 @@
+/* sergejvolkov-shiki-theme, shiki-exo 2.0.0, SergejVolkov 2019
+    Это устаревшая версия темы! Используйте ее на свой страх и риск!
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
 /* AUTO=sticky_menu */ @media screen and (min-width: 1025px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu, .l-top_menu-v2 .search-results { max-height: calc(100vh - 46px); overflow: auto; } }
