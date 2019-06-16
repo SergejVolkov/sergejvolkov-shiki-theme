@@ -1,4 +1,4 @@
-/* sergejvolkov-shiki-theme, shiki-exo 2.1.0, SergejVolkov, 2019
+/* sergejvolkov-shiki-theme, 16.06.2019 shiki-exo 2.1.0, SergejVolkov, 2019
     Подробности релиза на https://shikimori.one/SergejVolkov */
 
 
@@ -113,7 +113,7 @@
             box-shadow: 0px 0px 0.25em var(--top-menu-border-color);
             font-family: var(--main-font) !important;
             border-radius: 0.2em;
-            text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+            text-shadow: 0px 0px 0.1em black;
             background-color: var(--top-menu-submenu-back-color);
         }
 
@@ -125,8 +125,58 @@
         font-family: var(--main-font);
         color: white;
         font-size: 15px;
-        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+        text-shadow: 0px 0px 0.06em white;
     }
+
+        .l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus {
+            background: #ffffff25 !important;
+            border-top-color: var(--top-menu-border-color);
+        }
+
+            .l-top_menu-v2 .global-search .search-results .nothing_found.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active + .search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found:focus + .search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode.active + .search-mode, .l-top_menu-v2 .global-search .search-results .search-mode:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus + .search-mode {
+                border-top-color: var(--top-menu-border-color);
+            }
+
+    .l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode {
+        border-left: 3.5px solid var(--top-menu-border-color);
+        border-top-color: var(--top-menu-border-color);
+        transition: none;
+    }
+
+        .l-top_menu-v2 .global-search .search-results .search-mode:hover {
+            background: #ffffff0e;
+            border-top-color: var(--top-menu-border-color);
+        }
+
+            .l-top_menu-v2 .global-search .search-results .search-mode:hover::before {
+                background-color: var(--top-menu-border-color);
+                opacity: 0.4;
+            }
+
+        .l-top_menu-v2 .global-search .search-results .search-mode.active::before, .l-top_menu-v2 .global-search .search-results .search-mode:focus::before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active::before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus::before {
+            background-color: var(--top-menu-border-color);
+            opacity: 0.8;
+        }
+
+        .l-top_menu-v2 .global-search .search-results .nothing_found::before {
+            background-color: var(--orange-hover-color);
+        }
+
+    .search-results .b-db_entry-variant-list_item > .info .name .b-link {
+        color: white;
+    }
+
+    .b-db_entry-variant-list_item > .info .line .key {
+        color: #ebebeb;
+    }
+
+    .search-results .b-db_entry-variant-list_item > .info .line .value .b-tag {
+        color: #dedede !important;
+    }
+
+        .search-results .b-db_entry-variant-list_item > .info .line .value .b-tag:hover {
+            color: white !important;
+        }
 
     .b-anime_status_tag, .b-add_to_list, .textarea, .ac_results ul {
         text-shadow: none;
@@ -143,10 +193,6 @@
 
     .l-top_menu-v2 .logo-container .glyph {
         margin: 0 0 0 30px;
-    }
-
-    .l-top_menu-v2 .menu-dropdown.main {
-        margin-right: 100px;
     }
 
     .l-top_menu-v2 .logo-container .logo {
@@ -227,7 +273,6 @@
     }
 
     .headline, .midheadline, .subheadline {
-        /*background: linear-gradient(to bottom, #a3b0be 0%, #4682cd 20%, #4682cd 85%, #090d0f 100%);*/
         background-color: var(--headline-color);
         color: black;
         border-radius: 0.1em;
@@ -364,6 +409,18 @@
         color: var(--green-color);
     }
 
+    .b-topic .footer-vote .vote-group .vote.yes.selected, .b-topic .footer-vote .vote-group .vote.yes:hover {
+        color: var(--green-color);
+        border-bottom-color: var(--green-color);
+        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+    }
+
+    .b-topic .footer-vote .vote-group .vote.no.selected, .b-topic .footer-vote .vote-group .vote.no:hover {
+        color: var(--orange-hover-color);
+        border-bottom-color: var(--orange-hover-color);
+        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+    }
+
     .b-stats_bar.lifetime .bar .first {
         background: var(--bar-s1-color);
     }
@@ -378,7 +435,6 @@
 
     .b-stats_bar .bar .third {
         background: linear-gradient(35deg, #adadad, #a9a9a9);
-        ;
     }
 
     .p-dashboards .animes .studios {
@@ -399,6 +455,10 @@
 
     .b-user.detailed .info .image-name .image, .b-user.moderation .info .image-name .image {
         padding: 0 0 0 0;
+    }
+
+    .b-spoiler label {
+        font-size: 14px;
     }
 
     .subheadline .b-user16 img {
@@ -488,7 +548,7 @@
         border-color: var(--main-text-color);
     }
 
-    .b-comment .inner .body .ban .resolution, .b-comment .inner .body .ban .resolution a, .b-log_entry > .reason, .b-topic .footer-vote .vote-group .vote.no.selected, .b-topic .footer-vote .vote-group .vote.no:hover, .p-contests-show .voting-warning .red-warning, .b-form a.remove {
+    .b-comment .inner .body .ban .resolution, .b-comment .inner .body .ban .resolution a, .b-log_entry > .reason, .p-contests-show .voting-warning .red-warning, .b-form a.remove {
         color: var(--orange-hover-color);
         text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
     }
@@ -553,7 +613,7 @@
         opacity: 0.4;
     }
 
-    .b-options-floated.count, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-contest_match .vs .actions .action span, .b-forums .forum .link-with-input .link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .history > .title .switch, .b-spoiler label {
+    .b-options-floated.count, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-contest_match .vs .actions .action span, .b-forums .forum .link-with-input .link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .history > .title .switch, .b-input label, .b-catalog_entry-tooltip .inner a.name {
         font-size: 15px;
     }
 
@@ -600,12 +660,12 @@
             color: #ebebeb;
         }
 
-    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-options-floated .action, .b-comments .comments-collapser, .item-add, .item-minus, .b-subposter-action, .p-profiles-show .about .item-edit::before {
+    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-options-floated .action, .b-comments .comments-collapser, .item-add, .item-minus, .p-profiles-show .about .item-edit::before {
         color: #ebebeb;
         text-shadow: var(--main-text-shadow-color);
     }
 
-        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .item-add:hover, .item-minus:hover, .b-subposter-action:hover, .p-profiles-show .about .item-edit:hover::before {
+        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before {
             color: white;
             text-shadow: 0px 0px 0.1em white;
         }
@@ -702,7 +762,7 @@
         color: var(--main-link-color);
     }
 
-    .club-actions .invite, .club-actions .upload, .club-actions .leave, .buttons a, .bar.horizontal .line .x_label, header.head h1 a.back::before, header.head h2 a.back::before, .b-comment > .inner header .name-date .time, .b-message > .inner header .name-date .time, .b-status-line .section.created_at time::before, .b-status-line .section.additional .comments::before, .b-review_votes::before, .b-status-line .section.changed_at time::before, .b-topic > .inner > header .about > span, .b-forums .forum .topics, .p-dashboards .user_list .list-change .note, .b-topic > .inner header .name-date .time, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .p-user_rates-index .l-content .order-control, .p-user_rates-index .list-lines tr td .episodes_total, .b-user.detailed .history .line .date, .b-table th, .p-userlist_comparer .comparer table .notice, .p-user_history-index .history-page .history-interval p .date, .b-club .info .number, .b-comment .inner .name-date a.name .normal, .b-db_entry > .c-about .additional-links .key, .b-header_filters .filter-line .title, .b-header_filters .filter-line a.current, .c-actions .new_review::after, .c-actions .new_comment::after, .c-actions .fav-add::after, .c-actions .edit::after, .c-actions .fav-remove::after, .b-show_more, .b-show_more-more .hide-more, .p-characters .item-edit, .b-comment header .hash, .b-comment header a.hash, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .profile-actions .ban, .profile-actions .settings, .profile-actions .mail, .c-actions .fav-add, .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .bar.vertical .line .x_label, .b-replies, .b-input .hint, .b-log_entry .date, .b-log_entry .id-label, .b-abuse_request .comment-hash, .b-ban .date, .b-ban .duration, .b-ban .comment-hash, .b-status-line .section.additional .collection-size, .b-nothing_here, .b-source .contributors .key, .b-source .mal .key, .b-source .source .key, .p-contests-index .contest .date, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-options-floated.count, .p-contests .match-day > .date .from, .p-contests .match-day > .date .to, .p-contests .match-day .match-link .started::before, .p-contests .match-day .matches-num, .p-contests .rating .member .position, .p-achievements-global table.statistics td:first-child, .b-user_rate_log .date, .b-user_rate_log .info .field .label, .b-achievement .c-about .hint, .b-achievement .c-about .percent, .p-achievements-index .p-achievements-global .level, .b-catalog_entry-tooltip .inner .additional-images .link .title, .p-contests .results .cc-result .c-rounds .label, .b-db_entry-variant-list_item > .info .line .key, .p-user_history-index .history-page .history-interval p .destroy, .b-dialog > .inner header .name-date .time, header.head .notice, .b-user_rate_log .action.update {
+    .bar.horizontal .line .x_label, header.head h1 a.back::before, header.head h2 a.back::before, .b-comment > .inner header .name-date .time, .b-message > .inner header .name-date .time, .b-status-line .section.created_at time::before, .b-status-line .section.additional .comments::before, .b-review_votes::before, .b-status-line .section.changed_at time::before, .b-topic > .inner > header .about > span, .b-forums .forum .topics, .p-dashboards .user_list .list-change .note, .b-topic > .inner header .name-date .time, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .p-user_rates-index .l-content .order-control, .p-user_rates-index .list-lines tr td .episodes_total, .b-user.detailed .history .line .date, .b-table th, .p-userlist_comparer .comparer table .notice, .p-user_history-index .history-page .history-interval p .date, .b-club .info .number, .b-comment .inner .name-date a.name .normal, .b-db_entry > .c-about .additional-links .key, .b-header_filters .filter-line .title, .b-header_filters .filter-line a.current, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .bar.vertical .line .x_label, .b-replies, .b-input .hint, .b-log_entry .date, .b-log_entry .id-label, .b-abuse_request .comment-hash, .b-ban .date, .b-comment header .hash, .b-comment header a.hash, .b-ban .duration, .b-ban .comment-hash, .b-status-line .section.additional .collection-size, .b-nothing_here, .b-source .contributors .key, .b-source .mal .key, .b-source .source .key, .p-contests-index .contest .date, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-options-floated.count, .p-contests .match-day > .date .from, .p-contests .match-day > .date .to, .p-contests .match-day .match-link .started::before, .p-contests .match-day .matches-num, .p-contests .rating .member .position, .p-achievements-global table.statistics td:first-child, .b-user_rate_log .date, .b-user_rate_log .info .field .label, .b-achievement .c-about .hint, .b-achievement .c-about .percent, .p-achievements-index .p-achievements-global .level, .b-catalog_entry-tooltip .inner .additional-images .link .title, .p-contests .results .cc-result .c-rounds .label, .b-db_entry-variant-list_item > .info .line .key, .p-user_history-index .history-page .history-interval p .destroy, .b-dialog > .inner header .name-date .time, header.head .notice, .b-user_rate_log .action.update, .b-subposter-action, .profile-actions .mail, .club-actions .invite, .club-actions .upload, .club-actions .leave, .buttons a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .c-actions .new_review::after, .c-actions .new_comment::after, .c-actions .fav-add::after, .c-actions .edit::after, .c-actions .fav-remove::after, .b-show_more, .b-show_more-more .hide-more, .p-characters .item-edit, .profile-actions .ban, .profile-actions .settings, .c-actions .fav-add, .c-actions .new_comment, .c-actions .new_review, .c-actions .edit {
         color: var(--sec-text-color);
     }
 
@@ -710,7 +770,7 @@
         color: var(--sec-text-color) !important;
     }
 
-    .profile-actions .ban:hover, .profile-actions .settings:hover, .profile-actions .mail:hover, .club-actions .invite:hover, .club-actions .upload:hover, .club-actions .leave:hover, .buttons a:hover, .c-actions .fav-add:hover, .c-actions .new_comment:hover, .c-actions .new_review:hover, .c-actions .edit:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover, .p-user_rates-index .l-content .order-control:hover, .c-actions .new_review:hover::after, .c-actions .new_comment:hover::after, .c-actions .fav-add:hover::after, .c-actions .edit:hover::after, .c-actions .fav-remove:hover::after, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-rate .score-notice, .item-mobile:hover, .p-characters .item-edit:hover, .b-comment header .hash:hover, .b-comment header a.hash:hover, .b-form a.remove:hover, .p-topics header h1 a.reload:hover, .p-user_history-index .history-page .history-interval p .destroy:hover, .b-form .cancel:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-user_rate_log .action.destroy {
+    .profile-actions .ban:hover, .profile-actions .settings:hover, .profile-actions .mail:hover, .club-actions .invite:hover, .club-actions .upload:hover, .club-actions .leave:hover, .buttons a:hover, .c-actions .fav-add:hover, .c-actions .new_comment:hover, .c-actions .new_review:hover, .c-actions .edit:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover, .p-user_rates-index .l-content .order-control:hover, .c-actions .new_review:hover::after, .c-actions .new_comment:hover::after, .c-actions .fav-add:hover::after, .c-actions .edit:hover::after, .c-actions .fav-remove:hover::after, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-rate .score-notice, .item-mobile:hover, .p-characters .item-edit:hover, .b-comment header .hash:hover, .b-comment header a.hash:hover, .b-form a.remove:hover, .p-topics header h1 a.reload:hover, .p-user_history-index .history-page .history-interval p .destroy:hover, .b-form .cancel:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-user_rate_log .action.destroy, .b-subposter-action:hover, .b-review_votes .user-vote .voted-against {
         color: var(--orange-hover-color);
     }
 
@@ -807,10 +867,6 @@
         border: 1.5px #00002066 solid;
     }
 
-    .b-input label, .b-catalog_entry-tooltip .inner a.name {
-        font-size: 15px;
-    }
-
     .b-catalog_entry-tooltip .inner .text {
         font-size: 13px;
     }
@@ -854,7 +910,7 @@
     }
 
     .p-user_rates-index .list-lines tr.edit-form form {
-        background-color: var(--l-page-back-color-desktop);
+        background-color: var(--quote-back-color);
         border-radius: 0.2em;
         border: 1px solid var(--tile-border-color);
     }
@@ -1144,6 +1200,10 @@
 
 
 @media screen and (max-width: 767px) {
+    .l-top_menu-v2 .logo-container .glyph {
+        margin: -1px 0 0 -50px;
+    }
+
     .b-stats_bar a.title {
         font-size: 20px;
     }
@@ -1164,7 +1224,7 @@
         font-size: 27px;
     }
 
-    .b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third, header.head a.misc, header.head a.edit, .l-top_menu-v2 .submenu > a, .b-main_search ul.popup li, .b-main_search .input input, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .b-db_entry-note .name-container .note .relation, .b-db_entry-note .name-container .note .additional, .p-animes-show .cc-related-authors > .c-column, .b-source .contributors div, .b-source .mal div, .b-source .source div, .b-breadcrumbs, .p-user_rates-index .stat-categories .t1, .bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, header.head .notice, .b-log_entry .date, .b-ban .duration, .b-ban .date, .b-nothing_here, .b-spoiler label, .b-replies, .b-topic > .inner > header .about > span, .b-topic > .inner header .name-date .time, .b-comment > .inner header .name-date .time, .b-catalog_entry .cover .misc span, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .history > .title .link, .b-status-line, .b-achievement .c-about .hint, .b-achievement .c-about .percent, .p-contests .match-day .matches-num, .p-user_rates-index .list-lines tr td .rate-text, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .b-hot_topics-v2 .subject, .b-hot_topics-v2 .b-link {
+    .b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third, header.head a.misc, header.head a.edit, .l-top_menu-v2 .submenu > a, .b-main_search ul.popup li, .b-main_search .input input, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .b-db_entry-note .name-container .note .relation, .b-db_entry-note .name-container .note .additional, .p-animes-show .cc-related-authors > .c-column, .b-source .contributors div, .b-source .mal div, .b-source .source div, .b-breadcrumbs, .p-user_rates-index .stat-categories .t1, .bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, header.head .notice, .b-log_entry .date, .b-ban .duration, .b-ban .date, .b-nothing_here, .b-spoiler label, .b-replies, .b-topic > .inner > header .about > span, .b-topic > .inner header .name-date .time, .b-comment > .inner header .name-date .time, .b-catalog_entry .cover .misc span, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .history > .title .link, .b-status-line, .b-achievement .c-about .hint, .b-achievement .c-about .percent, .p-contests .match-day .matches-num, .p-user_rates-index .list-lines tr td .rate-text, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .b-hot_topics-v2 .subject, .b-hot_topics-v2 .b-link, .b-spoiler label {
         font-size: 15px;
     }
 
