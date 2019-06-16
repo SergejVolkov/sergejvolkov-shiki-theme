@@ -9,7 +9,7 @@ downloadable.css
 
 
 /* Загрузка основного файла темы из облачного репозитория. */
-@import url('https://raw.githack.com/SergejVolkov/sergejvolkov-shiki-theme/master/theme-current-version.css');
+@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/theme-current-version.css');
 
 /* Загрузка шрифта из Google Fonts. По умолчанию стоит шрифт 'Exo 2'.
     Вы можете загрузить любой нравящийся Вам шрифт на https://fonts.google.com */
