@@ -1,0 +1,33 @@
+/* Dark green theme / Темно-зеленая тема */
+:root {
+    --top-menu-color: #00603b;
+    --top-menu-submenu-back-color: #025132;
+    --top-menu-button-hover-color: #024f31;
+    --top-menu-border-color: #f0f0f0;
+    --l-page-back-color-desktop: #2a2a2a;
+    --l-page-back-color-mobile: #303030;
+    --quote-back-color: #3e3e3e;
+    --tile-back-color: #363636;
+    --tile-border-color: #007038;
+    --headline-color: #046841;
+    --main-text-shadow-color: black;
+    --main-text-color: white;
+    --sec-text-color: #ebebeb;
+    --ter-text-color: #dedede;
+    --quat-text-color: #ababab;
+    --profile-nickname-color: #06d886;
+    --li-hover-color: #345948;
+    --li-active-color: #046841;
+    --main-link-color: #00d0ff;
+    --main-link-hover-color: #00e28a;
+    --sec-link-color: #dedede;
+    --sec-link-active-color: #00d371;
+    --sec-link-hover-color: white;
+    --button-hover-color: #037f4f;
+    --orange-hover-color: #ff8644;
+    --green-color: #2ad370;
+    --bar-s0-color: #117a51;
+    --bar-s1-color: #1b8e61;
+    --bar-s2-color: #2bb580;
+    --bar-s3-color: #47e0a5;
+}
