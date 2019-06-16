@@ -13,7 +13,7 @@ downloadable.css
 
 /* Загрузка шрифта из Google Fonts. По умолчанию стоит шрифт 'Exo 2'.
     Вы можете загрузить любой нравящийся Вам шрифт на https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&subset=cyrillic');
 
 :root {
     /* Установка переменной шрифта.
