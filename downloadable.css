@@ -410,8 +410,8 @@ downloadable.css
 
 /*@media screen and (min-width: 1025px) {
     .p-profiles .profile-head .c-brief header {
-        background: url('ссылка на картинку') no-repeat !important;
-        background-size: auto;
+        background-image: url('ссылка на картинку') !important;
+        background-position: center;
         background-size: cover;
         height: 330px !important;
     }
