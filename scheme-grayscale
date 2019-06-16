@@ -1,0 +1,38 @@
+/* Grayscale theme / Черно-белая тема */
+:root {
+    --top-menu-color: #828282;
+    --top-menu-submenu-back-color: #6d6d6d;
+    --top-menu-button-hover-color: #707070;
+    --top-menu-border-color: #eee;
+	
+    --l-page-back-color-desktop: #f8f8f8;
+    --l-page-back-color-mobile: white;
+    --quote-back-color: #eaeaea;
+    --tile-back-color: white;
+    --tile-border-color: #ccc;
+    --headline-color: #7c7c7c;
+	
+    --main-text-shadow-color: #0000;
+    --main-text-color: black;
+    --sec-text-color: #303030;
+    --ter-text-color: #505050;
+    --quat-text-color: #626262;
+    --profile-nickname-color: #494949;
+	
+    --li-hover-color: #d3d3d3;
+    --li-active-color: #7c7c7c;
+    --main-link-color: #373737;
+    --main-link-hover-color: #202020;
+    --sec-link-color: #4a4a4a;
+    --sec-link-active-color: #5c5c5c;
+    --sec-link-hover-color: #303030;
+	
+    --button-hover-color: #5d5d5d;
+    --orange-hover-color: #898989;
+    --green-color: #999999;
+	
+    --bar-s0-color: #565656;
+    --bar-s1-color: #757575;
+    --bar-s2-color: #969696;
+    --bar-s3-color: #bfbfbf;
+}
