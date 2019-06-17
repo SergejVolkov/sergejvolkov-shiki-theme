@@ -1093,7 +1093,7 @@
         border-radius: 3px;
 		position: relative;
         margin: 0 0 0 10px;
-        max-width: 38%;
+        max-width: 39%;
         width: 100%;
         height: 550px;
         border: 1px solid var(--tile-border-color);
@@ -1139,6 +1139,14 @@
         .p-profiles .profile-head .c-brief header .notice {
             margin-left: 20px;
         }
+
+    .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .block:last-child {
+        margin-left: -20px;
+    }
+
+    .p-profiles-show.x1200 .profile-content .c-right > .block:last-child, .p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
+        margin-bottom: 30px;
+    }
 
     .p-profiles-show .profile-content .activity {
         padding-bottom: 25px !important;
