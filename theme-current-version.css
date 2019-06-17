@@ -1,4 +1,4 @@
-/* sergejvolkov-shiki-theme, 16.06.2019 shiki-exo 2.1.0, SergejVolkov, 2019
+/* sergejvolkov-shiki-theme, 17.06.2019 shiki-exo 2.1.1, SergejVolkov, 2019
     Подробности релиза на https://shikimori.one/SergejVolkov */
 
 
@@ -24,7 +24,7 @@
         font-family: var(--main-font);
         font-size: 16px;
         color: var(--main-text-color);
-        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+        text-shadow: 0px 0px 0.06em var(--main-text-shadow-color);
     }
 
     .l-page {
@@ -57,7 +57,7 @@
             font-family: var(--main-font);
             font-weight: bold;
             color: white;
-            text-shadow: 0px 0px 0.1em white;
+            text-shadow: 0px 0px 0.06em white;
             height: 36px;
             margin-top: -3px;
             transition: 0.2s;
@@ -68,7 +68,7 @@
 
             .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-dropdown:hover, .l-top_menu-v2 .menu-dropdown:hover > span a, .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus {
                 background-color: var(--top-menu-button-hover-color);
-                box-shadow: 0 0 0.2em var(--top-menu-button-hover-color);
+                box-shadow: 0 0 3px var(--top-menu-button-hover-color);
             }
 
             .l-top_menu-v2 .menu-dropdown > span > span {
@@ -88,7 +88,7 @@
             border-bottom-width: 0px;
             border-top-width: 0px;
             border-right-width: 0px;
-            border-radius: 0.2em;
+            border-radius: 3px;
             box-shadow: 0px 0px 0.25em var(--top-menu-border-color);
             background-color: var(--top-menu-submenu-back-color);
         }
@@ -112,8 +112,8 @@
         .l-top_menu-v2 .global-search .search-results {
             box-shadow: 0px 0px 0.25em var(--top-menu-border-color);
             font-family: var(--main-font) !important;
-            border-radius: 0.2em;
-            text-shadow: 0px 0px 0.1em black;
+            border-radius: 3px;
+            text-shadow: 0px 0px 0.06em black;
             background-color: var(--top-menu-submenu-back-color);
         }
 
@@ -151,22 +151,25 @@
             .l-top_menu-v2 .global-search .search-results .search-mode:hover::before {
                 background-color: var(--top-menu-border-color);
                 opacity: 0.4;
+                border-radius: 1px;
             }
 
         .l-top_menu-v2 .global-search .search-results .search-mode.active::before, .l-top_menu-v2 .global-search .search-results .search-mode:focus::before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active::before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus::before {
             background-color: var(--top-menu-border-color);
             opacity: 0.8;
+            border-radius: 1px;
         }
 
         .l-top_menu-v2 .global-search .search-results .nothing_found::before {
             background-color: var(--orange-hover-color);
+            border-radius: 1px;
         }
 
     .search-results .b-db_entry-variant-list_item > .info .name .b-link {
         color: white;
     }
 
-    .b-db_entry-variant-list_item > .info .line .key {
+    .search-results .b-db_entry-variant-list_item > .info .line .key {
         color: #ebebeb;
     }
 
@@ -188,7 +191,7 @@
     }
 
     .l-top_menu-v2 .global-search input {
-        box-shadow: 0 0 0.2em white;
+        box-shadow: 0 0 3px white;
     }
 
     .l-top_menu-v2 .logo-container .glyph {
@@ -200,7 +203,7 @@
     }
 
     .menu .unread-count, .menu .contest {
-        border-radius: 0.3em;
+        border-radius: 4.5px;
         transition: 0.2s;
     }
 
@@ -224,7 +227,7 @@
     .b-external_link .linkeable::before, .b-external_link a::before {
         background-color: #ebebeb !important;
         border: 1.5px solid #ebebeb;
-        border-radius: 0.2em;
+        border-radius: 3px;
     }
 
     .b-comments-notifier {
@@ -246,7 +249,7 @@
 
     @keyframes animation-shine {
         from {
-            box-shadow: 0 0 0.2em var(--button-hover-color);
+            box-shadow: 0 0 3px var(--button-hover-color);
             width: 29px;
         }
 
@@ -275,7 +278,7 @@
     .headline, .midheadline, .subheadline {
         background-color: var(--headline-color);
         color: black;
-        border-radius: 0.1em;
+        border-radius: 1.5px;
         border-left-color: #f0f0f0a0;
         font-size: 16px;
         text-shadow: none;
@@ -338,11 +341,11 @@
     }
 
     .b-button, .b-shiki_editor footer input[type="submit"], .b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview, .b-form input[type="submit"] {
-        border-radius: 0.2em !important;
+        border-radius: 3px !important;
         font-family: var(--main-font) !important;
         font-size: 15px !important;
         transition: 0.2s !important;
-        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color) !important;
+        text-shadow: 0px 0px 0.06em var(--main-text-shadow-color) !important;
     }
 
     .b-catalog_entry-tooltip .inner .rating .text, .b-catalog_entry-tooltip .inner .rating .score {
@@ -356,7 +359,7 @@
     }
 
     .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .b-forum .faye-loader, .collapsed, .collapsed + .spoiler .hide-expanded, .b-comments .faye-loader, .p-animes-show .other-names.click-loader, .p-mangas-show .other-names.click-loader, .p-ranobe-show .other-names.click-loader {
-        border-radius: 0.2em;
+        border-radius: 3px;
         color: #ebebeb;
         background: #48484cd0 !important;
         border: none !important;
@@ -378,7 +381,7 @@
     }
 
     .b-topic .footer-vote {
-        border-radius: 0.2em;
+        border-radius: 3px;
         background-color: var(--quote-back-color);
         color: var(--sec-text-color);
     }
@@ -412,13 +415,13 @@
     .b-topic .footer-vote .vote-group .vote.yes.selected, .b-topic .footer-vote .vote-group .vote.yes:hover {
         color: var(--green-color);
         border-bottom-color: var(--green-color);
-        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+        text-shadow: 0px 0px 0.06em var(--main-text-shadow-color);
     }
 
     .b-topic .footer-vote .vote-group .vote.no.selected, .b-topic .footer-vote .vote-group .vote.no:hover {
         color: var(--orange-hover-color);
         border-bottom-color: var(--orange-hover-color);
-        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+        text-shadow: 0px 0px 0.06em var(--main-text-shadow-color);
     }
 
     .b-stats_bar.lifetime .bar .first {
@@ -444,13 +447,13 @@
     .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-club .logo, .b-comment > .inner header img, .p-profiles-edit .account .avatar-edit img, .b-user.detailed .info .image-name .image,
     .b-message > .inner header img, .b-dialog > .inner header img,
     .p-topics .l-menu .clubs .entry img, .b-topic > .inner header img {
-        border-radius: 0.2em;
+        border-radius: 3px;
         border: 1.5px solid rgba(43, 42, 97,0.6);
         background-color: #ebebeb;
     }
 
     .l-top_menu-v2 .menu-dropdown.profile > span img, div.avatar img, .b-user16 img, .b-hot_topics-v2 .b-link .poster {
-        border-radius: 0.2em;
+        border-radius: 3px;
     }
 
     .b-user.detailed .info .image-name .image, .b-user.moderation .info .image-name .image {
@@ -462,7 +465,6 @@
     }
 
     .subheadline .b-user16 img {
-        margin-top: 0px;
         padding-right: 0;
     }
 
@@ -550,7 +552,7 @@
 
     .b-comment .inner .body .ban .resolution, .b-comment .inner .body .ban .resolution a, .b-log_entry > .reason, .p-contests-show .voting-warning .red-warning, .b-form a.remove {
         color: var(--orange-hover-color);
-        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+        text-shadow: 0px 0px 0.06em var(--main-text-shadow-color);
     }
 
     .b-log_entry > .reason, .b-catalog_entry .cover .title {
@@ -579,7 +581,7 @@
 
     .l-page .menu-toggler .toggler {
         color: white;
-        box-shadow: 0 0 0.1em var(--button-hover-color);
+        box-shadow: 0 0 1.5px var(--button-hover-color);
         background-color: var(--button-hover-color);
         width: 26px;
         border: none;
@@ -620,33 +622,37 @@
 
     .b-achievement.badge .c-image .inner .border {
         border: 1.5px solid #ebebeb !important;
-        border-radius: 0.2em;
+        border-radius: 3px;
     }
 
     .b-achievement.badge .c-image, .b-badge img, .b-badge .no-image {
-        border-radius: 0.2em;
+        border-radius: 3px;
         transition: 0.4s;
     }
 
     .p-profiles-show .achievements .cc-franchises .b-badge::before {
-        border-bottom-left-radius: 0.2em;
+        border-bottom-left-radius: 3px;
         background-color: #353535c6;
     }
 
     .p-dashboards-show .cc-news .c-news_topics .b-topic {
-        border-radius: 0.1em;
+        border-radius: 1.5px;
     }
 
     a, .b-link, .b-stats_bar a.title, .link, .b-catalog_entry .cover .title, .p-dashboards .user_list .list-change, .b-topic > .inner header .name-date a.name, .b-forums .forum .link-with-input .link, .b-user.named_avatar .name, .b-shiki_editor footer .about-bb_codes, .b-db_entry > .c-about .additional-links .line-container > .link, .b-db_entry > .c-about .additional-links .line-container > a, .b-db_entry-variant-list_item .name-container .name, .b-height_shortener .expand span, .b-js-link, header.head h1 a.back, header.head h2 a.back, .b-message > .inner header .name-date a.name, .b-comment > .inner header .name-date a.name, .b-catalog_entry-tooltip .inner a.name, .p-user_rates-index .list-lines tr .name a, .p-user_rates-index .stat-categories .category, .b-lang_trigger span, .b-user.detailed .history .line a .event, .p-userlist_comparer .comparer table .name a, .b-spoiler label, .b-mention, .p-user_history-index .history-page .history-interval p a, .b-club .name, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .link, .p-animes_collection-index .pagination .link, .p-mangas_collection-index .pagination .link, .p-recommendations-index .pagination .link, .p-userlist_comparer-show .pagination .link, .b-animes-menu .menu-topics-block .entry .name, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a, .p-profiles .profile-head .c-mobile-actions a, .p-profiles .profile-head .c-mobile-actions span, .b-shiki_editor footer .unpreview:not(.link), .b-shiki_editor footer .cancel, .b-shiki_editor footer .hide, .b-form .cancel, .b-edit_styles .edit_style .style_css .editor-expand, .b-edit_styles .edit_style .style_css .editor-collapse, .b-edit_styles .new_style .style_css .editor-expand, .b-edit_styles .new_style .style_css .editor-collapse, .p-profiles-edit .account .change-password a, .p-profiles-edit .misc .profile-action a:not(.b-button), .p-profiles-edit .misc .profile-action .link, .p-profiles-edit .misc .nickname-changes a:not(.b-button), .p-profiles-edit .misc .nickname-changes .link, .p-profiles-edit .list .profile-action a:not(.b-button), .p-profiles-edit .list .profile-action .link, .p-profiles-edit .list .nickname-changes a:not(.b-button), .p-profiles-edit .list .nickname-changes .link, .b-height_shortener .expand::after, .b-height_shortener .expand, .b-user.detailed .info .image-name, .b-log_entry a, .b-log_entry .link, .b-ban a, .b-ban .link, .b-ban .abuser, .b-topic .footer-vote .vote-group .vote, .b-spoiler .content .before, .b-spoiler .content .after, .b-catalog_entry-tooltip .inner .line .value a, .p-contests-index .contest a, .b-contest_match .vs .actions .action span, .p-contests .match-day .match-link a, .p-contests .rating .member a, .b-entry-info .line a, .b-user_rate_log .spoiler.collapse span, .b-user_rate_log .spoiler.collapsed span, .b-user_rate_log a, .b-user_rate_log .link, .p-dashboards .c-my_list .list-change .title, .b-achievement .c-about a.title, .p-profiles-show .about a, .p-contests .suggestion > a, .p-contests .variant > a, .p-contests .results a, .b-feedback-inner .about a, .headline .misc-links > a, .midheadline .misc-links > a, .subheadline .misc-links > a, .b-oauth_application .name-logo .name, .b-dialog > .inner header .name-date a.name, .b-user16 > a, .b-user16, .b-mention s {
         color: var(--main-link-color);
     }
 
-        a:hover, .b-link:hover, .b-stats_bar a.title:hover, .link:hover, .b-catalog_entry .cover:hover .title, .p-dashboards .user_list .list-change:hover, .b-topic > .inner header .name-date a.name:hover, .p-profiles .profile-head .c-info .c-additionals div a:hover, .b-forums .forum .link-with-input .link:hover, .b-user.named_avatar .name:hover, .b-shiki_editor footer .about-bb_codes:hover, .b-db_entry > .c-about .additional-links .line-container > .link:hover, .b-db_entry > .c-about .additional-links .line-container > a:hover, .b-db_entry-variant-list_item .name-container .name:hover, .b-height_shortener .expand:hover span, .b-js-link:hover, header.head h1 a.back:hover, header.head h2 a.back:hover, .b-message > .inner header .name-date a.name:hover, .b-comment > .inner header .name-date a.name:hover, .b-catalog_entry-tooltip .inner a.name:hover, header.head a.misc:hover, header.head a.edit:hover, .p-user_rates-index .list-lines tr .name a:hover, .p-user_rates-index .stat-categories .category:hover, .b-lang_trigger span:hover, .b-user.detailed .history .line a .event:hover, .p-userlist_comparer .comparer table .name a:hover, .b-spoiler label:hover, .b-mention:hover, .p-user_history-index .history-page .history-interval p a:hover, .b-club:hover .name, .p-dashboards .user_list .history > .title .switch:hover, .p-dashboards .user_list .list-type > .title .link:hover, .p-dashboards .user_list .history > .title .link:hover, .p-animes_collection-index .pagination .link:hover, .p-mangas_collection-index .pagination .link:hover, .p-recommendations-index .pagination .link:hover, .p-userlist_comparer-show .pagination .link:hover, .b-animes-menu .menu-topics-block .entry .name:hover, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover, .b-shiki_editor footer .unpreview:not(.link):hover, .b-shiki_editor footer .cancel:hover, .b-shiki_editor footer .hide:hover, .p-profiles-edit .account .change-password a:hover, .p-profiles-edit .misc .profile-action a:hover:not(.b-button), .p-profiles-edit .misc .profile-action .link:hover, .p-profiles-edit .misc .nickname-changes a:hover:not(.b-button), .p-profiles-edit .misc .nickname-changes .link:hover, .p-profiles-edit .list .profile-action a:hover:not(.b-button), .p-profiles-edit .list .profile-action .link:hover, .p-profiles-edit .list .nickname-changes a:hover:not(.b-button), .p-profiles-edit .list .nickname-changes .link:hover, .b-height_shortener .expand:hover::after, .b-height_shortener .expand:hover, .b-user.detailed .info .image-name:hover, .b-spoiler .content:hover .before, .b-spoiler .content:hover .after, .b-catalog_entry-tooltip .inner .line .value a:hover, .p-contests-index .contest a:hover, .b-contest_match .vs .actions .action span:hover, .p-contests .match-day .match-link a:hover, .p-contests .match-day .match-link .c-column.loser a:hover, .p-contests .match-day .match-link .c-column.created a:hover, .p-contests .rating .member a:hover, .b-entry-info .line a:hover, .b-user_rate_log .spoiler.collapse span:hover, .b-user_rate_log .spoiler.collapsed span:hover, .p-dashboards .c-my_list .list-change:hover .title, .b-achievement .c-about a.title:hover, .p-profiles-show .about a:hover, .p-contests .suggestion > a:hover, .p-contests .variant > a:hover, .p-contests .results a:hover, .b-feedback-inner .about a:hover, .headline .misc-links > a:hover, .midheadline .misc-links > a:hover, .subheadline .misc-links > a:hover, .b-oauth_application .name-logo .name:hover, .b-user_rate_log a:hover, .b-user_rate_log .link:hover, .b-dialog > .inner header .name-date a.name:hover, .b-user16:hover > a, .b-user16:hover, .b-mention:hover s {
+        a:hover, .b-link:hover, .b-stats_bar a.title:hover, .link:hover, .b-catalog_entry .cover:hover .title, .p-dashboards .user_list .list-change:hover, .b-topic > .inner header .name-date a.name:hover, .p-profiles .profile-head .c-info .c-additionals div a:hover, .b-forums .forum .link-with-input .link:hover, .b-user.named_avatar .name:hover, .b-shiki_editor footer .about-bb_codes:hover, .b-db_entry > .c-about .additional-links .line-container > .link:hover, .b-db_entry > .c-about .additional-links .line-container > a:hover, .b-db_entry-variant-list_item .name-container .name:hover, .b-height_shortener .expand:hover span, .b-js-link:hover, header.head h1 a.back:hover, header.head h2 a.back:hover, .b-message > .inner header .name-date a.name:hover, .b-comment > .inner header .name-date a.name:hover, .b-catalog_entry-tooltip .inner a.name:hover, header.head a.misc:hover, header.head a.edit:hover, .p-user_rates-index .list-lines tr .name a:hover, .p-user_rates-index .stat-categories .category:hover, .b-lang_trigger span:hover, .b-user.detailed .history .line a .event:hover, .p-userlist_comparer .comparer table .name a:hover, .b-spoiler label:hover, .b-mention:hover, .p-user_history-index .history-page .history-interval p a:hover, .p-dashboards .user_list .history > .title .switch:hover, .p-dashboards .user_list .list-type > .title .link:hover, .p-dashboards .user_list .history > .title .link:hover, .p-animes_collection-index .pagination .link:hover, .p-mangas_collection-index .pagination .link:hover, .p-recommendations-index .pagination .link:hover, .p-userlist_comparer-show .pagination .link:hover, .b-animes-menu .menu-topics-block .entry .name:hover, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover, .b-shiki_editor footer .unpreview:not(.link):hover, .b-shiki_editor footer .cancel:hover, .b-shiki_editor footer .hide:hover, .p-profiles-edit .account .change-password a:hover, .p-profiles-edit .misc .profile-action a:hover:not(.b-button), .p-profiles-edit .misc .profile-action .link:hover, .p-profiles-edit .misc .nickname-changes a:hover:not(.b-button), .p-profiles-edit .misc .nickname-changes .link:hover, .p-profiles-edit .list .profile-action a:hover:not(.b-button), .p-profiles-edit .list .profile-action .link:hover, .p-profiles-edit .list .nickname-changes a:hover:not(.b-button), .p-profiles-edit .list .nickname-changes .link:hover, .b-height_shortener .expand:hover::after, .b-height_shortener .expand:hover, .b-user.detailed .info .image-name:hover, .b-spoiler .content:hover .before, .b-spoiler .content:hover .after, .b-catalog_entry-tooltip .inner .line .value a:hover, .p-contests-index .contest a:hover, .b-contest_match .vs .actions .action span:hover, .p-contests .match-day .match-link a:hover, .p-contests .match-day .match-link .c-column.loser a:hover, .p-contests .match-day .match-link .c-column.created a:hover, .p-contests .rating .member a:hover, .b-entry-info .line a:hover, .b-user_rate_log .spoiler.collapse span:hover, .b-user_rate_log .spoiler.collapsed span:hover, .p-dashboards .c-my_list .list-change:hover .title, .b-achievement .c-about a.title:hover, .p-profiles-show .about a:hover, .p-contests .suggestion > a:hover, .p-contests .variant > a:hover, .p-contests .results a:hover, .b-feedback-inner .about a:hover, .headline .misc-links > a:hover, .midheadline .misc-links > a:hover, .subheadline .misc-links > a:hover, .b-oauth_application .name-logo .name:hover, .b-user_rate_log a:hover, .b-user_rate_log .link:hover, .b-dialog > .inner header .name-date a.name:hover, .b-user16:hover > a, .b-user16:hover, .b-mention:hover s {
             color: var(--main-link-hover-color);
         }
 
         .p-animes_collection-index .pagination .link.disabled, .p-mangas_collection-index .pagination .link.disabled, .p-recommendations-index .pagination .link.disabled, .p-userlist_comparer-show .pagination .link.disabled, .p-contests .match-day .match-link .c-column.loser a, .p-contests .match-day .match-link .c-column.created a, .p-contests .match-day .match-link.voted-none > .c-column a, .p-contests .match-day .match-link.voted-left > .c-column:last-child a, .p-contests .match-day .match-link.voted-right > .c-column:first-child a, .b-ban .id-label, .b-user_rate_log .id-label, .p-contests .match-day .match-link.voted-left > .c-column:last-child a:hover, .p-contests .match-day .match-link.voted-right > .c-column:first-child a:hover, .p-contests .match-day .match-link .c-column.loser a:hover {
             color: var(--quat-text-color);
+        }
+
+        .b-club .name:hover {
+            color: var(--main-link-hover-color) !important;
         }
 
     .headline > a, .midheadline > a, .subheadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
@@ -672,7 +678,7 @@
         }
 
     .b-options-floated a::after, .b-options-floated .link::after {
-        text-shadow: 0px 0px 0.1em var(--main-text-shadow-color);
+        text-shadow: 0px 0px 0.06em var(--main-text-shadow-color);
     }
 
     .b-options-floated {
@@ -704,8 +710,8 @@
     }
 
     .b-catalog_entry .cover .image-decor > .text {
-        border-bottom-left-radius: 0.2em;
-        border-bottom-right-radius: 0.2em;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
         background-color: #000010c7;
     }
 
@@ -714,8 +720,8 @@
         }
 
     .p-user_rates-index .list-posters .user_rate > .text {
-        border-bottom-left-radius: 0.2em;
-        border-bottom-right-radius: 0.2em;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
         bottom: 48px;
         background-color: #000010c7;
     }
@@ -738,7 +744,7 @@
     input, optgroup, select, textarea {
         color: black;
         background-color: white;
-        border-radius: 0.2em;
+        border-radius: 3px;
         font-family: var(--main-font);
         font-size: 16px;
     }
@@ -749,7 +755,7 @@
 
     .smiley, .l-top_menu-v2 .icon-avatar img {
         background-color: white;
-        border-radius: 0.2em;
+        border-radius: 3px;
     }
 
     .p-profiles .profile-head .c-info .c-additionals b, .p-user_rates-index .list-lines tr td .rate-text {
@@ -816,7 +822,7 @@
     .p-dashboards-show .c-my_list {
         padding: 20px;
         background-color: var(--tile-back-color);
-        border-radius: 0.2em;
+        border-radius: 3px;
         border: 1px solid var(--tile-border-color);
     }
 
@@ -834,7 +840,7 @@
 
     .b-block_list li {
         color: var(--sec-text-color);
-        border-radius: 0.1em;
+        border-radius: 1.5px;
         transition: 0.2s;
     }
 
@@ -857,14 +863,14 @@
     }
 
     .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-collection_search .field input, .p-user_rates-index .list-lines tr.edit-form .b-input.integer input, .b-input textarea, .b-input input[type="number"], .b-input textarea[type="number"] {
-        border-radius: 0.2em;
+        border-radius: 3px;
     }
 
     .p-animes-show .studio-logo, .p-mangas-show .studio-logo, .p-ranobe-show .studio-logo {
         max-width: 220px;
         padding: 12px;
         background-color: #fcfcfc;
-        border-radius: 0.2em;
+        border-radius: 3px;
         border: 1.5px #00002066 solid;
     }
 
@@ -888,7 +894,7 @@
     }
 
     .b-link_button, .b-link_button.dark {
-        border-radius: 0.2em;
+        border-radius: 3px;
         background-color: #48484c;
         color: #ebebeb;
         transition: 0.2s;
@@ -912,7 +918,7 @@
 
     .p-user_rates-index .list-lines tr.edit-form form {
         background-color: var(--quote-back-color);
-        border-radius: 0.2em;
+        border-radius: 3px;
         border: 1px solid var(--tile-border-color);
     }
 
@@ -931,7 +937,7 @@
     .b-modal > .inner, .tooltip-inner {
         padding: 20px;
         background-color: var(--tile-back-color);
-        border-radius: 0.2em;
+        border-radius: 3px;
         border: 1px solid var(--tile-border-color);
         font-family: var(--main-font);
         color: var(--main-text-color);
@@ -947,8 +953,8 @@
     }
 
     .p-user_rates-index .list-posters .user_rate .edit-user_rate {
-        border-top-right-radius: 0.1em;
-        border-bottom-left-radius: 0.2em;
+        border-top-right-radius: 1.5px;
+        border-bottom-left-radius: 3px;
         background-color: #353535c6;
         transition: 0.2s;
     }
@@ -977,7 +983,7 @@
     }
 
     .l-footer .copyright::before {
-        content: 'shiki-exo 2.1.0';
+        content: 'shiki-exo 2.1.1';
         text-align: right;
         display: block;
         position: relative;
@@ -1037,7 +1043,7 @@
     /* Тень и углы */
 
     .b-catalog_entry a .image-cutter, .b-db_entry-variant-list_item .image img, .b-catalog_entry .cover .image-decor img, .p-db_entries .b-db_entry .c-poster img, .b-catalog_entry-tooltip .image, .p-profiles .profile-head .c-history .entry img, .b-catalog_entry-tooltip .inner .additional-images .link img {
-        border-radius: 0.2em;
+        border-radius: 3px;
         box-shadow: 0 0 0.4em #0b0b0be0;
     }
 
@@ -1080,7 +1086,7 @@
         background: var(--desktop-avatar-image);
         background-size: cover;
         background-position: center;
-        border-radius: 0.2em;
+        border-radius: 3px;
 		position: relative;
         margin: 0 0 0 10px;
         max-width: 38%;
@@ -1091,8 +1097,8 @@
 
         .p-profiles .profile-head .c-brief .avatar .profile-actions {
             background-color: var(--tile-back-color);
-            border-bottom-left-radius: 0.1em;
-            border-bottom-right-radius: 0.1em;
+            border-bottom-left-radius: 1.5px;
+            border-bottom-right-radius: 1.5px;
             position: absolute;
             bottom: 0;
             width: 100%;
@@ -1106,7 +1112,7 @@
     .p-profiles .profile-head .c-info, .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-history, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, header.head, .p-reviews-index .l-content, .p-animes-similar .l-content, .p-animes-videos .l-content, .p-animes-screenshots .l-content, .p-animes-staff .l-content, .p-animes-characters .l-content, .p-characters-show .l-content, .p-people-show .l-content, .p-club_pages-show .l-content, .p-animes-show .l-content, .p-animes_collection-index .l-content, .p-animes-summaries .l-content, .p-animes-art .l-content, .p-animes-favoured .l-content, .p-animes-clubs .l-content, .p-animes-chronology .l-content, .p-animes-related .l-content, .p-characters-index .cc-8, .p-characters-art .l-content, .p-characters-favoured .l-content, .p-characters-clubs .l-content, .p-characters-animes .l-content, .p-characters-mangas .l-content, .p-characters-ranobe .l-content, .p-characters-seyu .l-content, .p-people-index .cc-8, .p-people-favoured .l-content, .p-people-roles .l-content, .p-people-works .l-content, .p-animes-cosplay .l-content .subheadline, .p-characters-cosplay .l-content .subheadline, .p-pages-about .c-chart, .p-versions .block, .p-bans .block, .p-abuse_requests .block, .p-anime_video_reports .block, .p-translations .animes, .p-users .b-collection_search.block, .p-genres .b-table, .p-versions .l-page div:not(.block) > .b-log_entry, .p-bans div:not(.block) > .b-log_entry, .p-abuse_requests div:not(.block) > .b-log_entry, .p-anime_video_reports div:not(.block) > .b-log_entry, .p-roles .block, .p-comments-broadcast .l-content, .p-pages-bb_codes .b-bb_codes-examples, .p-topics-new .l-content, .p-topics-edit .l-content, .p-collections .b-form:not(.new_comment), .p-reviews .l-content, .p-animes-edit .l-content .block, .p-animes-edit_field .l-content .block, .p-people-edit .l-content .block, .p-people-edit_field .l-content .block, .p-characters-edit .l-content .block, .p-characters-edit_field .l-content .block, .p-anime_videos-new .b-form, .p-clubs-members .l-content, .p-clubs-characters .l-content, .p-clubs-animes .l-content, .p-clubs-mangas .l-content, .p-clubs-ranobe .l-content, .p-clubs-people .l-content, .p-clubs .b-form:not(.new_comment), .p-club_pages-new .l-content, .p-club_pages-edit .l-content, .p-clubs-edit .l-content, .p-clubs-images .l-content, .p-profiles-friends .block.m0, .p-profiles-favourites .block.m0, .p-profiles-moderation .block.m0, .p-achievements-franchise .block.m0, .p-profiles-feed .block.m0, .p-profiles-comments .block.m0, .p-profiles-summaries .block.m0, .p-profiles-versions .block.m0, .p-profiles-clubs .block.m0, .p-dialogs-index .block.m0, .p-messages-index .block.m0, .p-dialogs-show .block.m0, .p-dashboards-show .c-news_topics.m0, .p-clubs-index .b-clubs.searchable-collection, .p-clubs-index .b-clubs.b-search-results, .p-user_history-index .block.m0, .p-recommendations-favourites .block, .p-polls-index .block.m0, .p-user_history-logs .block.m0, .p-profiles-collections .block.m0, .p-profiles-video_uploads .block.m0, .p-profiles-video_versions .block.m0, .p-profiles-video_reports .block.m0, .p-pages-ongoings .block.m0, .p-contests-index .block, .p-pages-about .members-block:not(.left), .p-statistics-index .block, .p-profiles-edit .block.m0, .p-achievements-index .block2, .p-achievements-show .b-entry-info, .p-achievements-show .block, .p-achievements-index .block, .p-achievements-index .block[href*="/achievements/author"], .p-user_rates-index .l-content, .p-clubs-show .l-content, .p-animes-files .c-toshokan, .p-animes-files .c-rutracker, .p-mangas-files .c-toshokan, .p-mangas-files .c-rutracker, .p-animes-collections .l-content .subheadline, .p-characters-collections .l-content .subheadline, .p-people-collections .l-content .subheadline, .p-achievements-group .block, .l-menu .block, .l-menu .block2, .l-menu .b-favoured, .c-generated_news .block, .b-clubs-menu .b-subposter-actions, .p-dashboards-show .cc-second .cc-inner .c-content, .p-dashboards-show .cc-second .c-forum, .p-topics .l-menu .b-forums, .b-menu_logo, .p-profiles-show .profile-content .block:last-child, .menu-slide-outer.x199 .l-content, .menu-slide-outer.x240 .l-content {
         padding: 20px;
         background-color: var(--tile-back-color);
-        border-radius: 0.2em;
+        border-radius: 3px;
         border: 1px solid var(--tile-border-color);
     }
 
