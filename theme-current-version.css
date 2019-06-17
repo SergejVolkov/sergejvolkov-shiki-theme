@@ -1140,7 +1140,7 @@
             margin-left: 20px;
         }
 
-    .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .block:last-child {
+    .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .c-right > .block:last-child {
         margin-left: -20px;
     }
 
