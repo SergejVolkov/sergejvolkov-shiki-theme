@@ -432,6 +432,10 @@
         background: linear-gradient(35deg, var(--bar-s0-color), var(--bar-s2-color));
     }
 
+    .b-stats_bar.manga .bar .first {
+        background: linear-gradient(35deg, var(--bar-s3-color), var(--bar-s2-color));
+    }
+
     .b-stats_bar.anime .bar .second, .b-stats_bar.manga .bar .second {
         background: linear-gradient(35deg, #d7d7d7, #adadad);
     }
@@ -1044,7 +1048,7 @@
 
     .b-catalog_entry a .image-cutter, .b-db_entry-variant-list_item .image img, .b-catalog_entry .cover .image-decor img, .p-db_entries .b-db_entry .c-poster img, .b-catalog_entry-tooltip .image, .p-profiles .profile-head .c-history .entry img, .b-catalog_entry-tooltip .inner .additional-images .link img {
         border-radius: 3px;
-        box-shadow: 0 0 0.4em #0b0b0be0;
+        box-shadow: 0 0 4px #0b0b0be0;
     }
 
     /*Anime & manga markers in history*/
