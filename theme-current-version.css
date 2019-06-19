@@ -165,7 +165,7 @@
             border-radius: 1px;
         }
 
-    .search-results .b-db_entry-variant-list_item > .info .name .b-link {
+    .search-results .b-db_entry-variant-list_item > .info .name .b-link, .l-page .menu-toggler .toggler::after {
         color: white;
     }
 
@@ -468,7 +468,7 @@
         font-size: 14px;
     }
 
-    .subheadline .b-user16 img {
+    .b-user16 img {
         padding-right: 0;
     }
 
@@ -753,7 +753,7 @@
         font-size: 16px;
     }
 
-    .p-profiles-show .lifetime .title, .p-profiles-show .lifetime .times .time, .b-entry-info .line .key, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .b-catalog_entry-tooltip .inner .line .key, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .l-page .menu-toggler .toggler::after, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered {
+    .p-profiles-show .lifetime .title, .p-profiles-show .lifetime .times .time, .b-entry-info .line .key, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .b-catalog_entry-tooltip .inner .line .key, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered {
         color: var(--main-text-color);
     }
 
