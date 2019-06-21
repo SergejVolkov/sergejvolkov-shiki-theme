@@ -671,12 +671,12 @@
             color: #ebebeb;
         }
 
-    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-options-floated .action, .b-comments .comments-collapser, .item-add, .item-minus, .p-profiles-show .about .item-edit::before {
+    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-options-floated .action, .b-comments .comments-collapser, .item-add, .item-minus, .item-edit::before {
         color: #ebebeb;
         text-shadow: var(--main-text-shadow-color);
     }
 
-        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before {
+        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .item-add:hover, .item-minus:hover, .item-edit:hover::before {
             color: white;
             text-shadow: 0px 0px 0.1em white;
         }
@@ -1224,10 +1224,6 @@
 
 
 @media screen and (max-width: 767px) {
-    .l-top_menu-v2 .logo-container .glyph {
-        margin: -1px 0 0 -50px;
-    }
-
     .b-stats_bar a.title {
         font-size: 20px;
     }
@@ -1303,6 +1299,13 @@
     .b-animes-menu #rates_statuses_stats .x_label {
         font-size: 13px;
         padding-top: 1.5px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .l-top_menu-v2 .logo-container .glyph {
+        display: block;
     }
 }
 
