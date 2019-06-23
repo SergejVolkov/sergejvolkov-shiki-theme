@@ -82,6 +82,14 @@
             border-bottom: 1px solid var(--top-menu-border-color);
         }
 
+        .l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:not(:last-child)::after {
+            background-color: var(--top-menu-submenu-back-color);
+        }
+
+        .l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span {
+            color: var(--top-menu-submenu-back-color);
+        }
+
         .l-top_menu-v2 .submenu {
             border-color: var(--top-menu-border-color);
             border-width: 3.5px;
@@ -1091,7 +1099,7 @@
         background-size: cover;
         background-position: center;
         border-radius: 3px;
-		position: relative;
+        position: relative;
         margin: 0 0 0 10px;
         max-width: 39%;
         width: 100%;
@@ -1136,14 +1144,14 @@
         margin-right: 3%;
     }
 
-        .p-profiles .profile-head .c-brief header h1 {
-            margin-left: 20px;
-            margin-top: 6px;
-        }
+    .p-profiles .profile-head .c-brief header h1 {
+        margin-left: 20px;
+        margin-top: 6px;
+    }
 
-        .p-profiles .profile-head .c-brief header .notice {
-            margin-left: 20px;
-        }
+    .p-profiles .profile-head .c-brief header .notice {
+        margin-left: 20px;
+    }
 
     .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .c-right > .block:last-child {
         margin-left: -20px;
