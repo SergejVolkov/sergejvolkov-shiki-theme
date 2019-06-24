@@ -111,7 +111,7 @@ scheme-grayscale
         height: 330px !important;
     }
 
-        .p-profiles .profile-head .c-brief header h1, .p-profiles .profile-head .c-brief header .notice, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles header.head .misc span::after, .p-profiles header.head .misc a::after {
+        .p-profiles .profile-head .c-brief header h1, .p-profiles .profile-head .c-brief header .notice, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles header.head .misc {
             color: black;  Если обложка светлая, на ее фоне будет хорошо видно темный текст. Выберите подходящий Вам вариант.
             text-shadow: 0 0 0.06em white;  Светлые контуры для темного текста.
             color: white;  Если обложка темная, на ее фоне будет хорошо видно светлый текст. Неподходящий вариант и этот текст нужно удалить.
