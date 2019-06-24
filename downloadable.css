@@ -3,7 +3,7 @@
 Клуб темы: https://shikimori.one/clubs/2385-shiki-exo
 
 
-downloadable.css, update-18.06.2019
+downloadable.css, update-24.06.2019
     
 Статичная часть темы, содержит импорт обновляемой части, выбор цветовых схем и прочие пользовательские настройки.
     Скопируйте содержимое данного файла к себе на сайт в раздел 'Настройки' -> 'Внешний вид сайта'.
@@ -111,15 +111,12 @@ scheme-grayscale
         height: 330px !important;
     }
 
-        .p-profiles .profile-head .c-brief header .notice {
+        .p-profiles .profile-head .c-brief header h1, .p-profiles .profile-head .c-brief header .notice, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles header.head .misc span::after, .p-profiles header.head .misc a::after {
             color: black;  Если обложка светлая, на ее фоне будет хорошо видно темный текст. Выберите подходящий Вам вариант.
+            text-shadow: 0 0 0.06em white;  Светлые контуры для темного текста.
             color: white;  Если обложка темная, на ее фоне будет хорошо видно светлый текст. Неподходящий вариант и этот текст нужно удалить.
+            text-shadow: 1px 1px 0 black;  Темные контуры для светлого текста.
         }
-
-    :root {
-        --profile-nickname-color: black !important;  Если обложка светлая, на ее фоне будет хорошо видно темный текст. Выберите подходящий Вам вариант.
-        --profile-nickname-color: white !important;  Если обложка темная, на ее фоне будет хорошо видно светлый текст. Неподходящий вариант и этот текст нужно удалить.
-    }
 
     .p-profiles .profile-head {
         margin-top: 345px !important;
