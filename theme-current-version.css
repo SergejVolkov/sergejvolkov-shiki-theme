@@ -1160,6 +1160,10 @@
     .p-profiles-show.x1200 .profile-content .c-right > .block:last-child, .p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
         margin-bottom: 30px;
     }
+    
+    .b-collection-filters .block > .filter {
+        margin-top: 0;
+    }
 
     .p-profiles-show .profile-content .activity {
         padding-bottom: 25px !important;
@@ -1176,7 +1180,7 @@
         float: right;
     }
 
-    .b-options-floated, .subheadline-buttons {
+    .b-options-floated, .subheadline-buttons, .b-collection-filters .block > .filter {
         right: 25px;
     }
 
