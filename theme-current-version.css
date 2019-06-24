@@ -176,6 +176,10 @@
     .search-results .b-db_entry-variant-list_item > .info .name .b-link, .l-page .menu-toggler .toggler::after {
         color: white;
     }
+    
+    .search-results .b-db_entry-variant-list_item > .info .name .b-link {
+        text-decoration: none !important;
+    }
 
     .search-results .b-db_entry-variant-list_item > .info .line .key {
         color: #ebebeb;
