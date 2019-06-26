@@ -456,10 +456,6 @@
         background: linear-gradient(35deg, #adadad, #a9a9a9);
     }
 
-    .p-dashboards .animes .studios {
-        margin-top: 41.5px;
-    }
-
     .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-club .logo, .b-comment > .inner header img, .p-profiles-edit .account .avatar-edit img, .b-user.detailed .info .image-name .image,
     .b-message > .inner header img, .b-dialog > .inner header img,
     .p-topics .l-menu .clubs .entry img, .b-topic > .inner header img {
@@ -672,7 +668,7 @@
         }
 
     .headline > a, .midheadline > a, .subheadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
-        color: #ebebeb;
+        color: #ebebeb !important;
         text-decoration: none;
         text-shadow: 1px 1px 0.5px #000000c0;
         line-height: 16px;
@@ -689,7 +685,7 @@
     }
 
         .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover {
-            color: white;
+            color: white !important;
             text-shadow: 0 0 0.1em white;
         }
 
@@ -1205,6 +1201,10 @@
     .p-profiles-show .profile-content .block:first-child {
         margin-bottom: 0;
     }
+    
+    .p-dashboards .animes .studios {
+        margin-top: 41.5px;
+    }
 
     .p-profiles .profile-head .c-brief header {
         position: absolute;
@@ -1240,6 +1240,10 @@
 
 
 @media screen and (max-width: 767px) {
+    .p-dashboards .animes .studios {
+        54.5px;
+    }
+    
     .b-stats_bar a.title {
         font-size: 20px;
     }
