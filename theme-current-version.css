@@ -1241,7 +1241,7 @@
 
 @media screen and (max-width: 767px) {
     .p-dashboards .animes .studios {
-        54.5px;
+        margin-top: 54.5px;
     }
     
     .b-stats_bar a.title {
