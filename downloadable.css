@@ -3,7 +3,7 @@
 Клуб темы: https://shikimori.one/clubs/2385-shiki-exo
 
 
-downloadable.css, update-24.06.2019
+downloadable.css, update-29.06.2019
     
 Статичная часть темы, содержит импорт обновляемой части, выбор цветовых схем и прочие пользовательские настройки.
     Скопируйте содержимое данного файла к себе на сайт в раздел 'Настройки' -> 'Внешний вид сайта'.
@@ -17,6 +17,7 @@ downloadable.css, update-24.06.2019
 /* Выбор цветовой схемы. Для установки нужной замените 'scheme-light' (по умолчанию стоит светлая тема) в ссылке @import на один из идентификаторов, приведенных ниже:
 
 scheme-light
+scheme-light-teal
 scheme-light-pink
 scheme-light-green
 scheme-dark
@@ -24,6 +25,7 @@ scheme-dark-violet
 scheme-dark-blue
 scheme-dark-green
 scheme-grayscale
+scheme-system
 
 Примечание. Возможно будут добавляться новые схемы, их полный список смотрите по ссылке https://github.com/SergejVolkov/sergejvolkov-shiki-theme или в клубе темы.
 
