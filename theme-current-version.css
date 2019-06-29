@@ -1010,6 +1010,7 @@
         right: 0;
         bottom: 0;
         margin: auto;
+        pointer-events: none;
     }
 
     .l-footer .copyright::before {
@@ -1288,7 +1289,7 @@
     }
     
     .text.shortened::before, .body-truncated::before {
-        background: linear-gradient(180deg, transparent 0%, transparent 85%, var(--tile-back-color) 100%);
+        background: linear-gradient(180deg, transparent 0%, transparent 82%, var(--tile-back-color) 100%);
     }
 }
 
@@ -1394,7 +1395,7 @@
     }
     
     .text.shortened::before, .body-truncated::before {
-        background: linear-gradient(180deg, transparent 0%, transparent 85%, var(--l-page-back-color-mobile) 100%);
+        background: linear-gradient(180deg, transparent 0%, transparent 82%, var(--l-page-back-color-mobile) 100%);
     }
 
     .subheadline-buttons {
