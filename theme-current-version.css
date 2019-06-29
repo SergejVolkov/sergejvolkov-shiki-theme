@@ -1,4 +1,4 @@
-/* sergejvolkov-shiki-theme, 17.06.2019 shiki-exo 2.1.1, SergejVolkov, 2019
+/* sergejvolkov-shiki-theme, 29.06.2019 shiki-exo 2.1.2, SergejVolkov, 2019
     Подробности релиза на https://shikimori.one/clubs/2385-shiki-exo/pages/1781-istoriya-versiy */
 
 
@@ -672,6 +672,7 @@
         text-decoration: none;
         text-shadow: 1px 1px 0.5px #000000c0;
         line-height: 16px;
+        padding-left: 0.06em;
     }
 
         .headline > a::before, .midheadline > a::before, .subheadline > a::before, .headline.linkheadline > a::before, .linkheadline.midheadline > a::before, .linkheadline.subheadline > a::before {
@@ -1290,6 +1291,15 @@
     
     .text.shortened::before, .body-truncated::before {
         background: linear-gradient(180deg, transparent 0%, transparent 82%, var(--tile-back-color) 100%);
+    }
+    
+    .subheadline {
+        line-height: 1.02em;
+    }
+    
+    .l-top_menu-v2 .global-search .search-results {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 }
 
