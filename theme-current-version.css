@@ -1296,11 +1296,6 @@
     .subheadline {
         line-height: 1.02em;
     }
-    
-    .l-top_menu-v2 .global-search .search-results {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
 }
 
 
@@ -1443,6 +1438,11 @@
     .l-top_menu-v2 .active .submenu {
         max-width: 98%;
         left: 1%;
+    }
+    
+    .l-top_menu-v2 .global-search .search-results {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 
     .bar.horizontal .line .bar-container .bar.min {
