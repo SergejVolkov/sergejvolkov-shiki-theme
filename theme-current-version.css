@@ -1002,7 +1002,7 @@
         background-image: -webkit-linear-gradient(left, transparent, var(--sec-text-color), transparent);
     }
     
-    .text.shortened::before {
+    .text.shortened::before, .body-truncated::before {
         content: '';
         position: absolute;
         top: 0;
@@ -1263,8 +1263,8 @@
         width: 61%;
     }
     
-    .text.shortened::before {
-        background: linear-gradient(180deg, transparent 0%, transparent 80%, var(--tile-back-color) 100%);
+    .text.shortened::before, .body-truncated::before {
+        background: linear-gradient(180deg, transparent 0%, transparent 85%, var(--tile-back-color) 100%);
     }
 }
 
@@ -1369,8 +1369,8 @@
         background-color: var(--l-page-back-color-mobile);
     }
     
-    .text.shortened::before {
-        background: linear-gradient(180deg, transparent 0%, transparent 80%, var(--l-page-back-color-mobile) 100%);
+    .text.shortened::before, .body-truncated::before {
+        background: linear-gradient(180deg, transparent 0%, transparent 85%, var(--l-page-back-color-mobile) 100%);
     }
 
     .subheadline-buttons {
