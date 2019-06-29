@@ -902,7 +902,7 @@
         color: var(--ter-text-color) !important;
     }
 
-        .b-tag:hover, .b-entry-info .line .b-tag:hover, .b-catalog_entry-tooltip .inner .line .value .b-tag:hover {
+        .b-tag[href]:hover, .b-entry-info .line .b-tag:hover, .b-catalog_entry-tooltip .inner .line .value .b-tag:hover {
             color: white !important;
         }
 
