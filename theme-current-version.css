@@ -1001,6 +1001,16 @@
     hr {
         background-image: -webkit-linear-gradient(left, transparent, var(--sec-text-color), transparent);
     }
+    
+    .text.shortened::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
 
     .l-footer .copyright::before {
         content: 'shiki-exo 2.1.1';
@@ -1252,6 +1262,10 @@
     .p-dashboards-show .cc-second .cc-inner .c-content {
         width: 61%;
     }
+    
+    .text.shortened::before {
+        background: linear-gradient(180deg, transparent 0%, transparent 80%, var(--tile-back-color) 100%);
+    }
 }
 
 
@@ -1353,6 +1367,10 @@
 
     body::before {
         background-color: var(--l-page-back-color-mobile);
+    }
+    
+    .text.shortened::before {
+        background: linear-gradient(180deg, transparent 0%, transparent 80%, var(--l-page-back-color-mobile) 100%);
     }
 
     .subheadline-buttons {
