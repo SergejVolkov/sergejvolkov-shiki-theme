@@ -673,6 +673,7 @@
         text-shadow: 1px 1px 0.5px #000000c0;
         line-height: 16px;
         padding-left: 0.06em;
+        padding-bottom: 0.02em;
     }
 
         .headline > a::before, .midheadline > a::before, .subheadline > a::before, .headline.linkheadline > a::before, .linkheadline.midheadline > a::before, .linkheadline.subheadline > a::before {
