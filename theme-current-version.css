@@ -899,6 +899,10 @@
     .b-catalog_entry-tooltip .inner .text {
         font-size: 13px;
     }
+    
+    .b-tag[href] {
+        padding-bottom: 0.08em;
+    }
 
     .b-catalog_entry .cover .misc span, .p-profiles-show .profile-content .activity .title, .b-entry-info .line .value, .b-tag, .b-entry-info .line .b-tag, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .sticky-topics .topic .notice, .b-catalog_entry-tooltip .inner .line .value .b-tag, .p-profiles .profile-head .c-history .entry .misc.date, .b-catalog_entry-tooltip .inner .line .value, .b-club .info .value, .p-recommendations-index .b-header_filters .hint, .p-recommendations-favourites .b-header_filters .hint, .b-animes-menu .menu-topics-block .entry .time, .p-topics .l-menu .calendar .entry .misc.date, .p-topics .l-menu .reviews .entry .misc.date, .p-topics .l-menu .clubs .entry .misc.date {
         color: var(--ter-text-color) !important;
