@@ -4,18 +4,21 @@
     --top-menu-submenu-back-color: #0001fb;
     --top-menu-button-hover-color: black;
     --top-menu-border-color: white;
+    
     --l-page-back-color-desktop: black;
     --l-page-back-color-mobile: black;
     --quote-back-color: black;
     --tile-back-color: black;
     --tile-border-color: #eee;
     --headline-color: #027e06;
+    
     --main-text-shadow-color: black;
     --main-text-color: white;
     --sec-text-color: white;
     --ter-text-color: #eee;
     --quat-text-color: #ccc;
     --profile-nickname-color: #fff430;
+    
     --li-hover-color: #0001fb;
     --li-active-color: #027e06;
     --main-link-color: #00ff08;
@@ -23,9 +26,11 @@
     --sec-link-color: #dedede;
     --sec-link-active-color: #fff430;
     --sec-link-hover-color: white;
+    
     --button-hover-color: #0001fb;
     --orange-hover-color: #ff5a00;
     --green-color: #00ff11;
+    
     --bar-s0-color: #1718ff;
     --bar-s1-color: #1718ff;
     --bar-s2-color: #1718ff;
