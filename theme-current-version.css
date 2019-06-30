@@ -52,6 +52,14 @@
         .l-top_menu-v2 .global-search .hotkey-marker, .b-to-top {
             visibility: hidden;
         }
+    
+    .l-top_menu-v2 .menu-dropdown {
+        height: 38px;
+        margin-top: -3px;
+        border-bottom-left-radius: 0.17em;
+        border-bottom-right-radius: 0.17em;
+        padding-top: 4px;
+    }
 
         .l-top_menu-v2 .menu-dropdown > span {
             font-family: var(--main-font);
