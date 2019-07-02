@@ -1,8 +1,8 @@
 /* Dark theme / Темная тема */
 :root {
-    --top-menu-color: #424247;
-    --top-menu-submenu-back-color: #38383d;
-    --top-menu-button-hover-color: #353539;
+    --top-menu-color: #4a4a4f;
+    --top-menu-submenu-back-color: #3c3c42;
+    --top-menu-button-hover-color: #3b3b40;
     --top-menu-border-color: #f0f0f0;
     
     --l-page-back-color-desktop: #2a2a2e;
@@ -10,7 +10,7 @@
     --quote-back-color: #3e3e40;
     --tile-back-color: #36363b;
     --tile-border-color: #777;
-    --headline-color: #5d5d62;
+    --headline-color: #68686e;
     
     --main-text-shadow-color: black;
     --main-text-color: white;
@@ -27,12 +27,12 @@
     --sec-link-active-color: #fff430;
     --sec-link-hover-color: white;
     
-    --button-hover-color: #5d5d62;
+    --button-hover-color: #626269;
     --orange-hover-color: #ff8644;
     --green-color: #2ad370;
     
-    --bar-s0-color: #58595b;
-    --bar-s1-color: #6e6f72;
-    --bar-s2-color: #8c8e93;
-    --bar-s3-color: #abaeb5;
+    --bar-s0-color: #53565c;
+    --bar-s1-color: #64666e;
+    --bar-s2-color: #888b94;
+    --bar-s3-color: #b2b7c2;
 }
