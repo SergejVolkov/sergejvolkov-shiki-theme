@@ -780,7 +780,7 @@
         font-size: 16px;
     }
 
-    .p-profiles-show .lifetime .title, .p-profiles-show .lifetime .times .time, .b-entry-info .line .key, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .b-catalog_entry-tooltip .inner .line .key, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered, .p-studios .studio .animes .num, .p-studios .studio .years .num {
+    .p-profiles-show .lifetime .title, .p-profiles-show .lifetime .times .time, .b-tag, .b-entry-info .line .b-tag .b-catalog_entry-tooltip .inner .line .value .b-tag, .b-entry-info .line .value, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .b-catalog_entry-tooltip .inner .line .key, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered, .p-studios .studio .animes .num, .p-studios .studio .years .num {
         color: var(--main-text-color);
     }
 
@@ -921,7 +921,7 @@
         padding-bottom: 0.08em;
     }
 
-    .b-catalog_entry .cover .misc span, .p-profiles-show .profile-content .activity .title, .b-entry-info .line .value, .b-tag, .b-entry-info .line .b-tag, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .sticky-topics .topic .notice, .b-catalog_entry-tooltip .inner .line .value .b-tag, .p-profiles .profile-head .c-history .entry .misc.date, .b-catalog_entry-tooltip .inner .line .value, .b-club .info .value, .p-recommendations-index .b-header_filters .hint, .p-recommendations-favourites .b-header_filters .hint, .b-animes-menu .menu-topics-block .entry .time, .p-topics .l-menu .calendar .entry .misc.date, .p-topics .l-menu .reviews .entry .misc.date, .p-topics .l-menu .clubs .entry .misc.date {
+    .b-catalog_entry .cover .misc span, .b-entry-info .line .key, .p-profiles-show .profile-content .activity .title, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .sticky-topics .topic .notice, .p-profiles .profile-head .c-history .entry .misc.date, .b-catalog_entry-tooltip .inner .line .value, .b-club .info .value, .p-recommendations-index .b-header_filters .hint, .p-recommendations-favourites .b-header_filters .hint, .b-animes-menu .menu-topics-block .entry .time, .p-topics .l-menu .calendar .entry .misc.date, .p-topics .l-menu .reviews .entry .misc.date, .p-topics .l-menu .clubs .entry .misc.date {
         color: var(--ter-text-color) !important;
     }
 
