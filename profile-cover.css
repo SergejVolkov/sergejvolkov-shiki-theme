@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) {
     .p-profiles .profile-head .c-brief header {
-        background-image: var(--profile-cover-image) !important;
+        background-image: var(--profile-cover-image);
         background-position: center;
         background-size: cover;
     }
@@ -10,20 +10,20 @@
 
 @media screen and (min-width: 1025px) {
     .p-profiles .profile-head .c-brief header {
-        height: var(--profile-cover-height) !important;
+        height: var(--profile-cover-height);
     }
 
     .p-profiles .profile-head {
-        margin-top: calc(var(--profile-cover-height) + 15px) !important;
+        margin-top: calc(var(--profile-cover-height) + 15px);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .p-profiles .profile-head .c-brief header {
-        height: var(--profile-cover-height) !important;
+        height: var(--profile-cover-height);
     }
 
     .p-profiles .profile-head {
-        margin-top: calc(var(--profile-cover-height) + 10px) !important;
+        margin-top: calc(var(--profile-cover-height) + 10px);
     }
 }
