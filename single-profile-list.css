@@ -1,0 +1,25 @@
+/* Один из списков аниме / манга отключен / Anime / manga list disabled */
+
+@media screen and (min-width: 1025px) {
+    .p-profiles .profile-head .c-brief .avatar {
+        height: 385.5px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .p-profiles .profile-head .c-brief .avatar, .p-profiles .profile-head .c-history {
+        height: 30vw !important;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .p-profiles .profile-head .c-brief .avatar, .p-profiles .profile-head .c-history {
+        height: 40vw !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .p-profiles .profile-head .c-brief .avatar {
+        height: 60vw !important;
+    }
+}
