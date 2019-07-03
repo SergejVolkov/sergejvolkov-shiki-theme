@@ -1,7 +1,5 @@
 /* Светлая обложка для профиля / Light profile cover */
 
-@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover.css');
-
 @media screen and (min-width: 768px) {
         .p-profiles .profile-head .c-brief header h1,
         .p-profiles .profile-head .c-brief header .notice,
