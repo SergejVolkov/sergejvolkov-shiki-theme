@@ -1,0 +1,32 @@
+/* Темное фоновое изображение в профиле / Dark background profile image */
+
+@media screen {
+    .p-profiles.p-profiles-show::before {
+        background-image: var(--profile-background-image) !important;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .p-profiles.p-profiles-show .l-footer .copyright, .p-profiles.p-profiles-show .l-footer .copyright::before {
+        color: white;
+        text-shadow: 0 0 0.06em black;
+    }
+
+    .p-profiles.p-profiles-show .l-page {
+        background: none !important;
+    }
+    
+    .p-profiles.p-profiles-show .l-footer .links a {
+        color: #81dbf8;
+        text-shadow: 0 0 0.06em black;
+    }
+    
+    .p-profiles.p-profiles-show .l-footer .links a:hover {
+        color: #bba0ff;
+    }
+}
