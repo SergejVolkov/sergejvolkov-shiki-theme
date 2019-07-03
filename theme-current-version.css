@@ -1368,7 +1368,7 @@
             padding: 0;
         }
 
-    .p-profiles .profile-head .c-info, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child, .p-profiles-favourites .block.m0, .p-profiles .profile-head .c-history {
+    .p-profiles .profile-head .c-info, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child), .p-profiles-favourites .block.m0, .p-profiles .profile-head .c-history {
         padding: 20px;
         background-color: var(--tile-back-color);
         border-radius: 3px;
@@ -1634,7 +1634,7 @@
 
 
 @media screen and (max-width: 767px) {
-    .p-profiles .profile-head .c-mobile-actions, .p-profiles .profile-head .c-info, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child, .p-profiles-favourites .block.m0 {
+    .p-profiles .profile-head .c-mobile-actions, .p-profiles .profile-head .c-info, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child), .p-profiles-favourites .block.m0 {
         padding: 20px;
         background-color: var(--tile-back-color);
         border-radius: 3px;
