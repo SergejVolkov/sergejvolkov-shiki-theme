@@ -3,7 +3,7 @@
 Клуб темы: https://shikimori.one/clubs/2385-shiki-exo
 
 
-downloadable.css, update-29.06.2019
+downloadable.css, update-03.07.2019
     
 Статичная часть темы, содержит импорт обновляемой части, выбор цветовых схем и прочие пользовательские настройки.
     Скопируйте содержимое данного файла к себе на сайт в раздел 'Настройки' -> 'Внешний вид сайта'.
@@ -49,9 +49,43 @@ scheme-system
         Если Вы загрузили свой шрифт, укажите в кавычках его название на Google Fonts.
         В противном случае Ваш шрифт не отобразится. */
     --main-font: 'Exo 2', sans-serif;
-    /* В десктопной версии сайта на месте обычной аватарки в профиле отображается выбранная Вами картинка. */
+    /* В профиле на месте обычной аватарки отображается выбранная Вами картинка. */
     --desktop-avatar-image: url('ссылка на картинку');
 }
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Здесь Вы можете установить вместо одноцветного фона изображение.
+    Просто раскомментируйте эту часть кода и вставьте ссылку на свою картинку в указанное место.
+    Если Ваша картинка темная, выберите в @import dark версию, а если светлая - light версию (она уже стоит по умолчанию).
+    В целях повышения читабельности фон-картинка будет отображаться только на странице профиля. */
+
+/*@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-background-light.css');
+
+:root {
+    --profile-background-image: url('ссылка на картинку');
+}*/
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Тут можно установить обложку для профиля.
+    Раскомментируйте эту часть кода и вставьте ссылку на свою картинку в указанное место.
+    Если Ваша картинка темная, выберите в первом @import dark версию, а если светлая - light версию (она уже стоит по умолчанию).
+    По умолчанию высота обложки - 35vw, то есть 35% от ее ширины, но Вы можете изменить это значение. */
+
+/*@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover-light.css');
+@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover.css');
+
+:root {
+    --profile-cover-image: url('ссылка на картинку');
+    --profile-cover-height: 35vw;
+}*/
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Если Вы не используете один из списков аниме / манга, раскомментируйте этот импорт. */
+
+/*@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/single-profile-list.css');*/
 
 /*---------------------------------------------------------------------------------------------*/
 
@@ -70,88 +104,6 @@ scheme-system
             overflow: auto;
         }
 }
-
-/*---------------------------------------------------------------------------------------------*/
-
-/* Здесь Вы можете установить вместо одноцветного фона изображение.
-    Просто раскомментируйте эту часть кода и вставьте ссылку на свою картинку в указанное место.
-    В целях повышения читабельности фон-картинка будет отображаться только в десктопной версии сайта. */
-
-/*@media screen and (min-width: 1025px) {
-    body::before {
-        background-image: url('ссылка на картинку') !important;
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    .l-footer .copyright, .l-footer .copyright::before {
-        color: black;  Если картинка светлая, на ее фоне будет хорошо видно темный текст. Выберите подходящий Вам вариант.
-        color: white;  Если картинка темная, на ее фоне будет хорошо видно светлый текст. Неподходящий вариант и этот текст нужно удалить.
-    }
-
-    .l-page {
-        background: none !important;
-    }
-}*/
-
-/*---------------------------------------------------------------------------------------------*/
-
-/* Тут можно сделать обложку для профиля.
-    Просто раскомментируйте эту часть кода и вставьте ссылку на свою картинку в указанное место.
-    Обложка будет отображаться только в десктопной версии сайта. */
-
-/*@media screen and (min-width: 1025px) {
-    .p-profiles .profile-head .c-brief header {
-        background-image: url('ссылка на картинку') !important;
-        background-position: center;
-        background-size: cover;
-        height: 330px !important;
-    }
-
-        .p-profiles .profile-head .c-brief header h1, .p-profiles .profile-head .c-brief header .notice, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles header.head .misc {
-            color: black;  Если обложка светлая, на ее фоне будет хорошо видно темный текст. Выберите подходящий Вам вариант.
-            text-shadow: 1px 1px 0 white;  Светлые контуры для темного текста.
-            color: white;  Если обложка темная, на ее фоне будет хорошо видно светлый текст. Неподходящий вариант и этот текст нужно удалить.
-            text-shadow: 1px 1px 0 black;  Темные контуры для светлого текста.
-        }
-
-    .p-profiles .profile-head {
-        margin-top: 345px !important;
-    }
-}*/
-
-/*---------------------------------------------------------------------------------------------*/
-
-/* Если Вы не используете один из списков аниме / манга, раскомментируйте этот блок кода. */
-
-/*@media screen and (min-width: 1025px) {
-    .p-profiles .profile-head .c-brief .avatar {
-        height: 385.5px !important;
-    }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-    .p-profiles .profile-head .c-brief .avatar, .p-profiles .profile-head .c-history {
-        height: 30vw !important;
-    }
-}
-
-@media screen and (max-width: 767px) and (min-width: 481px) {
-    .p-profiles .profile-head .c-brief .avatar, .p-profiles .profile-head .c-history {
-        height: 40vw !important;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .p-profiles .profile-head .c-brief .avatar {
-        height: 60vw !important;
-    }
-}*/
 
 /*---------------------------------- Место для Вашего кода ------------------------------------*/
 
