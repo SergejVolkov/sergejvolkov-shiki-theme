@@ -656,7 +656,7 @@
         background-color: #353535c6;
     }
 
-    .p-dashboards-show .cc-news .c-news_topics .b-topic {
+    .p-dashboards-show .cc-news .c-news_topics .b-topic, .subheadline-input {
         border-radius: 1.5px;
     }
 
@@ -1285,6 +1285,14 @@
 
     .b-options-floated, .subheadline-buttons, .b-collection-filters .block > .filter {
         right: 25px;
+    }
+    
+    .comments-search .subheadline-input {
+        right: 22px;
+    }
+    
+    .subheadline-input {
+        margin-top: 3.5px !important;
     }
 
     .p-profiles .profile-head .c-info {
