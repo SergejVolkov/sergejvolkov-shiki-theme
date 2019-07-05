@@ -35,6 +35,10 @@
         max-width: 100%;
     }
 
+    .p-profiles-show.x1200 .l-page {
+        max-width: 1350px;
+    }
+
     .l-top_menu-v2 {
         background-color: var(--top-menu-color);
         text-shadow: 0 0 0.06em white;
@@ -428,7 +432,7 @@
         margin: 5px 0 5px 0;
     }
 
-    .p-profiles-show .lifetime .times .time.checked, .p-profiles-show .lifetime .times .time.checked::before, .c-actions .fav-remove, .b-user_rate_log .action.create, .b-review_votes .user-vote .voted-for, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak {
+    .p-profiles-show .lifetime .times .time.checked, .p-profiles-show .lifetime .times .time.checked::before, .c-actions .fav-remove, .b-user_rate_log .action.create, .b-review_votes .user-vote .voted-for, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate {
         color: var(--green-color);
     }
 
@@ -659,16 +663,16 @@
     .p-dashboards-show .cc-news .c-news_topics .b-topic, .subheadline-input {
         border-radius: 1.5px;
     }
-    
+
     .b-topic {
         border-top: 1px solid var(--tile-border-color);
     }
-    
+
     .p-dashboards-show .cc-news .c-news_topics .b-topic {
         border-top-width: 1px;
     }
 
-    a, .b-link, .b-stats_bar a.title, .link, .b-catalog_entry .cover .title, .p-dashboards .user_list .list-change, .b-topic > .inner header .name-date a.name, .b-forums .forum .link-with-input .link, .b-user.named_avatar .name, .b-shiki_editor footer .about-bb_codes, .b-db_entry > .c-about .additional-links .line-container > .link, .b-db_entry > .c-about .additional-links .line-container > a, .b-db_entry-variant-list_item .name-container .name, .b-height_shortener .expand span, .b-js-link, header.head h1 a.back, header.head h2 a.back, .b-message > .inner header .name-date a.name, .b-comment > .inner header .name-date a.name, .b-catalog_entry-tooltip .inner a.name, .p-user_rates-index .list-lines tr .name a, .p-user_rates-index .stat-categories .category, .b-lang_trigger span, .b-user.detailed .history .line a .event, .p-userlist_comparer .comparer table .name a, .b-spoiler label, .b-mention, .p-user_history-index .history-page .history-interval p a, .b-club .name, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .link, .p-animes_collection-index .pagination .link, .p-mangas_collection-index .pagination .link, .p-recommendations-index .pagination .link, .p-userlist_comparer-show .pagination .link, .b-animes-menu .menu-topics-block .entry .name, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a, .p-profiles .profile-head .c-mobile-actions a, .p-profiles .profile-head .c-mobile-actions span, .b-shiki_editor footer .unpreview:not(.link), .b-shiki_editor footer .cancel, .b-shiki_editor footer .hide, .b-form .cancel, .b-edit_styles .edit_style .style_css .editor-expand, .b-edit_styles .edit_style .style_css .editor-collapse, .b-edit_styles .new_style .style_css .editor-expand, .b-edit_styles .new_style .style_css .editor-collapse, .p-profiles-edit .account .change-password a, .p-profiles-edit .misc .profile-action a:not(.b-button), .p-profiles-edit .misc .profile-action .link, .p-profiles-edit .misc .nickname-changes a:not(.b-button), .p-profiles-edit .misc .nickname-changes .link, .p-profiles-edit .list .profile-action a:not(.b-button), .p-profiles-edit .list .profile-action .link, .p-profiles-edit .list .nickname-changes a:not(.b-button), .p-profiles-edit .list .nickname-changes .link, .b-height_shortener .expand::after, .b-height_shortener .expand, .b-user.detailed .info .image-name, .b-log_entry a, .b-log_entry .link, .b-ban a, .b-ban .link, .b-ban .abuser, .b-topic .footer-vote .vote-group .vote, .b-spoiler .content .before, .b-spoiler .content .after, .b-catalog_entry-tooltip .inner .line .value a, .p-contests-index .contest a, .b-contest_match .vs .actions .action span, .p-contests .match-day .match-link a, .p-contests .rating .member a, .b-entry-info .line a, .b-user_rate_log .spoiler.collapse span, .b-user_rate_log .spoiler.collapsed span, .b-user_rate_log a, .b-user_rate_log .link, .p-dashboards .c-my_list .list-change .title, .b-achievement .c-about a.title, .p-profiles-show .about a, .p-contests .suggestion > a, .p-contests .variant > a, .p-contests .results a, .b-feedback-inner .about a, .headline .misc-links > a, .midheadline .misc-links > a, .subheadline .misc-links > a, .b-oauth_application .name-logo .name, .b-dialog > .inner header .name-date a.name, .b-user16 > a, .b-user16, .b-mention s, .p-profiles .profile-head .c-brief header .notice a, .p-studios .studio .name {
+    a, .b-link, .b-stats_bar a.title, .link, .b-catalog_entry .cover .title, .p-dashboards .user_list .list-change, .b-topic > .inner header .name-date a.name, .b-forums .forum .link-with-input .link, .b-user.named_avatar .name, .b-shiki_editor footer .about-bb_codes, .b-db_entry > .c-about .additional-links .line-container > .link, .b-db_entry > .c-about .additional-links .line-container > a, .b-db_entry-variant-list_item .name-container .name, .b-height_shortener .expand span, .b-js-link, header.head h1 a.back, header.head h2 a.back, .b-message > .inner header .name-date a.name, .b-comment > .inner header .name-date a.name, .b-catalog_entry-tooltip .inner a.name, .p-user_rates-index .list-lines tr .name a, .p-user_rates-index .stat-categories .category, .b-lang_trigger span, .b-user.detailed .history .line a .event, .p-userlist_comparer .comparer table .name a, .b-spoiler label, .b-mention, .p-user_history-index .history-page .history-interval p a, .b-club .name, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .link, .p-animes_collection-index .pagination .link, .p-mangas_collection-index .pagination .link, .p-recommendations-index .pagination .link, .p-userlist_comparer-show .pagination .link, .b-animes-menu .menu-topics-block .entry .name, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a, .p-profiles .profile-head .c-mobile-actions a, .p-profiles .profile-head .c-mobile-actions span, .b-shiki_editor footer .unpreview:not(.link), .b-shiki_editor footer .cancel, .b-shiki_editor footer .hide, .b-form .cancel, .b-edit_styles .edit_style .style_css .editor-expand, .b-edit_styles .edit_style .style_css .editor-collapse, .b-edit_styles .new_style .style_css .editor-expand, .b-edit_styles .new_style .style_css .editor-collapse, .p-profiles-edit .account .change-password a, .p-profiles-edit .misc .profile-action a:not(.b-button), .p-profiles-edit .misc .profile-action .link, .p-profiles-edit .misc .nickname-changes a:not(.b-button), .p-profiles-edit .misc .nickname-changes .link, .p-profiles-edit .list .profile-action a:not(.b-button), .p-profiles-edit .list .profile-action .link, .p-profiles-edit .list .nickname-changes a:not(.b-button), .p-profiles-edit .list .nickname-changes .link, .b-height_shortener .expand::after, .b-height_shortener .expand, .b-user.detailed .info .image-name, .b-log_entry a, .b-log_entry .link, .b-ban a, .b-ban .link, .b-ban .abuser, .b-topic .footer-vote .vote-group .vote, .b-spoiler .content .before, .b-spoiler .content .after, .b-catalog_entry-tooltip .inner .line .value a, .p-contests-index .contest a, .b-contest_match .vs .actions .action span, .p-contests .match-day .match-link a, .p-contests .rating .member a, .b-entry-info .line a, .b-user_rate_log .spoiler.collapse span, .b-user_rate_log .spoiler.collapsed span, .b-user_rate_log a, .b-user_rate_log .link, .p-dashboards .c-my_list .list-change .title, .b-achievement .c-about a.title, .p-profiles-show .about a, .p-contests .suggestion > a, .p-contests .variant > a, .p-contests .results a, .b-feedback-inner .about a, .headline .misc-links > a, .midheadline .misc-links > a, .subheadline .misc-links > a, .b-oauth_application .name-logo .name, .b-dialog > .inner header .name-date a.name, .b-user16 > a, .b-user16, .b-mention s, .p-profiles .profile-head .c-brief header .notice a, .p-studios .studio .name, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.high, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full {
         color: var(--main-link-color);
     }
 
@@ -869,7 +873,7 @@
         color: white;
         text-shadow: 0 0 0.1em black;
     }
-    
+
     .b-catalog_entry .cover .image-decor .image-cutter.see-more {
         border: none;
     }
@@ -1276,7 +1280,7 @@
     .p-profiles-show.x1200 .profile-content .c-right > .block:last-child, .p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
         margin-bottom: 30px;
     }
-    
+
     .p-pages-ongoings .block.m0 {
         margin-bottom: 15px !important;
     }
@@ -1284,7 +1288,7 @@
     .b-collection-filters .block > .filter {
         margin-top: 0;
     }
-    
+
     .p-pages.p-pages-ongoings .b-topic, .p-collections.p-collections-show .b-topic > .editor-container, .p-collections.p-collections-show .b-topic > .b-comments, .p-pages.p-pages-about .b-topic {
         margin-top: 15px;
     }
@@ -1292,7 +1296,7 @@
     .p-profiles-show .profile-content .activity {
         padding-bottom: 25px !important;
     }
-    
+
     .p-comments.p-comments-show > .l-page > * > .b-topic, .p-pages.p-pages-ongoings .b-topic, .p-pages.p-pages-about .b-topic, .p-collections .b-collection-topic.b-topic-minified {
         padding-top: 20px !important;
     }
@@ -1311,15 +1315,15 @@
     .b-options-floated, .subheadline-buttons, .b-collection-filters .block > .filter {
         right: 25px;
     }
-    
+
     .comments-search .subheadline-input {
         right: 22px;
     }
-    
+
     .p-animes-screenshots .subheadline-buttons {
         right: 5px;
     }
-    
+
     .subheadline-input {
         margin-top: 3.5px !important;
     }
@@ -1345,11 +1349,11 @@
     .p-dashboards .animes .studios {
         margin-top: 41.5px;
     }
-    
+
     .p-pages.p-pages-about .head + .cc-2a > .c-column {
         min-height: 170px;
     }
-    
+
     .p-moderations.p-moderations-show .cc-3 > .c-column {
         min-height: 260px;
     }
@@ -1527,17 +1531,17 @@
         background-color: var(--l-page-back-color-mobile);
     }
 
-    .p-profiles[data-user^="{\"id\":null"] .profile-head .c-mobile-actions {
+    .p-profiles-show[data-user^="{\"id\":null"] .profile-head .c-mobile-actions {
         display: none;
     }
 
-    .p-profiles .headline > a::before, .p-profiles .midheadline > a::before, .p-profiles .subheadline > a::before {
+    .p-profiles-show .headline > a::before, .p-profiles-show .midheadline > a::before, .p-profiles-show .subheadline > a::before {
         position: relative;
         float: right;
         right: -17px;
     }
 
-    .p-profiles .b-options-floated, .p-profiles .subheadline-buttons, .p-profiles .b-collection-filters .block > .filter {
+    .p-profiles-show .b-options-floated, .p-profiles-show .subheadline-buttons, .p-profiles-show .b-collection-filters .block > .filter {
         right: 25px;
     }
 
@@ -1546,7 +1550,7 @@
     }
 
     .subheadline-buttons {
-        margin-top: 1px;
+        margin-top: 0;
     }
 
     .headline > a, .midheadline > a, .subheadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
