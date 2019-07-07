@@ -2,7 +2,15 @@
 
 @media screen and (min-width: 1025px) {
     .p-profiles .profile-head .c-brief .avatar {
-        height: 385.5px !important;
+        height: 385px !important;
+    }
+    
+    .p-profiles .profile-head .c-history {
+        height: 208px;
+    }
+    
+    .p-profiles .profile-head .c-info {
+        height: 157px;
     }
 }
 
