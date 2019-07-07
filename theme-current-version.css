@@ -29,6 +29,7 @@
 
     .l-page {
         background-color: var(--l-page-back-color-desktop);
+        margin-top: 38px;
     }
 
     .x1200 .l-page {
@@ -43,8 +44,10 @@
         background-color: var(--top-menu-color);
         text-shadow: 0 0 0.06em white;
         height: 38px;
-        position: sticky;
+        position: fixed;
         top: 0;
+        transition: 0.3s ease;
+        width: 100%;
     }
 
         .l-top_menu-v2.is-submenu {
