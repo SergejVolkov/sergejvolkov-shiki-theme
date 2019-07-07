@@ -995,7 +995,7 @@
         font-size: 13px;
     }
 
-    .p-user_rates-index .list-lines tr .index {
+    .p-user_rates-index .list-lines tr .index, .b-stats_bar .title {
         color: var(--ter-text-color);
     }
 
