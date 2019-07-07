@@ -25,10 +25,10 @@
         font-size: 16px;
         color: var(--main-text-color);
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
+        background-color: var(--l-page-back-color-desktop);
     }
 
     .l-page {
-        background-color: var(--l-page-back-color-desktop);
         margin-top: 38px;
     }
 
@@ -137,6 +137,7 @@
                     background-color: var(--top-menu-border-color);
                     font-weight: bold;
                     color: var(--top-menu-submenu-back-color);
+                    text-shadow: none;
                 }
 
         .l-top_menu-v2 .global-search input {
