@@ -87,23 +87,5 @@ scheme-system
 
 /*@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/single-profile-list.css');*/
 
-/*---------------------------------------------------------------------------------------------*/
-
-/* Этот блок кода отвечает за 'прилипающее' меню в десктопной версии сайта.
-    Если Вам это не нужно, можете удалить или закомментировать (хотя, по-моему, удобно). */
-
-/* AUTO=sticky_menu */
-@media screen and (min-width: 1025px) {
-    .l-top_menu-v2 {
-        position: sticky;
-        top: 0;
-    }
-
-        .l-top_menu-v2 .active .submenu, .l-top_menu-v2 .search-results {
-            max-height: calc(100vh - 46px);
-            overflow: auto;
-        }
-}
-
 /*---------------------------------- Место для Вашего кода ------------------------------------*/
 
