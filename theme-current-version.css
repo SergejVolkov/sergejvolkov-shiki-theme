@@ -731,7 +731,7 @@
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-    .b-options-floated, .b-catalog_entry-tooltip .inner .text, .p-user_rates-index .list-lines tr td .rewatches {
+    .b-options-floated, .b-catalog_entry-tooltip .inner .text, .p-user_rates-index .list-lines tr td .rewatches, .b-stats_bar .stat_names .stat_name {
         font-size: 13px;
     }
 
@@ -1560,10 +1560,6 @@
         width: calc((100% - 40px) / 2);
     }
 
-    .profile-actions .settings::before, .profile-actions .ban::before, .profile-actions .mail::before {
-        font-size: 13px;
-    }
-
     .menu-slide-outer.x240 .l-content {
         margin-right: 10px;
         width: 72.66%;
@@ -1697,7 +1693,7 @@
         padding-bottom: 2px;
     }
 
-    .profile-actions .settings::before, .profile-actions .ban::before, .profile-actions .mail::before {
+    .profile-actions .settings::before, .profile-actions .ban::before, .profile-actions .mail::before, .profile-actions .ignore-add::before, .profile-actions .fav-add::before, .profile-actions .talk::before {
         font-size: 15px;
         width: 20px;
     }
