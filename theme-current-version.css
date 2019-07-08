@@ -9,7 +9,10 @@
         height: 100%;
         position: fixed;
         z-index: 0;
-        background-color: var(--l-page-back-color-desktop);
+    }
+    
+    body {
+        background-color: var(--l-page-back-color-desktop) !important;
     }
 
     .p-profiles .profile-head .c-brief header h1 {
@@ -25,11 +28,11 @@
         font-size: 16px;
         color: var(--main-text-color);
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
-        background-color: var(--l-page-back-color-desktop);
     }
 
     .l-page {
         margin-top: 38px;
+        background-color: var(--l-page-back-color-desktop);
     }
 
     .x1200 .l-page {
@@ -717,12 +720,12 @@
             color: #ebebeb;
         }
 
-    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-list_switchers .switcher.list, .b-options-floated .action, .b-comments .comments-collapser, .filter.item-add, .item-minus, .p-club_pages-show .item-edit::before, .p-profiles-show .about .item-edit::before, .p-animes .item-new-review, .p-mangas .item-new-review, .p-animes .item-edit, .p-mangas .item-edit, .item-sign {
+    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-list_switchers .switcher.list, .b-options-floated .action, .b-comments .comments-collapser, .filter.item-add, .item-minus, .p-club_pages-show .item-edit::before, .p-profiles-show .about .item-edit::before, .p-animes .item-new-review, .p-mangas .item-new-review, .p-animes .item-edit, .p-mangas .item-edit, .item-sign, .b-postloader .next, .b-postloader .prev {
         color: #ebebeb;
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .p-animes .item-edit:hover, .p-mangas .item-edit:hover, .item-sign:hover {
+        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .p-animes .item-edit:hover, .p-mangas .item-edit:hover, .item-sign:hover, .b-postloader .next:hover, .b-postloader .prev:hover {
             color: white !important;
             text-shadow: 0 0 0.1em white;
         }
@@ -881,6 +884,7 @@
         background: var(--tile-back-color);
         height: 31px;
         border-color: var(--tile-border-color);
+        max-width: 100vw;
     }
 
     ::selection {
@@ -1817,6 +1821,7 @@
         bottom: 0;
         position: absolute;
         margin-bottom: 20px;
+        max-width: calc(100% - 40px);
     }
 
     /*------------------------------------------------------------------------------------------------------------------------*/
@@ -1924,6 +1929,10 @@
     .l-page {
         padding-left: 5px;
         padding-right: 5px;
+    }
+    
+    .b-hot_topics-v2 {
+        margin-left: -5px;
     }
 
     .p-profiles .profile-head .c-brief .avatar {
