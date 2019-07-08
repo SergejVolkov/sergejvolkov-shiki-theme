@@ -731,7 +731,7 @@
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-    .b-options-floated {
+    .b-options-floated, .b-catalog_entry-tooltip .inner .text, .p-user_rates-index .list-lines tr td .rewatches {
         font-size: 13px;
     }
 
@@ -816,7 +816,7 @@
         border-radius: 3px;
     }
 
-    .p-profiles .profile-head .c-info .c-additionals b, .p-user_rates-index .list-lines tr td .rate-text {
+    .p-profiles .profile-head .c-info .c-additionals b, .p-user_rates-index .list-lines tr td .rate-text, .p-profiles .profile-head .c-info .c-additionals div {
         font-size: 14px;
         color: var(--main-text-color);
     }
@@ -933,10 +933,6 @@
         margin: 0;
     }
 
-    .b-catalog_entry-tooltip .inner .text {
-        font-size: 13px;
-    }
-
     .b-tag[href] {
         padding-bottom: 0.08em;
         color: var(--main-text-color) !important;
@@ -992,10 +988,6 @@
 
     .b-hot_topics-v2 .subject, .p-user_rates-index .list-lines tr td .rewatches {
         color: var(--sec-link-active-color);
-    }
-
-    .p-user_rates-index .list-lines tr td .rewatches {
-        font-size: 13px;
     }
 
     .p-user_rates-index .list-lines tr .index, .b-stats_bar .title {
@@ -1875,11 +1867,11 @@
         font-size: 13px;
     }
 
-    .ac_results.menu-suggest .ac_even .name, .ac_results.menu-suggest .ac_odd .name, .completable-block.menu-suggest .ac_even .name, .completable-block.menu-suggest .ac_odd .name, .ac_results .year, .ac_results .kind, .completable-block .year, .completable-block .kind, .b-block_list li, .p-user_rates-index .list-groups .summary.lines, .p-profiles .profile-head .c-mobile-actions a, .p-profiles .profile-head .c-mobile-actions span, .p-profiles .profile-head .c-history .entry .title, .p-profiles .profile-head .c-info .c-additionals div a, .p-profiles-show .lifetime .title .value, .p-user_rates-index .list-lines tr .num, .b-db_entry-variant-list_item .name-container .name, .b-catalog_entry .cover .title, .p-achievements-global table.statistics td, .b-animes-menu .total-rates, .b-options-floated.count, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-contest_match .vs .actions .action span, .b-forums .forum .link-with-input .link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .history > .title .switch, .b-catalog_entry-tooltip .inner .text, .b-catalog_entry-tooltip .inner .additional-images .link .title, .p-contests .results .cc-result .c-rounds .label {
+    .ac_results.menu-suggest .ac_even .name, .ac_results.menu-suggest .ac_odd .name, .completable-block.menu-suggest .ac_even .name, .completable-block.menu-suggest .ac_odd .name, .ac_results .year, .ac_results .kind, .completable-block .year, .completable-block .kind, .b-block_list li, .p-user_rates-index .list-groups .summary.lines, .p-profiles .profile-head .c-mobile-actions a, .p-profiles .profile-head .c-mobile-actions span, .p-profiles .profile-head .c-history .entry .title, .p-profiles .profile-head .c-info .c-additionals div a, .p-profiles-show .lifetime .title .value, .p-user_rates-index .list-lines tr .num, .b-db_entry-variant-list_item .name-container .name, .b-catalog_entry .cover .title, .p-achievements-global table.statistics td, .b-animes-menu .total-rates, .b-options-floated.count, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-contest_match .vs .actions .action span, .b-forums .forum .link-with-input .link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .history > .title .switch, .b-catalog_entry-tooltip .inner .text, .b-catalog_entry-tooltip .inner .additional-images .link .title, .p-contests .results .cc-result .c-rounds .label, .p-profiles .profile-head .c-info .c-additionals div {
         font-size: 16px;
     }
 
-    body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text, .b-stats_bar .stat_names .stat_name a, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .b-comment > .inner header .name-date a.name, .p-achievements-global table.statistics tr th, .p-user_rates-index .stat-categories .t2, .b-topic > .inner > header .name-date a, .b-topic > .inner > header .about a, .p-dashboards .user_list .list-stat .value {
+    body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text, .b-stats_bar .stat_names .stat_name a, .b-stats_bar .stat_names .stat_name, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .b-comment > .inner header .name-date a.name, .p-achievements-global table.statistics tr th, .p-user_rates-index .stat-categories .t2, .b-topic > .inner > header .name-date a, .b-topic > .inner > header .about a, .p-dashboards .user_list .list-stat .value {
         font-size: 17px;
     }
 
