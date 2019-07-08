@@ -87,5 +87,9 @@ scheme-system
 
 /*@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/single-profile-list.css');*/
 
+/*------------ Костыль. Пустой медиа-запрос для корректной работы мобильной версии ------------*/
+
+@media { }
+
 /*---------------------------------- Место для Вашего кода ------------------------------------*/
 
