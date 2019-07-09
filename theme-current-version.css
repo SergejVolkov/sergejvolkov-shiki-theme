@@ -889,9 +889,9 @@
     }
 
     ::selection {
-        background: #265691bf;
+        background: var(--button-hover-color);
         color: white;
-        text-shadow: 0 0 0.1em black;
+        text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
     .b-catalog_entry .cover .image-decor .image-cutter.see-more {
