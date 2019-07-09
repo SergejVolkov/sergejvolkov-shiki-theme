@@ -13,6 +13,7 @@
     
     body {
         background-color: var(--l-page-back-color-desktop) !important;
+        background-image: none;
     }
 
     .p-profiles .profile-head .c-brief header h1 {
