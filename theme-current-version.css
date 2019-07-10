@@ -1506,8 +1506,8 @@
     .p-profiles .profile-head .c-brief header {
         position: absolute;
         top: 0;
-        margin-top: 15px;
-        padding-top: 14px !important;
+        margin: 15px 10px 10px 10px;
+        padding-top: 8px;
         width: calc(100% - 40px);
         float: left;
         overflow: hidden;
@@ -1547,17 +1547,6 @@
 
     .p-profiles-show .profile-content .block:first-child {
         margin-bottom: 0;
-    }
-
-    .p-profiles .profile-head .c-brief header {
-        position: absolute;
-        top: 0;
-        margin: 10px;
-        padding-top: 8px;
-        width: calc(100% - 40px);
-        float: left;
-        overflow: hidden;
-        white-space: nowrap;
     }
 
     .p-profiles .profile-head .c-history {
@@ -1633,6 +1622,10 @@
     
     .l-page {
         padding-top: 10px;
+    }
+    
+    .p-profiles-show .l-page {
+        padding-top: 15px;
     }
     
     .b-hot_topics-v2 {
