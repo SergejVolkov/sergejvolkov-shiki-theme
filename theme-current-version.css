@@ -1357,10 +1357,6 @@
         margin-top: 15px;
     }
 
-    .p-profiles-show .profile-content .activity {
-        padding-bottom: 25px !important;
-    }
-
     .comments-search .subheadline-input {
         right: 22px;
     }
@@ -1395,8 +1391,12 @@
         margin-bottom: 0;
     }
 
-    .b-hot_topics-v2 + * > .block2, .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .c-left {
+    .b-hot_topics-v2 + * > .block2, .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left {
         margin-bottom: 20px;
+    }
+    
+    .p-profiles-show .profile-content .c-right .cc-2a {
+        margin-bottom: 20px !important;
     }
 
     .p-dashboards .animes .studios {
@@ -1462,6 +1462,29 @@
 }
 
 
+@media screen and (min-width: 768px) {
+  .p-profiles-show .lifetime {
+    height: 110px;
+  }
+  
+  .p-profiles-show .profile-content .activity {
+    height: 210px;
+  }
+  
+  .p-profiles-show .profile-content .graph {
+    height: 120px !important;
+  }
+  
+  .p-profiles-show .profile-content .c-right .cc-2a {
+    height: 155px;
+  }
+  
+  .p-profiles-show .profile-content .block:last-child:not(:first-child) {
+    height: 165px;
+  }
+}
+
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .p-profiles .profile-head .c-brief .avatar {
         margin: 5px 0 0 10px;
@@ -1510,10 +1533,6 @@
 
     .p-profiles-show.x1200 .profile-content .c-right > .block:last-child, .p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
         margin-bottom: 30px;
-    }
-
-    .p-profiles-show .profile-content .activity {
-        padding-bottom: 25px !important;
     }
 
     .p-profiles .profile-head .c-info {
