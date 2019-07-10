@@ -51,7 +51,7 @@
         position: fixed;
         top: 0;
         transition: 0.3s ease;
-        width: 100%;
+        width: 100vw;
     }
 
         .l-top_menu-v2.is-submenu {
@@ -1591,6 +1591,10 @@
     .p-achievements-index .cc-franchises-genres .c-franchises {
         width: calc((100% - 11px) / 2);
     }
+    
+    .buttons ::after {
+        font-size: 16px !important;
+    }
 }
 
 
@@ -1605,6 +1609,14 @@
 
     .headline > a, .midheadline > a, .subheadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
         padding: 5px 0 5px 0;
+    }
+    
+    .l-page {
+        padding-top: 10px;
+    }
+    
+    .b-hot_topics-v2 {
+        margin-top: -10px;
     }
 
     .l-top_menu-v2 .menu-icon {
@@ -1906,6 +1918,10 @@
     .b-animes-menu #rates_statuses_stats .x_label {
         font-size: 13px;
         padding-top: 1.5px;
+    }
+    
+    .buttons ::after {
+        font-size: 17px !important;
     }
 }
 
