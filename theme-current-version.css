@@ -50,7 +50,7 @@
         height: 38px;
         position: fixed;
         top: 0;
-        transition: 0.3s ease;
+        transition: top 0.3s ease;
         width: 100vw;
     }
 
