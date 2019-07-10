@@ -1336,10 +1336,6 @@
         margin-left: -20px;
     }
 
-    .p-profiles-show.x1200 .profile-content .c-right > .block:last-child, .p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
-        margin-bottom: 30px;
-    }
-
     .b-user.detailed, .b-user.moderation {
         height: 126px;
         margin-bottom: 15px;
@@ -1391,7 +1387,7 @@
         margin-bottom: 0;
     }
 
-    .b-hot_topics-v2 + * > .block2, .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left {
+    .b-hot_topics-v2 + * > .block2, .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left, .p-profiles-show .profile-content .c-right > .block:last-child, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .about.block {
         margin-bottom: 20px;
     }
     
@@ -1479,7 +1475,7 @@
     height: 155px;
   }
   
-  .p-profiles-show .profile-content .block:last-child:not(:first-child) {
+  .p-profiles-show .profile-content .c-right > .block:last-child {
     height: 165px;
   }
 }
