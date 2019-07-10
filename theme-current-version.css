@@ -855,6 +855,11 @@
     .p-user_rates-index .l-menu .mini-charts .bar {
         margin-bottom: 2px;
     }
+    
+    .b-list li {
+        list-style-image: none;
+        list-style-type: disc;
+    }
 
     .b-form .cancel {
         font-family: var(--main-font);
