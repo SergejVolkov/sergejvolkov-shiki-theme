@@ -51,7 +51,7 @@
         position: fixed;
         top: 0;
         transition: top 0.3s ease;
-        width: 100vw;
+        width: 100%;
     }
 
         .l-top_menu-v2.is-submenu {
