@@ -1548,7 +1548,7 @@
     }
 
     .p-profiles .profile-head {
-        margin-top: 112px;
+        margin-top: 110px;
     }
 
     .p-profiles-show .profile-content {
@@ -1592,6 +1592,12 @@
 
     .buttons ::after {
         font-size: 16px !important;
+    }
+    
+    .p-profiles-show .lifetime .title .label {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
