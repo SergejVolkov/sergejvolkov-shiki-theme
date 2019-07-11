@@ -48,7 +48,7 @@
         background-color: var(--top-menu-color);
         text-shadow: 0 0 0.06em white;
         height: 38px;
-        position: fixed;
+        position: fixed !important;
         top: 0;
         transition: top 0.3s ease;
         width: 100%;
@@ -1499,7 +1499,7 @@
             padding: 0;
         }
 
-    .p-profiles .profile-head .c-info, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child), .p-profiles-favourites .block.m0, .p-profiles .profile-head .c-history {
+    .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child), .p-profiles-favourites .block.m0, .p-profiles .profile-head .c-history {
         margin-top: -10px;
     }
 
