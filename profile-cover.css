@@ -14,7 +14,7 @@
     }
 
     .p-profiles .profile-head {
-        margin-top: calc(var(--profile-cover-height) + 15px);
+        margin-top: calc(var(--profile-cover-height) + 18px);
     }
 }
 
@@ -24,6 +24,6 @@
     }
 
     .p-profiles .profile-head {
-        margin-top: calc(var(--profile-cover-height) + 10px);
+        margin-top: calc(var(--profile-cover-height) + 12px);
     }
 }
