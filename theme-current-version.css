@@ -224,7 +224,7 @@
             color: white !important;
         }
 
-    .b-anime_status_tag, .b-add_to_list, .textarea, .ac_results ul, .b-collection_search .field .clear {
+    .b-anime_status_tag, .textarea, .ac_results ul, .b-collection_search .field .clear {
         text-shadow: none;
     }
 
@@ -748,12 +748,12 @@
             color: #ebebeb;
         }
 
-    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-list_switchers .switcher.list, .b-options-floated .action, .b-comments .comments-collapser, .filter.item-add, .item-minus, .p-club_pages-show .item-edit::before, .p-profiles-show .about .item-edit::before, .p-animes .item-new-review, .p-mangas .item-new-review, .p-animes .item-edit, .p-mangas .item-edit, .item-sign, .b-postloader .next, .b-postloader .prev {
+    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-list_switchers .switcher.list, .b-options-floated .action, .b-comments .comments-collapser, .filter.item-add, .item-minus, .p-club_pages-show .item-edit::before, .p-profiles-show .about .item-edit::before, .p-animes .item-new-review, .p-mangas .item-new-review, .p-animes .item-edit, .p-mangas .item-edit, .item-sign, .b-postloader .next, .b-postloader .prev, .b-add_to_list .trigger-arrow {
         color: #ebebeb;
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .p-animes .item-edit:hover, .p-mangas .item-edit:hover, .item-sign:hover, .b-postloader .next:hover, .b-postloader .prev:hover {
+        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .p-animes .item-edit:hover, .p-mangas .item-edit:hover, .item-sign:hover, .b-postloader .next:hover, .b-postloader .prev:hover, .b-add_to_list .trigger-arrow:hover, .b-add_to_list .trigger .text:hover, .b-add_to_list .option .text:hover {
             color: white !important;
             text-shadow: 0 0 0.1em white;
         }
@@ -898,9 +898,53 @@
         font-size: 12px;
     }
     
+    .b-add_to_list .trigger, .b-add_to_list .option {
+        border: 1px solid var(--tile-border-color);
+        border-left-width: 5px;
+        border-color: var(--tile-border-color) !important;
+        color: white !important;
+        background: var(--headline-color) !important;
+        text-shadow: 0 0 0.06em var(--main-text-shadow-color);
+    }
+    
     .b-add_to_list .expanded-options {
         border-radius: 3px;
         margin-top: 5px;
+    }
+    
+    .b-add_to_list .plus {
+        color: white;
+        text-shadow: 0 0 0.06em var(--main-text-shadow-color);
+    }
+    
+    .b-add_to_list.completed .edit {
+        color: var(--green-color);
+        text-shadow: 0 0 0.06em var(--main-text-shadow-color);
+    }
+    
+    .b-add_to_list .expanded-options .remove-trigger {
+        background: var(--quote-back-color) !important;
+    }
+    
+    .b-add_to_list .expanded-options .remove-trigger .text {
+        color: var(--orange-hover-color) !important;
+    }
+    
+    .b-add_to_list .expanded-options .remove-trigger .text:hover {
+        color: var(--orange-hover-color) !important;
+        text-shadow: 0 0 0.06em var(--orange-hover-color);
+    }
+    
+    .b-add_to_list .expanded-options .option:first-child {
+        border-top: 1px solid var(--tile-border-color);
+        line-height: 29px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .b-add_to_list .expanded-options .option:last-child {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
     }
 
     body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text {
