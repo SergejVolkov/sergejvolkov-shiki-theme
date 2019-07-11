@@ -912,7 +912,7 @@
         margin-top: 5px;
     }
     
-    .b-add_to_list .plus {
+    .b-add_to_list .plus, .b-add_to_list .plus:hover {
         color: var(--sec-link-color);
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
