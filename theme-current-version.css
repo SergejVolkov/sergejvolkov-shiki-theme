@@ -478,7 +478,7 @@
         margin: 5px 0 5px 0;
     }
 
-    .p-profiles-show .lifetime .times .time.checked, .p-profiles-show .lifetime .times .time.checked::before, .c-actions .fav-remove, .b-user_rate_log .action.create, .b-review_votes .user-vote .voted-for, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.weak {
+    .p-profiles-show .lifetime .times .time.checked, .p-profiles-show .lifetime .times .time.checked::before, .c-actions .fav-remove, .b-user_rate_log .action.create, .b-review_votes .user-vote .voted-for, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.weak, .b-add_to_list.completed .edit, .b-add_to_list.completed .trigger-arrow:hover {
         color: var(--green-color);
     }
 
@@ -726,7 +726,7 @@
             color: var(--main-link-hover-color);
         }
 
-        .item-mobile, .p-animes_collection-index .pagination .link.disabled, .p-mangas_collection-index .pagination .link.disabled, .p-recommendations-index .pagination .link.disabled, .p-userlist_comparer-show .pagination .link.disabled, .p-contests .match-day .match-link .c-column.loser a, .p-contests .match-day .match-link .c-column.created a, .p-contests .match-day .match-link.voted-none > .c-column a, .p-contests .match-day .match-link.voted-left > .c-column:last-child a, .p-contests .match-day .match-link.voted-right > .c-column:first-child a, .b-ban .id-label, .b-user_rate_log .id-label, .p-contests .match-day .match-link.voted-left > .c-column:last-child a:hover, .p-contests .match-day .match-link.voted-right > .c-column:first-child a:hover, .p-contests .match-day .match-link .c-column.loser a:hover {
+        .item-mobile, .p-animes_collection-index .pagination .link.disabled, .p-mangas_collection-index .pagination .link.disabled, .p-recommendations-index .pagination .link.disabled, .p-userlist_comparer-show .pagination .link.disabled, .p-contests .match-day .match-link .c-column.loser a, .p-contests .match-day .match-link .c-column.created a, .p-contests .match-day .match-link.voted-none > .c-column a, .p-contests .match-day .match-link.voted-left > .c-column:last-child a, .p-contests .match-day .match-link.voted-right > .c-column:first-child a, .b-ban .id-label, .b-user_rate_log .id-label, .p-contests .match-day .match-link.voted-left > .c-column:last-child a:hover, .p-contests .match-day .match-link.voted-right > .c-column:first-child a:hover, .p-contests .match-day .match-link .c-column.loser a:hover, .b-add_to_list.on_hold .edit, .b-add_to_list.on_hold .trigger-arrow:hover {
             color: var(--quat-text-color);
         }
 
@@ -748,12 +748,12 @@
             color: #ebebeb;
         }
 
-    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-list_switchers .switcher.list, .b-options-floated .action, .b-comments .comments-collapser, .filter.item-add, .item-minus, .p-club_pages-show .item-edit::before, .p-profiles-show .about .item-edit::before, .p-animes .item-new-review, .p-mangas .item-new-review, .p-animes .item-edit, .p-mangas .item-edit, .item-sign, .b-postloader .next, .b-postloader .prev, .b-add_to_list .trigger-arrow {
+    .b-list_switchers .switcher.lines, .b-list_switchers .switcher.posters, .b-list_switchers .switcher.popularity, .b-list_switchers .switcher.alphabet, .b-list_switchers .switcher.list, .b-options-floated .action, .b-comments .comments-collapser, .filter.item-add, .item-minus, .p-club_pages-show .item-edit::before, .p-profiles-show .about .item-edit::before, .p-animes .item-new-review, .p-mangas .item-new-review, .p-animes .item-edit, .p-mangas .item-edit, .item-sign, .b-postloader .next, .b-postloader .prev {
         color: #ebebeb;
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .p-animes .item-edit:hover, .p-mangas .item-edit:hover, .item-sign:hover, .b-postloader .next:hover, .b-postloader .prev:hover, .b-add_to_list .trigger-arrow:hover, .b-add_to_list .trigger .text:hover, .b-add_to_list .option .text:hover {
+        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .p-animes .item-edit:hover, .p-mangas .item-edit:hover, .item-sign:hover, .b-postloader .next:hover, .b-postloader .prev:hover {
             color: white !important;
             text-shadow: 0 0 0.1em white;
         }
@@ -766,7 +766,7 @@
         font-size: 13px;
     }
 
-        .b-options-floated.mobile-phone a, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards-show .c-content .options .option, .b-options-floated.mobile-desktop a, .b-options-floated a, .b-options-floated .link, .b-options-floated.mobile-phone_portrait a, .headline .misc-links > a, .midheadline .misc-links > a, .subheadline .misc-links > a {
+        .b-options-floated.mobile-phone a, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards-show .c-content .options .option, .b-options-floated.mobile-desktop a, .b-options-floated a, .b-options-floated .link, .b-options-floated.mobile-phone_portrait a, .headline .misc-links > a, .midheadline .misc-links > a, .subheadline .misc-links > a, .b-add_to_list .trigger-arrow, .b-add_to_list .trigger .text, .b-add_to_list .option .text {
             color: var(--sec-link-color);
         }
 
@@ -777,7 +777,7 @@
                 cursor: default;
             }
 
-            .b-options-floated.mobile-phone a:hover, .p-dashboards .user_list .list-type > .title .switch:hover, .p-dashboards-show .c-content .options .option:hover, .b-options-floated.mobile-desktop a:hover, .b-options-floated a:hover, .b-options-floated .link:hover, .b-options-floated.mobile-phone a:hover, .b-tabs .b-tabs_switch:hover, .b-stats_bar .stat_names .stat_name a:hover, .b-options-floated.mobile-phone_portrait a:hover, .headline .misc-links > a:hover, .midheadline .misc-links > a:hover, .subheadline .misc-links > a:hover {
+            .b-options-floated.mobile-phone a:hover, .p-dashboards .user_list .list-type > .title .switch:hover, .p-dashboards-show .c-content .options .option:hover, .b-options-floated.mobile-desktop a:hover, .b-options-floated a:hover, .b-options-floated .link:hover, .b-options-floated.mobile-phone a:hover, .b-tabs .b-tabs_switch:hover, .b-stats_bar .stat_names .stat_name a:hover, .b-options-floated.mobile-phone_portrait a:hover, .headline .misc-links > a:hover, .midheadline .misc-links > a:hover, .subheadline .misc-links > a:hover, .b-add_to_list.planned .trigger-arrow:hover, .b-add_to_list.rewatching .trigger-arrow:hover, .b-add_to_list.watching .trigger-arrow:hover, .b-add_to_list .trigger .text:hover, .b-add_to_list .option .text:hover {
                 color: var(--sec-link-hover-color);
             }
 
@@ -866,11 +866,11 @@
         color: var(--sec-text-color) !important;
     }
 
-    .profile-actions .ban:hover, .profile-actions .settings:hover, .profile-actions .mail:hover, .profile-actions .talk:hover, .profile-actions .fav-add:hover, .profile-actions .ignore-add:hover, .club-actions .invite:hover, .club-actions .upload:hover, .club-actions .leave:hover, .buttons a:hover, .c-actions .fav-add:hover, .c-actions .new_comment:hover, .c-actions .new_review:hover, .c-actions .edit:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover, .p-user_rates-index .l-content .order-control:hover, .c-actions .new_review:hover::after, .c-actions .new_comment:hover::after, .c-actions .fav-add:hover::after, .c-actions .edit:hover::after, .c-actions .fav-remove:hover::after, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-rate .score-notice, .item-mobile:hover, .p-characters .item-edit:hover, .b-comment header .hash:hover, .b-comment header a.hash:hover, .b-form a.remove:hover, .p-topics header h1 a.reload:hover, .p-user_history-index .history-page .history-interval p .destroy:hover, .b-form .cancel:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-user_rate_log .action.destroy, .b-subposter-action:hover, .b-review_votes .user-vote .voted-against, .buttons .main-controls a:hover, .c-actions .fav-remove:hover, .b-subposter-action:hover::after, .b-edit_styles .edit_style .style_css .editor-expand:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-edit_styles .new_style .style_css .editor-expand:hover, .b-edit_styles .new_style .style_css .editor-collapse:hover, .item-add:hover {
+    .profile-actions .ban:hover, .profile-actions .settings:hover, .profile-actions .mail:hover, .profile-actions .talk:hover, .profile-actions .fav-add:hover, .profile-actions .ignore-add:hover, .club-actions .invite:hover, .club-actions .upload:hover, .club-actions .leave:hover, .buttons a:hover, .c-actions .fav-add:hover, .c-actions .new_comment:hover, .c-actions .new_review:hover, .c-actions .edit:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover, .p-user_rates-index .l-content .order-control:hover, .c-actions .new_review:hover::after, .c-actions .new_comment:hover::after, .c-actions .fav-add:hover::after, .c-actions .edit:hover::after, .c-actions .fav-remove:hover::after, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-rate .score-notice, .item-mobile:hover, .p-characters .item-edit:hover, .b-comment header .hash:hover, .b-comment header a.hash:hover, .b-form a.remove:hover, .p-topics header h1 a.reload:hover, .p-user_history-index .history-page .history-interval p .destroy:hover, .b-form .cancel:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-user_rate_log .action.destroy, .b-subposter-action:hover, .b-review_votes .user-vote .voted-against, .buttons .main-controls a:hover, .c-actions .fav-remove:hover, .b-subposter-action:hover::after, .b-edit_styles .edit_style .style_css .editor-expand:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-edit_styles .new_style .style_css .editor-expand:hover, .b-edit_styles .new_style .style_css .editor-collapse:hover, .item-add:hover, .b-add_to_list.dropped .edit, .b-add_to_list.dropped .trigger-arrow:hover {
         color: var(--orange-hover-color);
     }
 
-    .buttons span:hover, .buttons label:hover, .p-user_rates-index .stat-categories .category.active, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility:hover .text {
+    .buttons span:hover, .buttons label:hover, .p-user_rates-index .stat-categories .category.active, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility:hover .text, .b-add_to_list .expanded-options .remove-trigger .text, .b-add_to_list .expanded-options .remove-trigger .text:hover {
         color: var(--orange-hover-color) !important;
     }
 
@@ -899,11 +899,11 @@
     }
     
     .b-add_to_list .trigger, .b-add_to_list .option {
-        border: 1px solid var(--tile-border-color);
+        border: 1px solid var(--quote-back-color);
         border-left-width: 5px;
         border-color: var(--tile-border-color) !important;
-        color: white !important;
-        background: var(--headline-color) !important;
+        color: var(--sec-link-color) !important;
+        background: var(--quote-back-color) !important;
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
     
@@ -913,26 +913,12 @@
     }
     
     .b-add_to_list .plus {
-        color: white;
+        color: var(--sec-link-color);
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
     
-    .b-add_to_list.completed .edit {
-        color: var(--green-color);
+    .b-add_to_list .edit {
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
-    }
-    
-    .b-add_to_list .expanded-options .remove-trigger {
-        background: var(--quote-back-color) !important;
-    }
-    
-    .b-add_to_list .expanded-options .remove-trigger .text {
-        color: var(--orange-hover-color) !important;
-    }
-    
-    .b-add_to_list .expanded-options .remove-trigger .text:hover {
-        color: var(--orange-hover-color) !important;
-        text-shadow: 0 0 0.06em var(--orange-hover-color);
     }
     
     .b-add_to_list .expanded-options .option:first-child {
