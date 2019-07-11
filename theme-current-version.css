@@ -273,6 +273,29 @@
         border-radius: 3px;
     }
 
+    .b-feedback > .marker-positioner > .marker-text, .b-feedback > .hover-activator {
+        background: var(--button-hover-color) !important;
+    }
+
+    .b-feedback > .hover-activator {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    body[data-locale="ru"] .b-feedback > .hover-activator {
+        height: 180px;
+    }
+
+    .b-feedback > .marker-positioner > .marker-text {
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    body[data-locale="ru"] .b-feedback > .marker-positioner > .marker-text {
+        margin-top: 180px;
+        min-width: 181px;
+    }
+
     .b-comments-notifier {
         background: var(--button-hover-color);
         top: 33px !important;
