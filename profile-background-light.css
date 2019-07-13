@@ -1,7 +1,7 @@
 /* Светлое фоновое изображение / Light background image */
 
 @media screen {
-    body::before {
+    body {
         background-image: var(--profile-background-image) !important;
         background-repeat: no-repeat;
         background-position: center top;
