@@ -673,7 +673,7 @@
         .l-page .menu-toggler .toggler::before {
             font-family: var(--main-font);
             font-size: 16px;
-            margin-top: 30px;
+            margin-top: 24px;
         }
 
     body[data-locale="en"] .l-page .menu-toggler .toggler::before {
