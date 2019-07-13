@@ -518,7 +518,7 @@
     .b-message > .inner header img, .b-dialog > .inner header img,
     .p-topics .l-menu .clubs .entry img, .b-topic > .inner header img {
         border-radius: 3px;
-        border: 1.5px solid rgba(43, 42, 97,0.6);
+        border: 1.5px solid var(--tile-border-color);
         background-color: #ebebeb;
     }
 
@@ -547,10 +547,6 @@
     .subheadline .b-user16:hover > a {
         text-shadow: 0 0 0.1em white;
         color: white !important;
-    }
-
-    div.avatar img {
-        border: 2px solid #71c7f799;
     }
 
     header.head a.misc, header.head a.edit {
