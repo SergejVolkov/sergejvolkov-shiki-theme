@@ -668,13 +668,12 @@
         border-bottom-right-radius: 0;
         right: 0;
         position: fixed;
-        height: 87px;
     }
 
         .l-page .menu-toggler .toggler::before {
             font-family: var(--main-font);
             font-size: 16px;
-            margin-top: 26px;
+            margin-top: 30px;
         }
 
     body[data-locale="en"] .l-page .menu-toggler .toggler::before {
