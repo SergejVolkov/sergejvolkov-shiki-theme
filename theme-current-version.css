@@ -446,7 +446,7 @@
         color: white;
     }
 
-    .b-comment .inner .body {
+    .b-comment .inner .body, .b-options-floated.mobile-phone_portrait + .subheadline, .b-message .inner .body {
         overflow: visible;
     }
 
@@ -466,6 +466,14 @@
             font-size: 11px;
         }
 
+    body[data-locale="en"] header.head h1 a.back::after, body[data-locale="en"] header.head h2 a.back::after {
+        margin-left: 5px;
+    }
+
+    body[data-locale="ru"] header.head h1 a.back::after, body[data-locale="ru"] header.head h2 a.back::after {
+        margin-left: 2px;
+    }
+    
     .b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
         color: #0000;
         text-shadow: none;
@@ -559,58 +567,58 @@
         font-size: 13px;
     }
 
-    body[data-locale="en"] .b-offtopic_marker.off::before, body .b-offtopic_marker.off::before {
+    body[data-locale="en"] .b-offtopic_marker.off::before, body[data-locale="ru"] .b-offtopic_marker.off::before {
         color: var(--ter-text-color);
         border-color: var(--ter-text-color);
     }
 
-    body[data-locale="en"] .b-offtopic_marker.active:hover::before, body .b-offtopic_marker.active:hover::before {
+    body[data-locale="en"] .b-offtopic_marker.active:hover::before, body[data-locale="ru"] .b-offtopic_marker.active:hover::before {
         background-color: #a03863;
         color: white;
         border-color: #0000;
         box-shadow: 0 0 0.3em var(--sec-text-color);
     }
 
-    body[data-locale="en"] .b-offtopic_marker::before, body .b-offtopic_marker::before {
+    body[data-locale="en"] .b-offtopic_marker::before, body[data-locale="ru"] .b-offtopic_marker::before {
         background-color: #8e2f56;
         color: white;
-        border-color: var(--main-text-color);
+        border-color: var(--ter-text-color);
     }
 
-    body[data-locale="en"] .b-summary_marker.off::before, body .b-summary_marker.off::before {
+    body[data-locale="en"] .b-summary_marker.off::before, body[data-locale="ru"] .b-summary_marker.off::before {
         color: var(--ter-text-color);
         border-color: var(--ter-text-color);
     }
 
-    body[data-locale="en"] .b-summary_marker.active:hover::before, body .b-summary_marker.active:hover::before {
+    body[data-locale="en"] .b-summary_marker.active:hover::before, body[data-locale="ru"] .b-summary_marker.active:hover::before {
         background-color: #3e8f3e;
         color: white;
         border-color: #0000;
         box-shadow: 0 0 0.3em var(--sec-text-color);
     }
 
-    body[data-locale="en"] .b-summary_marker::before, body .b-summary_marker::before {
+    body[data-locale="en"] .b-summary_marker::before, body[data-locale="ru"] .b-summary_marker::before {
         background-color: #419541;
         color: white;
-        border-color: var(--main-text-color);
+        border-color: var(--ter-text-color);
     }
 
-    body[data-locale="en"] .b-new_marker.off::before, body .b-new_marker.off::before {
+    body[data-locale="en"] .b-new_marker.off::before, body[data-locale="ru"] .b-new_marker.off::before {
         color: var(--ter-text-color);
         border-color: var(--ter-text-color);
     }
 
-    body[data-locale="en"] .b-new_marker.active:hover::before, body .b-new_marker.active:hover::before, body[data-locale="en"] .b-new_marker.off:hover::before, body .b-new_marker.off:hover::before {
+    body[data-locale="en"] .b-new_marker.active:hover::before, body[data-locale="ru"] .b-new_marker.active:hover::before, body[data-locale="en"] .b-new_marker.off:hover::before, body[data-locale="ru"] .b-new_marker.off:hover::before {
         background-color: #1d78b7;
         color: white;
         border-color: #0000;
         box-shadow: 0 0 0.3em var(--sec-text-color);
     }
 
-    body[data-locale="en"] .b-new_marker::before, body .b-new_marker::before {
+    body[data-locale="en"] .b-new_marker::before, body[data-locale="ru"] .b-new_marker::before {
         color: white;
         background-color: #1c74b0;
-        border-color: var(--main-text-color);
+        border-color: var(--ter-text-color);
     }
 
     body[data-locale="en"] .b-new_marker {
@@ -618,7 +626,7 @@
     }
 
     .b-abuse_marker::before {
-        border-color: var(--main-text-color);
+        border-color: var(--ter-text-color);
     }
 
     .b-comment .inner .body .ban .resolution, .b-comment .inner .body .ban .resolution a, .b-log_entry > .reason, .p-contests-show .voting-warning .red-warning, .b-form a.remove {
@@ -660,13 +668,22 @@
         border-bottom-right-radius: 0;
         right: 0;
         position: fixed;
+        height: 87px;
     }
 
         .l-page .menu-toggler .toggler::before {
-            content: "Menu";
             font-family: var(--main-font);
             font-size: 16px;
+            margin-top: 26px;
         }
+
+    body[data-locale="en"] .l-page .menu-toggler .toggler::before {
+        content: "Menu";
+    }
+
+    body[data-locale="ru"] .l-page .menu-toggler .toggler::before {
+        content: "Меню";
+    }
 
     .b-contest_match .vs .label {
         font-family: var(--main-font);
@@ -809,10 +826,6 @@
 
     .b-options-floated.mobile-phone_portrait a {
         display: ruby;
-    }
-
-    .b-options-floated.mobile-phone_portrait + .subheadline {
-        overflow: visible;
     }
 
     .b-stats_bar .stat_names .stat_name a {
@@ -1985,6 +1998,18 @@
         height: 5px;
     }
 
+    body[data-locale="en"] header.head h1 a.back::after, body[data-locale="en"] header.head h2 a.back::after {
+        margin-left: 2px;
+    }
+
+    body[data-locale="ru"] header.head h1 a.back::after, body[data-locale="ru"] header.head h2 a.back::after {
+        margin-left: -1px;
+    }
+
+    body[data-locale="ru"] header.head h1 a.back, body[data-locale="ru"] header.head h2 a.back {
+        margin-right: 6px;
+    }
+
     .b-animes-menu #rates_statuses_stats .x_label {
         font-size: 13px;
         padding-top: 1.5px;
@@ -1996,14 +2021,12 @@
 }
 
 
-@media screen and (max-width: 520px) {
-    .contests .block:first-child {
-        padding-top: 40px;
-    }
-
-    .p-contests-index .contests > .block > .b-options-floated {
-        position: absolute;
-        top: 10px;
+@media screen and (max-width: 600px) {
+    .b-options-floated.mobile-phone_portrait, .p-contests-index .contests > .block > .b-options-floated {
+        margin-bottom: 10px;
+        padding-right: 0;
+        position: initial;
+        text-align: right;
     }
 }
 
@@ -2055,6 +2078,20 @@
 
     .menu-slide-outer.x199 .l-menu {
         width: calc(43% - 10px);
+    }
+
+    .subheadline .b-user16 > a span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 110px;
+        display: block;
+        margin-bottom: -7px;
+    }
+
+    .p-userlist_comparer .comparer table .num {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 75px;
     }
 }
 
