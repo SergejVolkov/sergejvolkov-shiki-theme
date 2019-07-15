@@ -896,6 +896,10 @@
         list-style-image: none;
         list-style-type: disc;
     }
+    
+    .b-rate .score-notice, .b-rate .text-score {
+        font-family: var(--main-font);
+    }
 
     .b-form .cancel {
         font-family: var(--main-font);
