@@ -1,3 +1,5 @@
+/* Скрытие аватарки при наличии обложки профиля / Hides avatar when profile cover is set */
+
 @media screen and (min-width: 768px) {
     .p-profiles .profile-head .c-brief .avatar {
         display: none;
