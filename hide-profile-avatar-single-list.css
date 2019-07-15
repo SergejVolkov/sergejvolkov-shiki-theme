@@ -1,3 +1,6 @@
+/* Скрытие аватарки при наличии обложки профиля и отключенном списке аниме / манга /
+    Hides avatar when profile cover is set and anime / manga list disabled */
+
 @media screen and (min-width: 768px) {
     .p-profiles .profile-head .c-brief .avatar {
         display: none;
@@ -20,6 +23,7 @@
         margin-top: 30px;
         position: absolute;
         bottom: 20px;
+        margin-right: 20px;
     }
 }
 
