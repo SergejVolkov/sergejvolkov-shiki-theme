@@ -1,7 +1,7 @@
 /* Темное фоновое изображение / Dark background image */
 
 @media screen {
-    body {
+    body::before {
         background-image: var(--profile-background-image) !important;
         background-repeat: no-repeat;
         background-position: center top;
