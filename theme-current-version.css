@@ -1,4 +1,4 @@
-/* sergejvolkov-shiki-theme, 11.07.2019 shiki-exo 2.3.1, SergejVolkov, 2019
+/* sergejvolkov-shiki-theme, 11.07.2019 shiki-exo 2.3.2, SergejVolkov, 2019
     Подробности релиза на https://shikimori.one/clubs/2385-shiki-exo/pages/1781-istoriya-versiy */
 
 
@@ -1131,7 +1131,7 @@
     }
 
     .l-footer .copyright::before {
-        content: 'shiki-exo 2.3.1';
+        content: 'shiki-exo 2.3.2';
         text-align: right;
         display: block;
         position: relative;
