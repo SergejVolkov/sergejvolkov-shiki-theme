@@ -638,7 +638,7 @@
         background-color: var(--quote-back-color);
         color: var(--main-text-color);
         margin-right: 1px;
-        padding: 20px;
+        padding: 6px 15px;
     }
 
         .b-quote .b-quote {
@@ -648,6 +648,10 @@
         .b-quote .quoteable::before {
             color: var(--sec-text-color);
             text-shadow: 0 0 0.1em var(--sec-text-color);
+        }
+    
+        .b-quote .b-user16 img {
+            margin-top: 6px;
         }
 
     .b-abuse_marker::before {
@@ -1929,7 +1933,7 @@
     }
     
     .b-quote {
-        padding: 10px;
+        padding: 5px 10px;
     }
     
     .p-dashboards .animes .studios {
