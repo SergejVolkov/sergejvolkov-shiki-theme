@@ -1044,6 +1044,7 @@
 
     .b-link_button, .b-link_button.dark {
         border-radius: 3px;
+        border: none;
         background-color: #48484c;
         color: #ebebeb;
         transition: 0.2s;
