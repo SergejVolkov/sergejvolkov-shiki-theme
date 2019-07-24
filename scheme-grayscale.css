@@ -38,7 +38,7 @@
 }
 
 @media screen {
-    img, .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-brief .avatar, .b-catalog_entry .cover .image-decor .image-cutter, .b-rate, .p-db_entries .b-db_entry .c-poster center, .b-hot_topics-v2 .b-link .poster, .b-db_entry-variant-list_item .image, .b-summary_marker, .b-offtopic_marker, .b-new_marker, .b-anime_status_tag, .search-marker, .medal, .b-external_link .linkeable::before, .b-external_link a::before, .b-catalog_entry .image-decor::after, .b-catalog_entry .image-decor::before {
+    img, .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-brief .avatar, .b-catalog_entry .cover .image-decor .image-cutter, .b-rate, .p-db_entries .b-db_entry .c-poster center, .b-hot_topics-v2 .b-link .poster, .b-db_entry-variant-list_item .image, .b-summary_marker, .b-offtopic_marker, .b-new_marker, .b-anime_status_tag, .search-marker, .medal, .b-external_link .linkeable::before, .b-external_link a::before, .b-catalog_entry .image-decor::after, .b-catalog_entry .image-decor::before, .b-achievement .c-image .inner a .border {
         filter: grayscale(100%);
     }
 }
