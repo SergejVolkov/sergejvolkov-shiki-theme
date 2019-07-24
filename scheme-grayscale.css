@@ -35,6 +35,10 @@
     --bar-s1-color: #757575;
     --bar-s2-color: #969696;
     --bar-s3-color: #bfbfbf;
+}
 
-    filter: grayscale(100%);
+@media screen {
+    img, .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-brief .avatar, .b-catalog_entry .cover .image-decor .image-cutter, .b-rate, .p-db_entries .b-db_entry .c-poster center, .b-summary_marker, .b-offtopic_marker, .search-marker, .b-external_link .linkeable::before, .b-external_link a::before {
+        filter: grayscale(100%);
+    }
 }
