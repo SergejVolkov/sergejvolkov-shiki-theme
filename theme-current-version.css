@@ -638,6 +638,7 @@
         background-color: var(--quote-back-color);
         color: var(--main-text-color);
         margin-right: 1px;
+        padding: 20px;
     }
 
         .b-quote .b-quote {
@@ -1755,9 +1756,7 @@
         background: var(--l-page-back-color-desktop);
         border-right: 1px solid var(--tile-border-color);
     }
-
-    /*------------------------------------------------------------------------------------------------------------------------*/
-
+    
     .b-comment > .inner header img, .b-topic > .inner header img {
         width: 50px;
         height: 50px;
@@ -1928,9 +1927,11 @@
         margin-bottom: 20px;
         max-width: calc(100% - 40px);
     }
-
-    /*------------------------------------------------------------------------------------------------------------------------*/
-
+    
+    .b-quote {
+        padding: 10px;
+    }
+    
     .p-dashboards .animes .studios {
         margin-top: 54.5px;
     }
