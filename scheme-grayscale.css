@@ -35,4 +35,6 @@
     --bar-s1-color: #757575;
     --bar-s2-color: #969696;
     --bar-s3-color: #bfbfbf;
+
+    filter: grayscale(100%);
 }
