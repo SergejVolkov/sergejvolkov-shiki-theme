@@ -34,5 +34,5 @@
 }
 
 :root {
-    --desktop-avatar-image: var(--profile-cover-image);
+    --desktop-avatar-image: var(--profile-cover-image) !important;
 }
