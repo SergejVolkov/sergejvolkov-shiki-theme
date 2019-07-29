@@ -21,12 +21,8 @@
         background: none !important;
     }
     
-    .l-footer .links a {
+    .l-footer .links a, .l-footer .links a:hover {
         color: #176093;
         text-shadow: 1px 1px 0 white;
-    }
-    
-    .l-footer .links a:hover {
-        color: var(--button-hover-color);
     }
 }
