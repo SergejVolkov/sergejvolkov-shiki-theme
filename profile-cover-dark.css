@@ -6,11 +6,7 @@
         text-shadow: 1px 1px 0 black;
     }
     
-    .p-profiles .profile-head .c-brief header .notice a {
+    .p-profiles .profile-head .c-brief header .notice a, .p-profiles .profile-head .c-brief header .notice a:hover {
         color: #81dbf8;
-    }
-        
-    .p-profiles .profile-head .c-brief header .notice a:hover {
-        color: var(--button-hover-color);
     }
 }
