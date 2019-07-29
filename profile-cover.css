@@ -27,7 +27,3 @@
         margin-top: calc(var(--profile-cover-height) + 12px);
     }
 }
-
-:root {
-    --desktop-avatar-image: var(--profile-cover-image);
-}
