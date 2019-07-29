@@ -10,13 +10,16 @@
         float: left;
         margin-top: 5px;
         width: calc(61% - 20px);
-        height: 214px !important;
+        height: 197px !important;
     }
 
     .p-profiles .profile-head .c-history {
-        margin-top: 86px;
+        margin-top: 69px;
         width: calc(39% - 20px);
         height: 133px !important;
+        border-top-width: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 
     .p-profiles .profile-head .c-info .c-additionals {
@@ -29,12 +32,17 @@
   
     .p-profiles .profile-head .c-mobile-actions {
         display: block;
+        float: right;
         width: calc(0.39 * (100% - 20px) - 20px);
-        left: calc(0.61 * (100% - 20px) + 20px);
+        right: 20px;
         margin-top: 5px;
         position: absolute;
-        height: 61px;
+        height: 64px;
         font-size: 14px;
+        text-align: center;
+        border-bottom-width: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
     
     .p-profiles .profile-head .c-history .entry:last-child {
@@ -49,12 +57,18 @@
     }
     
     .p-profiles .profile-head .c-mobile-actions {
-        width: calc(0.39 * (100% - 30px) - 20px);
         margin-top: 0;
     }
     
     .p-profiles .profile-head .c-history {
-        margin-top: 81px;
+        margin-top: 64px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .p-profiles .profile-head .c-mobile-actions {
+        width: calc(0.39 * (100% - 30px) - 20px);
+        right: 25px;
     }
 }
 
