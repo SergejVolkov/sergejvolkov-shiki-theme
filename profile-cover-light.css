@@ -1,11 +1,16 @@
 /* Светлая обложка для профиля / Light profile cover */
 
 @media screen and (min-width: 768px) {
-        .p-profiles .profile-head .c-brief header h1,
-        .p-profiles .profile-head .c-brief header .notice,
-        .p-profiles .profile-head .c-brief header h1.aliases::after,
-        .p-profiles header.head .misc {
-            color: black;
-            text-shadow: 1px 1px 0 white;
-        }
+    .p-profiles .profile-head .c-brief header h1, .p-profiles .profile-head .c-brief header .notice, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles header.head .misc {
+        color: black;
+        text-shadow: 1px 1px 0 white;
+    }
+    
+    .p-profiles .profile-head .c-brief header .notice a {
+        color: #176093;
+    }
+        
+    .p-profiles .profile-head .c-brief header .notice a:hover {
+        color: var(--button-hover-color);
+    }
 }
