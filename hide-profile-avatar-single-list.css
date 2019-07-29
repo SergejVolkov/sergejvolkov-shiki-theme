@@ -10,12 +10,13 @@
         float: left;
         margin-top: 5px;
         width: calc(61% - 20px);
-        height: 208px !important;
+        height: 214px !important;
     }
 
     .p-profiles .profile-head .c-history {
+        margin-top: 86px;
         width: calc(39% - 20px);
-        height: 208px !important;
+        height: 133px !important;
     }
 
     .p-profiles .profile-head .c-info .c-additionals {
@@ -25,12 +26,35 @@
         bottom: 20px;
         margin-right: 20px;
     }
+  
+    .p-profiles .profile-head .c-mobile-actions {
+        display: block;
+        width: calc(0.39 * (100% - 20px) - 20px);
+        left: calc(0.61 * (100% - 20px) + 20px);
+        margin-top: 5px;
+        position: absolute;
+        height: 61px;
+        font-size: 14px;
+    }
+    
+    .p-profiles .profile-head .c-history .entry:last-child {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1025px) {
     .p-profiles .profile-head .c-info {
         margin-left: 10px;
         margin-top: 0;
+    }
+    
+    .p-profiles .profile-head .c-mobile-actions {
+        width: calc(0.39 * (100% - 30px) - 20px);
+        margin-top: 0;
+    }
+    
+    .p-profiles .profile-head .c-history {
+        margin-top: 81px;
     }
 }
 
