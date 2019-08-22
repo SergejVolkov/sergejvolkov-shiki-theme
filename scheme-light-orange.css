@@ -1,38 +1,38 @@
 /* Light orange theme / Оранжевая тема */
 :root {
-    --top-menu-color: #f98947;
-    --top-menu-submenu-back-color: #e24b04;
-    --top-menu-button-hover-color: #fa5406;
+    --top-menu-color: #fc640a;
+    --top-menu-submenu-back-color: #ed480c;
+    --top-menu-button-hover-color: #f54a0c;
     --top-menu-border-color: #eee;
     
     --l-page-back-color-desktop: #f8f8f8;
     --l-page-back-color-mobile: white;
-    --quote-back-color: #fffff0;
+    --quote-back-color: #ffffcd;
     --tile-back-color: white;
-    --tile-border-color: #e9e92e;
-    --headline-color: #e9c107;
+    --tile-border-color: #e0e026;
+    --headline-color: #eba400;
     
     --main-text-shadow-color: #0000;
     --main-text-color: black;
     --sec-text-color: #424242;
     --ter-text-color: #666666;
     --quat-text-color: #828282;
-    --profile-nickname-color: #ff282e;
+    --profile-nickname-color: #e65010;
     
-    --li-hover-color: #e7e7e7;
+    --li-hover-color: #dedede;
     --li-active-color: #e5ca0c;
-    --main-link-color: #d3510a;
-    --main-link-hover-color: #46b006;
+    --main-link-color: #c94700;
+    --main-link-hover-color: #399103;
     --sec-link-color: #4a4a4a;
-    --sec-link-active-color: #c90505;
+    --sec-link-active-color: #db3102;
     --sec-link-hover-color: #303030;
     
-    --button-hover-color: #d85305;
+    --button-hover-color: #ff8400;
     --orange-hover-color: #ff5900;
-    --green-color: #8ea304;
-
-    --bar-s0-color: #bf4803;
-    --bar-s1-color: #df6d2c;
-    --bar-s2-color: #ef8b51;
-    --bar-s3-color: #f4b76e;
+    --green-color: #36a304;
+    
+    --bar-s0-color: #d14200;
+    --bar-s1-color: #db5d07;
+    --bar-s2-color: #e87c17;
+    --bar-s3-color: #ff8a1c;
 }
