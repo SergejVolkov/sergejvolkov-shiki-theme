@@ -1,38 +1,38 @@
 /* Dark red theme / Темно-красная тема */
 :root {
     --top-menu-color: #ba391a;
-    --top-menu-submenu-back-color: #a2110a;
-    --top-menu-button-hover-color: #a32312;
+    --top-menu-submenu-back-color: #b32a00;
+    --top-menu-button-hover-color: #ad2803;
     --top-menu-border-color: #f0f0f0;
-
-    --l-page-back-color-desktop: #3d0d02;
-    --l-page-back-color-mobile: #4f1203;
-    --quote-back-color: #701602;
-    --tile-back-color: #5c1505;
-    --tile-border-color: #a24832;
-    --headline-color: #b96a15;
-
+    
+    --l-page-back-color-desktop: #470e01;
+    --l-page-back-color-mobile: #571302;
+    --quote-back-color: #7a2500;
+    --tile-back-color: #6b1502;
+    --tile-border-color: #bd4e00;
+    --headline-color: #bf6504;
+    
     --main-text-shadow-color: black;
     --main-text-color: white;
     --sec-text-color: #ebebeb;
     --ter-text-color: #dedede;
     --quat-text-color: #ababab;
-    --profile-nickname-color: #d8862f;
-
-    --li-hover-color: #7b1d08;
-    --li-active-color: #c6731a;
-    --main-link-color: #ffb680;
-    --main-link-hover-color: #fffb88;
+    --profile-nickname-color: #f29027;
+    
+    --li-hover-color: #822611;
+    --li-active-color: #bf6504;
+    --main-link-color: #ff940a;
+    --main-link-hover-color: #e8e115;
     --sec-link-color: #dedede;
     --sec-link-active-color: #fff430;
     --sec-link-hover-color: white;
-
-    --button-hover-color: #be6507;
-    --orange-hover-color: #ffba94;
-    --green-color: #9ef564;
-
-    --bar-s0-color: #c35f15;
-    --bar-s1-color: #d5822a;
-    --bar-s2-color: #e69d4f;
-    --bar-s3-color: #edb982;
+    
+    --button-hover-color: #d46c00;
+    --orange-hover-color: #ff9a42;
+    --green-color: #7ffa2d;
+    
+    --bar-s0-color: #b33b04;
+    --bar-s1-color: #c24d0e;
+    --bar-s2-color: #d66711;
+    --bar-s3-color: #e88317;
 }
