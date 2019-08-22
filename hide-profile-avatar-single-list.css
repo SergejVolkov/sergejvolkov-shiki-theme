@@ -71,7 +71,3 @@
         right: 25px;
     }
 }
-
-:root {
-    --desktop-avatar-image: var(--profile-cover-image) !important;
-}
