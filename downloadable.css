@@ -91,6 +91,7 @@ scheme-system
 /*---------------------------------------------------------------------------------------------*/
 
 /* Если у Вас установлена обложка для профиля, Вы можете спрятать псевдоаватарку.
+    В мобильной версии вместо обложки будет отображаться обычная аватарка, поэтому переменная --desktop-avatar-image должна быть установлена.
     В случае, если Вы пользуетесь только одним из списков аниме / манга, замените в ссылке hide-profile-avatar на hide-profile-avatar-single-list */
 
 /*@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/hide-profile-avatar.css');*/
