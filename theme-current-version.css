@@ -1688,6 +1688,39 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    
+    .p-dashboards-show .cc-second .cc-inner .c-content {
+        width: calc(0.65 * (100% - 10px));
+        height: 366px;
+    }
+
+    .p-dashboards-show .cc-second .c-my_list:last-child {
+        width: calc(0.35 * (100% - 10px));
+        height: 366px;
+    }
+
+    .p-dashboards-show .cc-second .cc-inner {
+        margin-right: 10px;
+        width: calc(0.75 * (100% - 10px));
+    }
+
+    .p-dashboards-show .cc-second .c-forum {
+        width: calc(0.25 * (100% - 10px));
+        height: 366px;
+    }
+
+    .b-hot_topics-v2 + * > .cc-second {
+        margin-bottom: 0;
+    }
+
+    .p-dashboards-show .cc-news .c-generated_news {
+        width: calc(0.3 * (100% - 10px));
+    }
+
+    .p-dashboards-show .cc-news .c-news_topics {
+        width: calc(0.7 * (100% - 10px));
+        margin-right: 10px;
+    }
 }
 
 
@@ -1892,6 +1925,21 @@
 
     .menu-slide-outer.x199 .l-menu {
         width: calc(33.5% - 10px);
+    }
+    
+    .p-dashboards-show .cc-second .c-my_list:last-child {
+        width: calc(0.5 * (100% - 10px));
+        margin-right: 10px !important;
+        height: 406px;
+    }
+
+    .p-dashboards-show .cc-second .c-forum {
+        width: calc(0.5 * (100% - 10px));
+        height: 406px;
+    }
+
+    .b-hot_topics-v2 + * > .cc-second {
+        margin-bottom: 0;
     }
 }
 
