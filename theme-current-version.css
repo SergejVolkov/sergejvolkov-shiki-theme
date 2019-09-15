@@ -1754,7 +1754,7 @@
         margin-top: -7px;
     }
 
-    header.head, .p-topics .l-menu .b-forums, .l-menu .block2, .l-menu .block, .p-pages-about .members-block, .p-pages-about .head + .cc-2a > .c-column, .cc.block, .p-pages-about .c-chart:first-child, .p-collections .b-collection-topic.b-topic-minified, .b-hot_topics-v2 + * > .block2, .b-hot_topics-v2 + * > .cc-second, .p-dashboards-show .cc-second .c-content, .contests .block, .p-moderations.p-moderations-show .cc-3 > .c-column, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .l-menu .b-menu_logo, .l-menu .b-favoured, .b-clubs-menu .b-subposter-actions, .p-achievements-index .block.m0 .block2, .p-achievements-show .b-entry-info, .p-achievements-show .block, .p-achievements-index .block, .p-achievements-index .cc-franchises-genres .c-genres, .p-contests-index .block, .p-contests.p-contests-show > .l-page > * > .block {
+    header.head, .p-topics .l-menu .b-forums, .l-menu .block2, .l-menu .block, .p-pages-about .members-block, .p-pages-about .head + .cc-2a > .c-column, .cc.block, .p-pages-about .c-chart:first-child, .p-collections .b-collection-topic.b-topic-minified, .b-hot_topics-v2 + * > .block2, .p-dashboards-show .cc-second .c-content, .contests .block, .p-moderations.p-moderations-show .cc-3 > .c-column, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .l-menu .b-menu_logo, .l-menu .b-favoured, .b-clubs-menu .b-subposter-actions, .p-achievements-index .block.m0 .block2, .p-achievements-show .b-entry-info, .p-achievements-show .block, .p-achievements-index .block, .p-achievements-index .cc-franchises-genres .c-genres, .p-contests-index .block, .p-contests.p-contests-show > .l-page > * > .block {
         margin-bottom: 10px;
     }
 
@@ -2154,6 +2154,10 @@
         overflow: hidden;
         text-overflow: ellipsis;
         max-width: 75px;
+    }
+    
+    .b-hot_topics-v2 + * > .cc-second {
+        margin-bottom: 10px;
     }
 }
 
