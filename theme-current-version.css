@@ -657,6 +657,10 @@
     .b-abuse_marker::before {
         margin-top: 3px;
     }
+    
+    .p-user_rates-index.p-profiles-index .l-menu .b-collection-filters .b-list {
+        margin-left: 18px !important;
+    }
 
     .l-page .menu-toggler .toggler {
         color: white;
