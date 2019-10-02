@@ -1725,6 +1725,10 @@
         width: calc(0.7 * (100% - 10px));
         margin-right: 10px;
     }
+
+    .b-comment > .inner .body {
+        margin-left: 0;
+    }
 }
 
 
