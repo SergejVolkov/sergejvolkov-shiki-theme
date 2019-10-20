@@ -1144,7 +1144,7 @@
     }
 
     .l-footer .copyright::before {
-        content: 'shiki-exo 2.3.2';
+        content: 'shiki-exo 2.3.3';
         text-align: right;
         display: block;
         position: relative;
