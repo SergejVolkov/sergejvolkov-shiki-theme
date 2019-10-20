@@ -730,7 +730,7 @@
         background-color: #353535c6;
     }
 
-    .p-dashboards-show .v1 .cc-news .c-news_topics .b-topic, .subheadline-input {
+    .p-dashboards-show .cc-news .c-news_topics .b-topic, .subheadline-input {
         border-radius: 1.5px;
     }
 
@@ -738,7 +738,7 @@
         border-top: 1px solid var(--tile-border-color);
     }
 
-    .p-dashboards-show .v1 .cc-news .c-news_topics .b-topic {
+    .p-dashboards-show .cc-news .c-news_topics .b-topic {
         border-top-width: 1px;
     }
 
@@ -790,18 +790,18 @@
         font-size: 13px;
     }
 
-        .b-options-floated.mobile-phone a, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards-show .v1 .c-content .options .option, .b-options-floated.mobile-desktop a, .b-options-floated a, .b-options-floated .link, .b-options-floated.mobile-phone_portrait a, .headline .misc-links > a, .midheadline .misc-links > a, .subheadline .misc-links > a, .b-add_to_list .trigger-arrow, .b-add_to_list .trigger .text, .b-add_to_list .option .text {
+        .b-options-floated.mobile-phone a, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards-show .c-content .options .option, .b-options-floated.mobile-desktop a, .b-options-floated a, .b-options-floated .link, .b-options-floated.mobile-phone_portrait a, .headline .misc-links > a, .midheadline .misc-links > a, .subheadline .misc-links > a, .b-add_to_list .trigger-arrow, .b-add_to_list .trigger .text, .b-add_to_list .option .text {
             color: var(--sec-link-color);
         }
 
-            .b-tabs .b-tabs_switch.active, .b-tabs .b-tabs_switch.active:hover, .b-options-floated.mobile-phone a.selected:hover, .p-dashboards-show .v1 .c-content .options .option.active:hover, .b-options-floated.mobile-desktop a.selected:hover, .b-options-floated.mobile-phone a.selected:hover, .b-options-floated.mobile-phone a.selected, .p-dashboards-show .v1 .c-content .options .option.active, .b-options-floated.mobile-desktop a.selected, .b-options-floated .selected, .b-options-floated .selected:hover, .b-options-floated .link.selected, .b-options-floated .link.selected:hover, .b-list_switchers .switcher.lines.selected, .b-list_switchers .switcher.lines.selected:hover, .b-list_switchers .switcher.posters.selected, .b-list_switchers .switcher.posters.selected:hover, .b-list_switchers .switcher.popularity.selected, .b-list_switchers .switcher.popularity.selected:hover, .b-list_switchers .switcher.alphabet.selected, .b-list_switchers .switcher.alphabet.selected:hover, .b-list_switchers .switcher.list.selected, .b-list_switchers .switcher.list.selected:hover .b-options-floated.mobile-phone_portrait a.selected, .b-options-floated.mobile-phone_portrait a.selected:hover {
+            .b-tabs .b-tabs_switch.active, .b-tabs .b-tabs_switch.active:hover, .b-options-floated.mobile-phone a.selected:hover, .p-dashboards-show .c-content .options .option.active:hover, .b-options-floated.mobile-desktop a.selected:hover, .b-options-floated.mobile-phone a.selected:hover, .b-options-floated.mobile-phone a.selected, .p-dashboards-show .c-content .options .option.active, .b-options-floated.mobile-desktop a.selected, .b-options-floated .selected, .b-options-floated .selected:hover, .b-options-floated .link.selected, .b-options-floated .link.selected:hover, .b-list_switchers .switcher.lines.selected, .b-list_switchers .switcher.lines.selected:hover, .b-list_switchers .switcher.posters.selected, .b-list_switchers .switcher.posters.selected:hover, .b-list_switchers .switcher.popularity.selected, .b-list_switchers .switcher.popularity.selected:hover, .b-list_switchers .switcher.alphabet.selected, .b-list_switchers .switcher.alphabet.selected:hover, .b-list_switchers .switcher.list.selected, .b-list_switchers .switcher.list.selected:hover .b-options-floated.mobile-phone_portrait a.selected, .b-options-floated.mobile-phone_portrait a.selected:hover {
                 color: var(--sec-link-active-color) !important;
                 text-shadow: 0 0 0.06em var(--main-text-shadow-color);
                 text-decoration: none;
                 cursor: default;
             }
 
-            .b-options-floated.mobile-phone a:hover, .p-dashboards .user_list .list-type > .title .switch:hover, .p-dashboards-show .v1 .c-content .options .option:hover, .b-options-floated.mobile-desktop a:hover, .b-options-floated a:hover, .b-options-floated .link:hover, .b-options-floated.mobile-phone a:hover, .b-tabs .b-tabs_switch:hover, .b-stats_bar .stat_names .stat_name a:hover, .b-options-floated.mobile-phone_portrait a:hover, .headline .misc-links > a:hover, .midheadline .misc-links > a:hover, .subheadline .misc-links > a:hover, .b-add_to_list.planned .trigger-arrow:hover, .b-add_to_list.rewatching .trigger-arrow:hover, .b-add_to_list.watching .trigger-arrow:hover, .b-add_to_list .trigger .text:hover, .b-add_to_list .option .text:hover {
+            .b-options-floated.mobile-phone a:hover, .p-dashboards .user_list .list-type > .title .switch:hover, .p-dashboards-show .c-content .options .option:hover, .b-options-floated.mobile-desktop a:hover, .b-options-floated a:hover, .b-options-floated .link:hover, .b-options-floated.mobile-phone a:hover, .b-tabs .b-tabs_switch:hover, .b-stats_bar .stat_names .stat_name a:hover, .b-options-floated.mobile-phone_portrait a:hover, .headline .misc-links > a:hover, .midheadline .misc-links > a:hover, .subheadline .misc-links > a:hover, .b-add_to_list.planned .trigger-arrow:hover, .b-add_to_list.rewatching .trigger-arrow:hover, .b-add_to_list.watching .trigger-arrow:hover, .b-add_to_list .trigger .text:hover, .b-add_to_list .option .text:hover {
                 color: var(--sec-link-hover-color);
             }
 
@@ -1270,7 +1270,7 @@
         margin-right: 24px !important;
     }
 
-    .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-info, .p-profiles .profile-head .c-history, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles .profile-head .c-mobile-actions, header.head, .p-reviews-index .l-content, .p-animes-similar .l-content, .p-animes-videos .l-content, .p-animes-screenshots .l-content, .p-animes-staff .l-content, .p-animes-characters .l-content, .p-characters-show .l-content, .p-people-show .l-content, .p-club_pages-show .l-content, .p-animes-show .l-content, .p-animes_collection-index .l-content, .p-animes-summaries .l-content, .p-animes-art .l-content, .p-animes-favoured .l-content, .p-animes-clubs .l-content, .p-animes-chronology .l-content, .p-animes-related .l-content, .p-characters-index .cc-8, .p-characters-art .l-content, .p-characters-favoured .l-content, .p-characters-clubs .l-content, .p-characters-animes .l-content, .p-characters-mangas .l-content, .p-characters-ranobe .l-content, .p-characters-seyu .l-content, .p-people-index .cc-8, .p-people-favoured .l-content, .p-people-roles .l-content, .p-people-works .l-content, .p-animes-cosplay .l-content .subheadline, .p-characters-cosplay .l-content .subheadline, .p-pages-about .c-chart, .p-versions .l-page > div > .block, .p-bans .block, .p-abuse_requests .l-page > div > .block, .p-anime_video_reports .block, .p-translations .animes, .p-users .b-collection_search.block, .p-genres .b-table, .p-versions .l-page div:not(.block) > .b-log_entry, .p-bans div:not(.block) > .b-log_entry, .p-anime_video_reports div:not(.block) > .b-log_entry, .p-roles .l-page > div > .block, .p-comments-broadcast .l-content, .p-pages-bb_codes .b-bb_codes-examples, .p-topics-new .l-content, .p-topics-edit .l-content, .p-collections .b-form:not(.new_comment), .p-reviews .l-content, .p-animes-edit .l-content .block, .p-animes-edit_field .l-content .block, .p-people-edit .l-content .block, .p-people-edit_field .l-content .block, .p-characters-edit .l-content .block, .p-characters-edit_field .l-content .block, .p-anime_videos-new .b-form, .p-clubs-members .l-content, .p-clubs-characters .l-content, .p-clubs-animes .l-content, .p-clubs-mangas .l-content, .p-clubs-ranobe .l-content, .p-clubs-people .l-content, .p-club_pages-new .l-content, .p-club_pages-edit .l-content, .p-clubs-edit .l-content, .p-clubs-images .l-content, .p-profiles-friends .block.m0, .p-profiles-favorites .block.is-own-profile, .p-profiles-moderation .block.m0, .p-achievements-franchise .block.m0, .p-profiles-feed .block.m0, .p-profiles-comments .block.m0, .p-profiles-summaries .block.m0, .p-profiles-versions .block.m0, .p-profiles-clubs .block.m0, .p-dialogs-index .block.is-own-profile, .p-messages-index .block.is-own-profile, .p-dialogs-show .block.is-own-profile, .p-dashboards-show .v1 .c-news_topics.m0, .p-clubs-index .b-clubs.searchable-collection, .p-clubs-index .b-clubs.b-search-results, .p-user_history-index .block.m0, .p-recommendations-favourites .block, .p-polls-index .block.m0, .p-user_history-logs .block.m0, .p-profiles-collections .block.m0, .p-profiles-video_uploads .block.m0, .p-profiles-video_versions .block.m0, .p-profiles-video_reports .block.m0, .p-pages-ongoings .block.m0, .p-contests-index .block, .p-pages-about .members-block:not(.left), .p-statistics-index .block, .p-profiles-edit .block.m0, .p-achievements-index .block2, .p-achievements-show .p-achievements-global > .b-entry-info, .p-achievements-index .p-achievements-global > .block, .p-achievements-show .p-achievements-global > .block, .p-achievements-index .block[href*="/achievements/author"], .p-user_rates-index .l-content, .p-clubs-show .l-content, .p-animes-files .c-toshokan, .p-animes-files .c-rutracker, .p-mangas-files .c-toshokan, .p-mangas-files .c-rutracker, .p-animes-collections .l-content .subheadline, .p-characters-collections .l-content .subheadline, .p-people-collections .l-content .subheadline, .p-achievements-group .block, .l-menu .block, .l-menu .block2, .l-menu .b-favoured, .l-menu .b-menu-links.menu-topics-block.history.m30, .p-dashboards-show .v1 .cc-news .c-generated_news, .b-clubs-menu .b-subposter-actions, .p-dashboards-show .v1 .cc-second .cc-inner .c-content, .p-dashboards-show .v1 .cc-second .c-forum, .p-topics .l-menu .b-forums, .b-menu_logo, .p-profiles-show .profile-content .block:last-child:not(:first-child), .menu-slide-outer.x199 .l-content, .menu-slide-outer.x240 .l-content, .p-dashboards-show .b-hot_topics-v2 + * .v1 > .block2, .p-comments.p-comments-show > .l-page > * > .b-topic, .p-contests.p-contests-show > .l-page > * > .block, .p-pages.p-pages-ongoings .b-topic, .p-collections.p-collections-show .b-topic > .inner, .p-collections.p-collections-show .b-topic > .editor-container, .p-collections.p-collections-show .b-topic > .b-comments, .p-pages.p-pages-about .b-topic, .p-pages.p-pages-about .head + .cc-2a > .c-column, .p-moderations.p-moderations-show .cc-3 > .c-column, .p-collections .b-collection-topic.b-topic-minified, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .p-dashboards-show .v1 .c-my_list, .p-users-index .b-user.detailed, .p-clubs .l-menu, .p-club_pages .l-menu, .p-moderations-missing_screenshots .b-list.cc-3, .p-user_rate_logs-index .block {
+    .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-info, .p-profiles .profile-head .c-history, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles .profile-head .c-mobile-actions, header.head, .p-reviews-index .l-content, .p-animes-similar .l-content, .p-animes-videos .l-content, .p-animes-screenshots .l-content, .p-animes-staff .l-content, .p-animes-characters .l-content, .p-characters-show .l-content, .p-people-show .l-content, .p-club_pages-show .l-content, .p-animes-show .l-content, .p-animes_collection-index .l-content, .p-animes-summaries .l-content, .p-animes-art .l-content, .p-animes-favoured .l-content, .p-animes-clubs .l-content, .p-animes-chronology .l-content, .p-animes-related .l-content, .p-characters-index .cc-8, .p-characters-art .l-content, .p-characters-favoured .l-content, .p-characters-clubs .l-content, .p-characters-animes .l-content, .p-characters-mangas .l-content, .p-characters-ranobe .l-content, .p-characters-seyu .l-content, .p-people-index .cc-8, .p-people-favoured .l-content, .p-people-roles .l-content, .p-people-works .l-content, .p-animes-cosplay .l-content .subheadline, .p-characters-cosplay .l-content .subheadline, .p-pages-about .c-chart, .p-versions .l-page > div > .block, .p-bans .block, .p-abuse_requests .l-page > div > .block, .p-anime_video_reports .block, .p-translations .animes, .p-users .b-collection_search.block, .p-genres .b-table, .p-versions .l-page div:not(.block) > .b-log_entry, .p-bans div:not(.block) > .b-log_entry, .p-anime_video_reports div:not(.block) > .b-log_entry, .p-roles .l-page > div > .block, .p-comments-broadcast .l-content, .p-pages-bb_codes .b-bb_codes-examples, .p-topics-new .l-content, .p-topics-edit .l-content, .p-collections .b-form:not(.new_comment), .p-reviews .l-content, .p-animes-edit .l-content .block, .p-animes-edit_field .l-content .block, .p-people-edit .l-content .block, .p-people-edit_field .l-content .block, .p-characters-edit .l-content .block, .p-characters-edit_field .l-content .block, .p-anime_videos-new .b-form, .p-clubs-members .l-content, .p-clubs-characters .l-content, .p-clubs-animes .l-content, .p-clubs-mangas .l-content, .p-clubs-ranobe .l-content, .p-clubs-people .l-content, .p-club_pages-new .l-content, .p-club_pages-edit .l-content, .p-clubs-edit .l-content, .p-clubs-images .l-content, .p-profiles-friends .block.m0, .p-profiles-favorites .block.is-own-profile, .p-profiles-moderation .block.m0, .p-achievements-franchise .block.m0, .p-profiles-feed .block.m0, .p-profiles-comments .block.m0, .p-profiles-summaries .block.m0, .p-profiles-versions .block.m0, .p-profiles-clubs .block.m0, .p-dialogs-index .block.is-own-profile, .p-messages-index .block.is-own-profile, .p-dialogs-show .block.is-own-profile, .p-dashboards-show .c-news_topics.m0, .p-clubs-index .b-clubs.searchable-collection, .p-clubs-index .b-clubs.b-search-results, .p-user_history-index .block.m0, .p-recommendations-favourites .block, .p-polls-index .block.m0, .p-user_history-logs .block.m0, .p-profiles-collections .block.m0, .p-profiles-video_uploads .block.m0, .p-profiles-video_versions .block.m0, .p-profiles-video_reports .block.m0, .p-pages-ongoings .block.m0, .p-contests-index .block, .p-pages-about .members-block:not(.left), .p-statistics-index .block, .p-profiles-edit .block.m0, .p-achievements-index .block2, .p-achievements-show .p-achievements-global > .b-entry-info, .p-achievements-index .p-achievements-global > .block, .p-achievements-show .p-achievements-global > .block, .p-achievements-index .block[href*="/achievements/author"], .p-user_rates-index .l-content, .p-clubs-show .l-content, .p-animes-files .c-toshokan, .p-animes-files .c-rutracker, .p-mangas-files .c-toshokan, .p-mangas-files .c-rutracker, .p-animes-collections .l-content .subheadline, .p-characters-collections .l-content .subheadline, .p-people-collections .l-content .subheadline, .p-achievements-group .block, .l-menu .block, .l-menu .block2, .l-menu .b-favoured, .l-menu .b-menu-links.menu-topics-block.history.m30, .p-dashboards-show .cc-news .c-generated_news, .b-clubs-menu .b-subposter-actions, .p-dashboards-show .cc-second .cc-inner .c-content, .p-dashboards-show .cc-second .c-forum, .p-topics .l-menu .b-forums, .b-menu_logo, .p-profiles-show .profile-content .block:last-child:not(:first-child), .menu-slide-outer.x199 .l-content, .menu-slide-outer.x240 .l-content, .p-dashboards-show .b-hot_topics-v2 + * > .block2, .p-comments.p-comments-show > .l-page > * > .b-topic, .p-contests.p-contests-show > .l-page > * > .block, .p-pages.p-pages-ongoings .b-topic, .p-collections.p-collections-show .b-topic > .inner, .p-collections.p-collections-show .b-topic > .editor-container, .p-collections.p-collections-show .b-topic > .b-comments, .p-pages.p-pages-about .b-topic, .p-pages.p-pages-about .head + .cc-2a > .c-column, .p-moderations.p-moderations-show .cc-3 > .c-column, .p-collections .b-collection-topic.b-topic-minified, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .p-dashboards-show .c-my_list, .p-users-index .b-user.detailed, .p-clubs .l-menu, .p-club_pages .l-menu, .p-moderations-missing_screenshots .b-list.cc-3, .p-user_rate_logs-index .block {
         padding: 20px;
         background-color: var(--tile-back-color);
         border-radius: 3px;
@@ -1370,7 +1370,7 @@
             padding: 6px;
         }
 
-    .p-dashboards-show .v1 .c-news_topics.m0 {
+    .p-dashboards-show .c-news_topics.m0 {
         width: 67.8%;
         margin-right: 1.8%;
     }
@@ -1401,22 +1401,22 @@
         width: calc(52% - 40px);
     }
 
-    .p-dashboards-show .v1 .cc-second .cc-inner {
+    .p-dashboards-show .cc-second .cc-inner {
         margin-right: 1.8%;
         width: 74.5%;
     }
 
-    .p-dashboards-show .v1 .cc-second .c-forum {
+    .p-dashboards-show .cc-second .c-forum {
         width: 23.7%;
         height: 366px;
     }
 
-    .p-dashboards-show .v1 .cc-second .cc-inner .c-my_list {
+    .p-dashboards-show .cc-second .cc-inner .c-my_list {
         width: 36.6%;
         height: 366px;
     }
 
-    .p-dashboards-show .v1 .cc-second .cc-inner .c-content {
+    .p-dashboards-show .cc-second .cc-inner .c-content {
         height: 366px;
     }
 
@@ -1488,7 +1488,7 @@
         margin-bottom: 0;
     }
 
-    .p-dashboards-show .b-hot_topics-v2 + * .v1 > .block2, .p-dashboards-show .b-hot_topics-v2 + * .v1 > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left, .p-profiles-show .profile-content .c-right > .block:last-child, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .about.block {
+    .p-dashboards-show .b-hot_topics-v2 + * > .block2, .p-dashboards-show .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left, .p-profiles-show .profile-content .c-right > .block:last-child, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .about.block {
         margin-bottom: 20px;
     }
 
@@ -1521,7 +1521,7 @@
         margin: 20px 10px 0 10px;
     }
 
-    .p-dashboards-show .v1 .cc-second .cc-inner .c-content {
+    .p-dashboards-show .cc-second .cc-inner .c-content {
         width: 61%;
     }
 
@@ -1697,35 +1697,35 @@
         text-overflow: ellipsis;
     }
 
-    .p-dashboards-show .v1 .cc-second .cc-inner .c-content {
+    .p-dashboards-show .cc-second .cc-inner .c-content {
         width: calc(0.65 * (100% - 10px));
         height: 366px;
     }
 
-    .p-dashboards-show .v1 .cc-second .c-my_list:last-child {
+    .p-dashboards-show .cc-second .c-my_list:last-child {
         width: calc(0.35 * (100% - 10px));
         height: 366px;
     }
 
-    .p-dashboards-show .v1 .cc-second .cc-inner {
+    .p-dashboards-show .cc-second .cc-inner {
         margin-right: 10px;
         width: calc(0.75 * (100% - 10px));
     }
 
-    .p-dashboards-show .v1 .cc-second .c-forum {
+    .p-dashboards-show .cc-second .c-forum {
         width: calc(0.25 * (100% - 10px));
         height: 366px;
     }
 
-    .p-dashboards-show .b-hot_topics-v2 + * .v1 > .cc-second {
+    .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
         margin-bottom: 0;
     }
 
-    .p-dashboards-show .v1 .cc-news .c-generated_news {
+    .p-dashboards-show .cc-news .c-generated_news {
         width: calc(0.3 * (100% - 10px));
     }
 
-    .p-dashboards-show .v1 .cc-news .c-news_topics {
+    .p-dashboards-show .cc-news .c-news_topics {
         width: calc(0.7 * (100% - 10px));
         margin-right: 10px;
     }
@@ -1766,11 +1766,11 @@
         margin-top: -7px;
     }
 
-    header.head, .p-topics .l-menu .b-forums, .l-menu .block2, .l-menu .block, .p-pages-about .members-block, .p-pages-about .head + .cc-2a > .c-column, .cc.block, .p-pages-about .c-chart:first-child, .p-collections .b-collection-topic.b-topic-minified, .p-dashboards-show .b-hot_topics-v2 + * .v1 > .block2, .p-dashboards-show .v1 .cc-second .c-content, .contests .block, .p-moderations.p-moderations-show .cc-3 > .c-column, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .l-menu .b-menu_logo, .l-menu .b-favoured, .b-clubs-menu .b-subposter-actions, .p-achievements-index .block.m0 .block2, .p-achievements-show .b-entry-info, .p-achievements-show .block, .p-achievements-index .block, .p-achievements-index .cc-franchises-genres .c-genres, .p-contests-index .block, .p-contests.p-contests-show > .l-page > * > .block {
+    header.head, .p-topics .l-menu .b-forums, .l-menu .block2, .l-menu .block, .p-pages-about .members-block, .p-pages-about .head + .cc-2a > .c-column, .cc.block, .p-pages-about .c-chart:first-child, .p-collections .b-collection-topic.b-topic-minified, .p-dashboards-show .b-hot_topics-v2 + * > .block2, .p-dashboards-show .cc-second .c-content, .contests .block, .p-moderations.p-moderations-show .cc-3 > .c-column, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .l-menu .b-menu_logo, .l-menu .b-favoured, .b-clubs-menu .b-subposter-actions, .p-achievements-index .block.m0 .block2, .p-achievements-show .b-entry-info, .p-achievements-show .block, .p-achievements-index .block, .p-achievements-index .cc-franchises-genres .c-genres, .p-contests-index .block, .p-contests.p-contests-show > .l-page > * > .block {
         margin-bottom: 10px;
     }
 
-    .p-dashboards-show .v1 .cc-second .c-my_list:last-child, .l-menu .b-menu-links.menu-topics-block.history.m30, .p-pages-ongoings .block.m0 {
+    .p-dashboards-show .cc-second .c-my_list:last-child, .l-menu .b-menu-links.menu-topics-block.history.m30, .p-pages-ongoings .block.m0 {
         margin-bottom: 10px !important;
     }
 
@@ -1939,18 +1939,18 @@
         width: calc(33.5% - 10px);
     }
 
-    .p-dashboards-show .v1 .cc-second .c-my_list:last-child {
+    .p-dashboards-show .cc-second .c-my_list:last-child {
         width: calc(0.5 * (100% - 10px));
         margin-right: 10px !important;
         height: 406px;
     }
 
-    .p-dashboards-show .v1 .cc-second .c-forum {
+    .p-dashboards-show .cc-second .c-forum {
         width: calc(0.5 * (100% - 10px));
         height: 406px;
     }
 
-    .p-dashboards-show .b-hot_topics-v2 + * .v1 > .cc-second {
+    .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
         margin-bottom: 0;
     }
 }
@@ -2012,7 +2012,7 @@
         font-size: 21px;
     }
 
-    .b-button, .b-shiki_editor footer input[type="submit"], .b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview, .b-form input[type="submit"], .tooltip-inner, .b-link_button, .p-dashboards-show .v1 .cc-news .c-news_topics .b-topic .name-date a {
+    .b-button, .b-shiki_editor footer input[type="submit"], .b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview, .b-form input[type="submit"], .tooltip-inner, .b-link_button, .p-dashboards-show .cc-news .c-news_topics .b-topic .name-date a {
         font-size: 18px !important;
     }
 
@@ -2168,7 +2168,7 @@
         max-width: 75px;
     }
 
-    .p-dashboards-show .b-hot_topics-v2 + * .v1 > .cc-second {
+    .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
         margin-bottom: 10px;
     }
 }
