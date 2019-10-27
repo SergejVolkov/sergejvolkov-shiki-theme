@@ -346,7 +346,7 @@
         background: var(--bar-s3-color);
     }
 
-    .headline, .midheadline, .subheadline {
+    .headline, .midheadline, .subheadline, .subeadline {
         background-color: var(--headline-color);
         color: black;
         border-radius: 1.5px;
@@ -758,7 +758,7 @@
             color: var(--main-link-hover-color) !important;
         }
 
-    .headline > a, .midheadline > a, .subheadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
+    .headline > a, .midheadline > a, .subheadline > a, .subeadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
         color: #ebebeb !important;
         text-decoration: none;
         text-shadow: 1px 1px 0.5px #000000c0;
@@ -767,7 +767,7 @@
         padding-bottom: 0.02em;
     }
 
-        .headline > a::before, .midheadline > a::before, .subheadline > a::before, .headline.linkheadline > a::before, .linkheadline.midheadline > a::before, .linkheadline.subheadline > a::before {
+        .headline > a::before, .midheadline > a::before, .subheadline > a::before, .subeadline > a::before, .headline.linkheadline > a::before, .linkheadline.midheadline > a::before, .linkheadline.subheadline > a::before {
             text-shadow: 1px 1px 0.5px #000000c0;
             color: #ebebeb;
         }
@@ -777,7 +777,7 @@
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .subheadline-buttons .item-edit:hover, .p-profiles-favorites .item-back:hover, .item-sign:hover, .b-postloader .next:hover, .b-postloader .prev:hover {
+        .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover, .subeadline > a:hover, .headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover, .headline > a:hover::before, .midheadline > a:hover::before, .subheadline > a:hover::before, .subeadline > a:hover::before, .headline.linkheadline > a:hover::before, .linkheadline.midheadline > a:hover::before, .linkheadline.subheadline > a:hover::before, .b-list_switchers .switcher.lines:hover, .b-list_switchers .switcher.posters:hover, .b-list_switchers .switcher.popularity:hover, .b-list_switchers .switcher.alphabet:hover, .b-list_switchers .switcher.list:hover, .b-options-floated .action:hover, .b-comments .comments-collapser:hover, .filter.item-add:hover, .item-minus:hover, .p-profiles-show .about .item-edit:hover::before, .p-club_pages-show .item-edit:hover::before, .p-animes .item-new-review:hover, .p-mangas .item-new-review:hover, .subheadline-buttons .item-edit:hover, .p-profiles-favorites .item-back:hover, .item-sign:hover, .b-postloader .next:hover, .b-postloader .prev:hover {
             color: white !important;
             text-shadow: 0 0 0.1em white;
         }
@@ -1309,7 +1309,7 @@
         padding-top: 20px !important;
     }
 
-    .headline > a::before, .midheadline > a::before, .subheadline > a::before {
+    .headline > a::before, .midheadline > a::before, .subheadline > a::before, .subeadline > a::before {
         position: relative;
         float: right;
         right: -17px;
@@ -1546,7 +1546,7 @@
         margin-bottom: 15px;
     }
 
-    .subheadline {
+    .subheadline, .subeadline {
         line-height: 1.02em;
     }
 }
@@ -1761,7 +1761,7 @@
         margin-top: 0;
     }
 
-    .headline > a, .midheadline > a, .subheadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
+    .headline > a, .midheadline > a, .subheadline > a, .subeadline > a, .headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
         padding: 5px 0 5px 0;
     }
 
@@ -1862,7 +1862,7 @@
         margin-top: 5px;
     }
 
-    .headline, .midheadline, .subheadline {
+    .headline, .midheadline, .subheadline, .subeadline {
         padding-top: 2px;
         padding-bottom: 2px;
     }
