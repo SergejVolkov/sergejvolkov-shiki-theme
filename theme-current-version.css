@@ -2196,3 +2196,10 @@
         flex-basis: calc(80% - 40px);
     }
 }
+
+
+:root {
+    --font-main: var(--main-font);
+    --font-alt: var(--main-font);
+    --font-alt-text-letter-spacing: normal;
+}
