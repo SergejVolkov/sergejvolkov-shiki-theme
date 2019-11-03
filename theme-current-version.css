@@ -658,6 +658,10 @@
         .b-quote .b-user16 img {
             margin-top: 6px;
         }
+    
+    .midheadline .b-user16 img, .subheadline .b-user16 img {
+        margin-top: 0;
+    }
 
     .b-abuse_marker::before {
         margin-top: 3px;
