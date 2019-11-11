@@ -10,16 +10,30 @@
         float: left;
         margin-top: 5px;
         width: calc(61% - 20px);
+    }
+
+    body:not([data-user^="{\"id\":null,"]).p-profiles .profile-head .c-info {
         height: 197px !important;
     }
 
-    .p-profiles .profile-head .c-history {
+    body[data-user^="{\"id\":null,"].p-profiles .profile-head .c-info {
+        height: 157px !important;
+    }
+
+    body:not([data-user^="{\"id\":null,"]).p-profiles .profile-head .c-history {
         margin-top: 69px;
-        width: calc(39% - 20px);
         height: 133px !important;
         border-top-width: 0;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
+    }
+
+    .p-profiles .profile-head .c-history {
+        width: calc(39% - 20px);
+    }
+
+    body[data-user^="{\"id\":null,"].p-profiles .profile-head .c-history {
+        height: 157px !important;
     }
 
     .p-profiles .profile-head .c-info .c-additionals {
@@ -29,8 +43,8 @@
         bottom: 20px;
         margin-right: 20px;
     }
-  
-    .p-profiles .profile-head .c-mobile-actions {
+
+    body:not([data-user^="{\"id\":null,"]).p-profiles .profile-head .c-mobile-actions {
         display: block;
         float: right;
         width: calc(0.39 * (100% - 20px) - 20px);
@@ -44,7 +58,7 @@
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
-    
+
     .p-profiles .profile-head .c-history .entry:last-child {
         display: none;
     }
@@ -55,18 +69,18 @@
         margin-left: 10px;
         margin-top: 0;
     }
-    
-    .p-profiles .profile-head .c-mobile-actions {
+
+    body:not([data-user^="{\"id\":null,"]).p-profiles .profile-head .c-mobile-actions {
         margin-top: 0;
     }
-    
-    .p-profiles .profile-head .c-history {
+
+    body:not([data-user^="{\"id\":null,"]).p-profiles .profile-head .c-history {
         margin-top: 64px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .p-profiles .profile-head .c-mobile-actions {
+    body:not([data-user^="{\"id\":null,"]).p-profiles .profile-head .c-mobile-actions {
         width: calc(0.39 * (100% - 30px) - 20px);
         right: 25px;
     }
