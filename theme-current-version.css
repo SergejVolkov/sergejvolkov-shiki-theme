@@ -454,6 +454,7 @@
     
     .tooltip-inner .inner .body {
         margin-left: 0;
+        overflow: visible;
     }
 
     .b-topic .footer-vote {
