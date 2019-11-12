@@ -448,8 +448,12 @@
         color: white;
     }
 
-    .b-comment .inner .body, .b-options-floated.mobile-phone_portrait + .subheadline, .b-message .inner .body {
+    .b-options-floated.mobile-phone_portrait + .subheadline, .b-message .inner .body {
         overflow: visible;
+    }
+    
+    .tooltip-inner .inner .body {
+        margin-left: 0;
     }
 
     .b-topic .footer-vote {
