@@ -1347,11 +1347,6 @@
     .p-articles-show .b-topic {
         padding-top: 0;
     }
-    
-    .p-articles-show .b-topic > .b-comments .b-comment:first-child {
-        border-top: 0;
-        padding-top: 0;
-    }
 }
 
 
