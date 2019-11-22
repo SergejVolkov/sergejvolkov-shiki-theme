@@ -888,7 +888,7 @@
         color: var(--sec-text-color) !important;
     }
 
-    .profile-actions .ban:hover, .profile-actions .settings:hover, .profile-actions .mail:hover, .profile-actions .talk:hover, .profile-actions .fav-add:hover, .profile-actions .ignore-add:hover, .club-actions .invite:hover, .club-actions .upload:hover, .club-actions .leave:hover, .buttons a:hover, .c-actions .fav-add:hover, .c-actions .new_comment:hover, .c-actions .new_review:hover, .c-actions .edit:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover, .p-user_rates-index .l-content .order-control:hover, .c-actions .new_review:hover::after, .c-actions .new_comment:hover::after, .c-actions .fav-add:hover::after, .c-actions .edit:hover::after, .c-actions .fav-remove:hover::after, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-rate .score-notice, .item-mobile:hover, .p-characters .item-edit:hover, .b-comment header .hash:hover, .b-comment header a.hash:hover, .b-form a.remove:hover, .p-topics header h1 a.reload:hover, .p-user_history-index .history-page .history-interval p .destroy:hover, .b-form .cancel:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-user_rate_log .action.destroy, .b-subposter-action:hover, .b-review_votes .user-vote .voted-against, .buttons .main-controls a:hover, .c-actions .fav-remove:hover, .profile-actions .fav-remove:hover, .profile-actions .ignore-remove:hover, .b-subposter-action:hover::after, .b-edit_styles .edit_style .style_css .editor-expand:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-edit_styles .new_style .style_css .editor-expand:hover, .b-edit_styles .new_style .style_css .editor-collapse:hover, .item-add:hover, .b-add_to_list.dropped .edit, .b-add_to_list.dropped .trigger-arrow:hover, .b-log_entry .state.rejected, .b-log_entry .state.post_rejected, .p-topics .l-menu .sticky-topics .topic .title:hover::after, .p-topics .l-menu .sticky-topics .topic:hover .title::after {
+    .profile-actions .ban:hover, .profile-actions .settings:hover, .profile-actions .mail:hover, .profile-actions .talk:hover, .profile-actions .fav-add:hover, .profile-actions .ignore-add:hover, .club-actions .invite:hover, .club-actions .upload:hover, .club-actions .leave:hover, .buttons a:hover, .c-actions .fav-add:hover, .c-actions .new_comment:hover, .c-actions .new_review:hover, .c-actions .edit:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover, .p-user_rates-index .l-content .order-control:hover, .c-actions .new_review:hover::after, .c-actions .new_comment:hover::after, .c-actions .fav-add:hover::after, .c-actions .edit:hover::after, .c-actions .fav-remove:hover::after, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-rate .score-notice, .item-mobile:hover, .p-characters .item-edit:hover, .b-comment header .hash:hover, .b-comment header a.hash:hover, .b-form a.remove:hover, .p-topics header h1 a.reload:hover, .p-user_history-index .history-page .history-interval p .destroy:hover, .b-form .cancel:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-user_rate_log .action.destroy, .b-subposter-action:hover, .b-review_votes .user-vote .voted-against, .buttons .main-controls a:hover, .c-actions .fav-remove:hover, .profile-actions .fav-remove:hover, .profile-actions .ignore-remove:hover, .b-subposter-action:hover::after, .b-edit_styles .edit_style .style_css .editor-expand:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-edit_styles .new_style .style_css .editor-expand:hover, .b-edit_styles .new_style .style_css .editor-collapse:hover, .item-add:hover, .b-add_to_list.dropped .edit, .b-add_to_list.dropped .trigger-arrow:hover, .b-log_entry .state.rejected, .b-log_entry .state.post_rejected, .p-topics .l-menu .sticky-topics .topic .title:hover::after, .p-topics .l-menu .sticky-topics .topic:hover .title::after, .b-message > .inner .was_updated:hover {
         color: var(--orange-hover-color);
     }
 
@@ -1089,7 +1089,7 @@
         color: var(--sec-link-active-color);
     }
 
-    .p-user_rates-index .list-lines tr .index, .b-stats_bar .title {
+    .p-user_rates-index .list-lines tr .index, .b-stats_bar .title, .b-message > .inner .was_updated {
         color: var(--ter-text-color);
     }
 
@@ -1840,11 +1840,6 @@
         border-right: 1px solid var(--tile-border-color);
     }
 
-    .b-comment > .inner header img, .b-topic > .inner header img {
-        width: 50px;
-        height: 50px;
-    }
-
     .p-profiles .profile-head .c-brief .avatar img {
         width: 160px;
         height: 160px;
@@ -1916,7 +1911,7 @@
         margin-top: 5px;
     }
     
-    .p-articles-show .b-topic > .inner > .item-mobile {
+    .p-articles-show .b-topic > .inner > .item-mobile, .p-collections-show .b-topic > .inner > .item-mobile {
         right: 20px;
         top: 15px;
     }
