@@ -953,7 +953,7 @@
 
     .b-add_to_list .expanded-options .option:first-child {
         border-top: 1px solid var(--tile-border-color);
-        line-height: 29px;
+        line-height: 28.16px;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
     }
@@ -1263,6 +1263,7 @@
         background-image: var(--desktop-avatar-image);
         background-size: cover;
         background-position: center;
+        background-color: var(--tile-back-color);
         border-radius: 3px;
         position: relative;
         border: 1px solid var(--tile-border-color);
