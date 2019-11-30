@@ -101,7 +101,7 @@
                     background-color: var(--top-menu-button-hover-color);
                     box-shadow: 0 0 3px var(--top-menu-button-hover-color);
                 }
-    
+
                 .l-top_menu-v2 .menu-dropdown > span a:hover {
                     background: none;
                 }
@@ -455,7 +455,7 @@
     .b-options-floated.mobile-phone_portrait + .subheadline, .b-message .inner .body {
         overflow: visible;
     }
-    
+
     .tooltip-inner .inner .body {
         margin-left: 0;
         overflow: visible;
@@ -923,6 +923,14 @@
         font-size: 16px;
     }
 
+    .p-profiles .profile-head .c-history .entry .misc {
+        font-size: 12.4px;
+    }
+
+    .c-history .b-block_list .entry > a .image-name .title {
+        font-size: 15px;
+    }
+
     .l-footer .links a, .buttons span {
         font-family: var(--main-font);
         font-size: 12px;
@@ -1344,13 +1352,21 @@
         margin-left: 0px;
         margin-top: 15px;
     }
-    
+
     .p-studios .studio {
         border-top: 1px solid var(--tile-border-color) !important;
     }
-    
+
     .p-articles-show .b-topic {
         padding-top: 0;
+    }
+
+    .markers {
+        margin-right: 3px;
+    }
+
+    .tooltip-inner .inner .markers {
+        margin-top: 5px;
     }
 }
 
@@ -1480,7 +1496,7 @@
     .subheadline-buttons {
         margin-top: -2px;
     }
-    
+
     .midheadline .b-user16 img, .subheadline .b-user16 img {
         margin-top: 0;
     }
@@ -1567,6 +1583,11 @@
 
     .b-options-floated {
         margin-top: 7px;
+        font-size: 14px;
+    }
+
+    .p-profiles-index .b-options-floated.mylist.mobile-desktop {
+        margin-bottom: 9px;
     }
 }
 
@@ -1602,7 +1623,7 @@
     .p-profiles-show .profile-content .c-right > .block:last-child {
         height: 165px;
     }
-    
+
     .p-dashboards .animes .studios {
         margin-top: 51px;
     }
@@ -1849,7 +1870,7 @@
         width: 160px;
         height: 160px;
     }
-    
+
     .b-comment > .inner header img {
         width: 48px;
         height: 48px;
@@ -1916,14 +1937,18 @@
         font-size: 14px;
         margin-top: 2px;
     }
-    
+
     .midheadline .b-user16 img, .subheadline .b-user16 img {
         margin-top: 5px;
     }
-    
+
     .p-articles-show .b-topic > .inner > .item-mobile, .p-collections-show .b-topic > .inner > .item-mobile {
         right: 20px;
         top: 15px;
+    }
+
+    .l-top_menu-v2 .menu-icon.contest::before {
+        margin-top: 7.5px;
     }
 }
 
