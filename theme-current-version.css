@@ -792,7 +792,7 @@
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-    .b-options-floated, .b-catalog_entry-tooltip .inner .text, .p-user_rates-index .list-lines tr td .rewatches, .b-stats_bar .stat_names .stat_name {
+    .b-options-floated, .b-catalog_entry-tooltip .inner .text, .p-user_rates-index .list-lines tr td .rewatches, .b-stats_bar .stat_names .stat_name, .p-profiles-show .lifetime .times .time {
         font-size: 13px;
     }
 
@@ -844,16 +844,20 @@
     .b-stats_bar .stat_names .stat_name a {
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
         font-weight: bold;
-        font-size: 13px;
+        font-size: 14px;
         color: var(--sec-link-color);
     }
 
     .p-profiles .profile-head .c-brief header .notice {
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
         font-weight: bold;
-        font-size: 12px;
+        font-size: 12.5px;
         color: var(--ter-text-color);
         margin-top: 10px;
+    }
+    
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
+        font-size: 12.5px;
     }
 
     input, optgroup, select, textarea {
@@ -873,7 +877,7 @@
         border-radius: 3px;
     }
 
-    .p-profiles .profile-head .c-info .c-additionals b, .p-user_rates-index .list-lines tr td .rate-text, .p-profiles .profile-head .c-info .c-additionals div {
+    .p-profiles .profile-head .c-info .c-additionals b, .p-user_rates-index .list-lines tr td .rate-text, .p-profiles .profile-head .c-info .c-additionals div, .p-profiles-show .lifetime .title .value {
         font-size: 14px;
         color: var(--main-text-color);
     }
@@ -928,7 +932,7 @@
     }
 
     .c-history .b-block_list .entry > a .image-name .title {
-        font-size: 15px;
+        font-size: 14.5px;
     }
 
     .l-footer .links a, .buttons span {
