@@ -174,26 +174,22 @@
 
         .l-top_menu-v2 .global-search .search-results .search-mode:active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:active, .l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus {
             background: #ffffff25 !important;
-            border-top-color: var(--top-menu-border-color);
+            border-top: 1px solid var(--top-menu-border-color);
         }
 
-            .l-top_menu-v2 .global-search .search-results .search-mode:active + .search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active + .search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found:focus + .search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus + .search-mode {
-                border-top-color: var(--top-menu-border-color);
-            }
-
-            .l-top_menu-v2 .global-search .search-results .search-mode.active + .search-mode {
+            .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active + .search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found:focus + .search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus + .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode, .l-top_menu-v2 .global-search .search-results .search-mode:focus + .search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active + .search-mode, .l-top_menu-v2 .global-search .search-results .search-mode:active + .search-mode {
                 border-top: 1px solid var(--top-menu-border-color);
             }
 
     .l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode {
         border-left: 3.5px solid var(--top-menu-border-color);
-        border-top-color: var(--top-menu-border-color);
+        border-top: 1px solid var(--top-menu-border-color);
         transition: none;
     }
 
         .l-top_menu-v2 .global-search .search-results .search-mode:hover {
             background: #ffffff0e;
-            border-top-color: var(--top-menu-border-color);
+            border-top: 1px solid var(--top-menu-border-color);
         }
 
             .l-top_menu-v2 .global-search .search-results .search-mode:hover::before {
