@@ -1,0 +1,52 @@
+/* Glass emerald theme / Изумрудная тема */
+
+:root {
+    --top-menu-color: #027525e4;
+    --top-menu-submenu-back-color: #01571bde;
+    --top-menu-button-hover-color: #003810a0;
+    --top-menu-border-color: none;
+    --l-page-back-color-desktop: #003312;
+    --l-page-back-color-mobile: #003312;
+    --quote-back-color: #00a64288;
+    --tile-back-color: #034216d4;
+    --tile-border-color: none;
+    --headline-color: #00962fe5;
+    --main-text-shadow-color: black;
+    --main-text-color: white;
+    --sec-text-color: #ebebeb;
+    --ter-text-color: #dedede;
+    --quat-text-color: #ababab;
+    --profile-nickname-color: #38ff76;
+    --li-hover-color: #055e1b88;
+    --li-active-color: #00962f88;
+    --main-link-color: #1cff82;
+    --main-link-hover-color: #69b7ff;
+    --sec-link-color: #dedede;
+    --sec-link-active-color: #ebff38;
+    --sec-link-hover-color: white;
+    --button-hover-color: #00c42ba8;
+    --orange-hover-color: #ff8c21;
+    --green-color: #07f06c;
+    --bar-s0-color: #03962dc9;
+    --bar-s1-color: #11d438c9;
+    --bar-s2-color: #37f068c9;
+    --bar-s3-color: #54de97c9;
+}
+
+@media screen {
+    .l-top_menu-v2 .submenu > a:hover {
+        background-color: #fffd;
+    }
+
+    .b-add_to_list .trigger, .b-add_to_list .option {
+        border: none !important;
+    }
+
+    .text.shortened::before, .body-truncated::before, .inner.shortened::before {
+        background: none;
+    }
+
+    .tooltip-inner {
+        background-color: #034216;
+    }
+}
