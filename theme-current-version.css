@@ -2248,6 +2248,10 @@
     .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
         margin-bottom: 10px;
     }
+    
+    .p-messages-index .b-options-floated.mobile-phone_portrait {
+        display: block;
+    }
 }
 
 
