@@ -152,6 +152,10 @@
         .l-top_menu-v2 .global-search input {
             line-height: 29px;
         }
+    
+    .b-input.integer input {
+        width: 65px;
+    }
 
         .l-top_menu-v2 .global-search .search-results {
             box-shadow: 0px 0px 0.25em var(--top-menu-border-color);
@@ -1527,7 +1531,7 @@
         margin-bottom: 0;
     }
 
-    .p-dashboards-show .b-hot_topics-v2 + * > .block2, .p-dashboards-show .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left, .p-profiles-show .profile-content .c-right > .block:last-child, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .about.block {
+    .p-dashboards-show .b-hot_topics-v2 + * > .block2, .p-dashboards-show .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left, .p-profiles-show .profile-content .c-right > .block:last-child, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .about.block, .p-collections .b-collection-topic.b-topic-minified {
         margin-bottom: 20px;
     }
 
