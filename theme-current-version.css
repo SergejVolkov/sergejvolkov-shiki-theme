@@ -153,7 +153,7 @@
             line-height: 29px;
         }
     
-    .b-input.integer input {
+    .p-user_rates-index .list-lines tr.edit-form .b-input.integer input {
         width: 65px;
     }
 
