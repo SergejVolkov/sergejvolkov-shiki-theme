@@ -438,14 +438,14 @@
         opacity: 0;
     }
 
-    .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .b-forum .faye-loader, .collapsed, .collapsed + .spoiler .hide-expanded, .b-comments .faye-loader, .p-animes-show .other-names.click-loader, .p-mangas-show .other-names.click-loader, .p-ranobe-show .other-names.click-loader {
+    .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .b-forum .faye-loader, .collapsed, .collapsed + .spoiler .hide-expanded, .b-comments .faye-loader, .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names {
         border-radius: 3px;
         color: #ebebeb;
         background: #48484cd0 !important;
         border: none !important;
     }
 
-        .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover, .b-forum .faye-loader:hover, .collapsed:hover, .collapsed + .spoiler .hide-expanded:hover, .b-comments .faye-loader:hover, .p-animes-show .other-names.click-loader:hover, .p-mangas-show .other-names.click-loader:hover, .p-ranobe-show .other-names.click-loader:hover {
+        .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover, .b-forum .faye-loader:hover, .collapsed:hover, .collapsed + .spoiler .hide-expanded:hover, .b-comments .faye-loader:hover, .p-animes-show .other-names:hover, .p-mangas-show .other-names:hover, .p-ranobe-show .other-names:hover {
             color: white;
             background: var(--button-hover-color) !important;
             border: none !important;
