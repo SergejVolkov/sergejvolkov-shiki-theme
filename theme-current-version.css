@@ -939,7 +939,7 @@
         font-size: 14.5px;
     }
 
-    .l-footer .links a, .buttons span {
+    .l-footer .links a, .buttons span, .b-comment > .inner .was_updated div {
         font-family: var(--main-font);
         font-size: 12px;
     }
@@ -2109,7 +2109,7 @@
         font-size: 18px;
     }
 
-    .b-review_votes .votes-for, .b-review_votes .votes-against, .l-footer .links a, .buttons span, .p-profiles-show .lifetime .times .time, .p-profiles-show .lifetime .times .time.checked, .p-profiles .profile-head .c-brief header .notice, .bar.vertical .line .x_label, .b-height_shortener .expand span, .bar.horizontal .line .bar-container .value, .b-topic-preview > .inner .read_more-link, .b-forums .forum .topics, .b-comment header .hash, .b-comment header a.hash, .p-dashboards .user_list .list-change .note, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .option, .p-profiles-show .achievements .header .size, .p-user_rates-index .list-lines tr td .rewatches {
+    .b-review_votes .votes-for, .b-review_votes .votes-against, .l-footer .links a, .buttons span, .p-profiles-show .lifetime .times .time, .p-profiles-show .lifetime .times .time.checked, .p-profiles .profile-head .c-brief header .notice, .bar.vertical .line .x_label, .b-height_shortener .expand span, .bar.horizontal .line .bar-container .value, .b-topic-preview > .inner .read_more-link, .b-forums .forum .topics, .b-comment header .hash, .b-comment header a.hash, .p-dashboards .user_list .list-change .note, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .option, .p-profiles-show .achievements .header .size, .p-user_rates-index .list-lines tr td .rewatches, .b-comment > .inner .was_updated div {
         font-size: 14px;
     }
 
