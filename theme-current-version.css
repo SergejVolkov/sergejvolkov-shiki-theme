@@ -1273,7 +1273,6 @@
         font-family: var(--main-font);
         color: var(--main-text-color);
         font-size: 16px;
-        padding-bottom: 5px;
     }
 
     .p-profiles .profile-head .c-brief .avatar {
@@ -1325,7 +1324,7 @@
         padding-bottom: 10px;
     }
 
-    .p-profiles .profile-head .c-history.x3 {
+    .p-profiles .profile-head .c-history.x3, .tooltip-inner .b-comment.tooltipped {
         margin-bottom: 0;
     }
 
