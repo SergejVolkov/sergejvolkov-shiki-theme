@@ -496,9 +496,9 @@
     }
 
     .b-stats_bar .bar {
-        height: 15px;
-        line-height: 20px;
-        margin: 5px 0 5px 0;
+        height: 10px;
+        line-height: 0;
+        margin: 10px 0 5px 0;
     }
     
     .b-achievements_notifier .achievement.gained, .b-achievements_notifier .achievement.lost {
