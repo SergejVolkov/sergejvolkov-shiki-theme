@@ -1074,6 +1074,10 @@
         margin: 0;
     }
 
+    .p-studios .studio {
+        min-height: 0;
+    }
+
     .b-tag[href] {
         padding-bottom: 0.08em;
         color: var(--main-text-color) !important;
