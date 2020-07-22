@@ -1652,6 +1652,10 @@
         margin-top: 15px;
         font-size: 14px;
     }
+    
+    .p-db_entries .b-options-floated {
+        margin-top: 7px;
+    }
 
     .p-profiles-index .b-options-floated.mylist.mobile-desktop {
         margin-bottom: 9px;
