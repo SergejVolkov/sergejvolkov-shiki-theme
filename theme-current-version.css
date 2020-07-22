@@ -1319,6 +1319,10 @@
         .p-profiles .profile-head .c-brief .avatar img {
             visibility: hidden;
         }
+    
+    .p-clubs-index .b-club {
+        width: 100% !important;
+    }
 
     .p-moderations-index .date-filter {
         margin-right: 24px !important;
@@ -1404,6 +1408,10 @@
 
     .b-options-floated, .b-collection-filters .block > .filter {
         right: 25px;
+    }
+    
+    .comments-search .subheadline-input {
+        right: 22px;
     }
 
     .p-messages-index .block.is-own-profile {
@@ -1548,12 +1556,8 @@
         margin-top: 15px;
     }
 
-    .comments-search .subheadline-input {
-        right: 22px;
-    }
-
     .subheadline-input {
-        margin-top: 3.5px !important;
+        margin-top: 9.5px !important;
     }
 
     .subheadline-buttons {
@@ -1967,6 +1971,10 @@
 
     .b-status-line .section.about .author .b-user16 img {
         margin-top: 5px;
+    }
+    
+    .subheadline-input {
+        margin-top: 8.5px;
     }
 
     .headline, .midheadline, .subheadline {
