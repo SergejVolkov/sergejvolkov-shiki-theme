@@ -1410,6 +1410,10 @@
         right: 25px;
     }
     
+    .b-options-floated {
+        font-size: 14px;
+    }
+    
     .comments-search .subheadline-input {
         right: 22px;
     }
@@ -1649,12 +1653,15 @@
     }
 
     .b-options-floated {
-        margin-top: 15px;
-        font-size: 14px;
+        margin-top: 7px;
     }
     
-    .p-db_entries .b-options-floated {
-        margin-top: 7px;
+    .p-profiles .b-options-floated {
+        margin-top: 14px;
+    }
+    
+    .b-options-floated.about-options {
+        margin-top: 2px;
     }
 
     .p-profiles-index .b-options-floated.mylist.mobile-desktop {
@@ -2008,9 +2015,12 @@
         line-height: 25px;
     }
 
-    .b-options-floated {
-        font-size: 14px;
+    .p-profiles .b-options-floated {
         margin-top: 12px;
+    }
+    
+    .b-options-floated.about-options {
+        margin-top: 3px;
     }
 
     .midheadline .b-user16 img, .subheadline .b-user16 img {
