@@ -1319,7 +1319,7 @@
         .p-profiles .profile-head .c-brief .avatar img {
             visibility: hidden;
         }
-    
+        
     .p-clubs-index .b-club {
         width: 100% !important;
     }
@@ -1408,10 +1408,6 @@
 
     .b-options-floated, .b-collection-filters .block > .filter {
         right: 25px;
-    }
-    
-    .b-options-floated {
-        font-size: 14px;
     }
     
     .comments-search .subheadline-input {
@@ -1561,7 +1557,7 @@
     }
 
     .subheadline-input {
-        margin-top: 9.5px !important;
+        margin-top: 1.5px !important;
     }
 
     .subheadline-buttons {
@@ -1654,14 +1650,7 @@
 
     .b-options-floated {
         margin-top: 7px;
-    }
-    
-    :not(.p-dialogs):not(.p-messages).p-profiles .b-options-floated {
-        margin-top: 14px;
-    }
-    
-    .b-options-floated.about-options {
-        margin-top: 2px;
+        font-size: 14px;
     }
 
     .p-profiles-index .b-options-floated.mylist.mobile-desktop {
@@ -2015,12 +2004,9 @@
         line-height: 25px;
     }
 
-    :not(.p-dialogs):not(.p-messages).p-profiles .b-options-floated {
-        margin-top: 12px;
-    }
-    
-    .b-options-floated.about-options {
-        margin-top: 3px;
+    .b-options-floated {
+        font-size: 14px;
+        margin-top: 2px;
     }
 
     .midheadline .b-user16 img, .subheadline .b-user16 img {
