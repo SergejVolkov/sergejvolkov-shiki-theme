@@ -1129,6 +1129,30 @@
     .p-contests .match-day .match-link.active, .p-contests .match-day .match-link.active:hover, .p-contests .match-day .match-link:hover, .p-user_rates-index .list-lines .selectable:hover, .p-userlist_comparer .comparer table .selectable:hover, .p-userlist_comparer .comparer table .exact-same, .p-userlist_comparer .legend .exact-same, .p-userlist_comparer .comparer table .almost-same, .p-userlist_comparer .legend .almost-same, .p-userlist_comparer .comparer table .slightly-difr, .p-userlist_comparer .legend .slightly-difr, .p-userlist_comparer .comparer table .abslt-difr, .p-userlist_comparer .legend .abslt-difr {
         background: var(--li-hover-color);
     }
+    
+    .p-userlist_comparer .comparer table .exact-same .num {
+        color: var(--green-color);
+    }
+
+    .p-userlist_comparer .comparer table .almost-same .num {
+        color: var(--green-color);
+        background: -webkit-linear-gradient(270deg, var(--green-color) 60%, var(--main-text-color) 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: none;
+    }
+
+    .p-userlist_comparer .comparer table .slightly-difr .num {
+        color: var(--orange-hover-color);
+        background: -webkit-linear-gradient(270deg, var(--orange-hover-color) 60%, var(--main-text-color) 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: none;
+    }
+
+    .p-userlist_comparer .comparer table .abslt-difr .num {
+        color: var(--orange-hover-color);
+    }
 
     .p-user_rates-index .list-lines tr.edit-form form {
         background-color: var(--quote-back-color);
