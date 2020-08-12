@@ -1,4 +1,4 @@
-/* sergejvolkov-shiki-theme, 20.10.2019 shiki-exo 2.3.3, SergejVolkov, 2019
+/* sergejvolkov-shiki-theme, 12.08.2020 shiki-exo 2.3.4, SergejVolkov, 2020
     Подробности релиза на https://shikimori.one/clubs/2385-shiki-exo/pages/1781-istoriya-versiy */
 
 
@@ -1221,7 +1221,7 @@
     }
 
     .l-footer .copyright::before {
-        content: 'shiki-exo 2.3.3';
+        content: 'shiki-exo 2.3.4';
         text-align: right;
         display: block;
         position: relative;
@@ -1383,7 +1383,7 @@
         border: 1px solid var(--tile-border-color);
     }
     
-    .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-info, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child) {
+    .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-info, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child), .p-profiles .profile-head .c-history {
         padding: 20px;
         background-color: var(--tile-back-color);
         border-radius: 3px;
