@@ -1227,11 +1227,18 @@
         border-top-left-radius: 0;
         border: 1px solid var(--headline-color);
         border-left: 4px solid var(--headline-color);
+        padding: var(--padding-width);
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
 
     .b-spoiler_block.is-opened > button {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
+    }
+
+    .b-spoiler_inline:not(.is-opened) {
+        background-color: var(--li-hover-color);
     }
 
     .text.shortened::before, .body-truncated::before, .inner.shortened::before {
