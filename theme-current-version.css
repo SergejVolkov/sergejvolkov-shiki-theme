@@ -152,18 +152,18 @@
         .l-top_menu-v2 .global-search input {
             line-height: 29px;
         }
-    
+
     .p-user_rates-index .list-lines tr.edit-form .b-input.integer input {
         width: 65px;
     }
 
-        .l-top_menu-v2 .global-search .search-results {
-            box-shadow: 0px 0px 0.25em var(--top-menu-border-color);
-            font-family: var(--main-font) !important;
-            border-radius: 3px;
-            text-shadow: 0 0 0.06em black;
-            background-color: var(--top-menu-submenu-back-color);
-        }
+    .l-top_menu-v2 .global-search .search-results {
+        box-shadow: 0px 0px 0.25em var(--top-menu-border-color);
+        font-family: var(--main-font) !important;
+        border-radius: 3px;
+        text-shadow: 0 0 0.06em black;
+        background-color: var(--top-menu-submenu-back-color);
+    }
 
         .l-top_menu-v2 .global-search .search-results::before, .l-top_menu-v2 .global-search .search-results::after {
             left: 3px;
@@ -250,7 +250,7 @@
             color: white !important;
         }
 
-    .b-anime_status_tag, .textarea, .ac_results ul, .b-collection_search .field .clear {
+    .b-anime_status_tag, .textarea, .ac_results ul, .b-collection_search .field .clear, code.b-code_inline, .p-profiles-favorites .cc-favourites.sortable .b-catalog_entry::before {
         text-shadow: none;
     }
 
@@ -468,7 +468,7 @@
             border: none !important;
         }
 
-    .b-link_button:hover, .b-link_button.dark:hover {
+    .b-link_button:hover, .b-link_button.dark:hover, .b-spoiler_block > button:hover {
         background-color: var(--button-hover-color);
         color: white;
     }
@@ -517,16 +517,16 @@
         line-height: 0;
         margin: 10px 0 5px 0;
     }
-    
+
     .b-achievements_notifier .achievement.gained, .b-achievements_notifier .achievement.lost {
         background: var(--quote-back-color);
         border: 1px solid var(--tile-border-color);
         border-radius: 3px;
     }
 
-    .p-profiles-show .lifetime .times .time.checked, .p-profiles-show .lifetime .times .time.checked::before, .c-actions .fav-remove, .profile-actions .fav-remove, .profile-actions .ignore-remove, .b-user_rate_log .action.create, .b-review_votes .user-vote .voted-for, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.weak, .b-add_to_list.completed .edit, .b-add_to_list.completed .trigger-arrow:hover, .b-log_entry .state.taken, .b-achievements_notifier .achievement.gained .title a, .b-achievements_notifier .achievement.gained .name a, .b-achievements_notifier .achievement.gained, .b-achievements_notifier .achievement.gained .title a:hover, .b-achievements_notifier .achievement.gained .name a:hover {
-        color: var(--green-color);
-    }
+        .p-profiles-show .lifetime .times .time.checked, .p-profiles-show .lifetime .times .time.checked::before, .c-actions .fav-remove, .profile-actions .fav-remove, .profile-actions .ignore-remove, .b-user_rate_log .action.create, .b-review_votes .user-vote .voted-for, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.weak, .b-add_to_list.completed .edit, .b-add_to_list.completed .trigger-arrow:hover, .b-log_entry .state.taken, .b-achievements_notifier .achievement.gained .title a, .b-achievements_notifier .achievement.gained .name a, .b-achievements_notifier .achievement.gained, .b-achievements_notifier .achievement.gained .title a:hover, .b-achievements_notifier .achievement.gained .name a:hover {
+            color: var(--green-color);
+        }
 
     .b-topic .footer-vote .vote-group .vote.yes.selected, .b-topic .footer-vote .vote-group .vote.yes:hover {
         color: var(--green-color);
@@ -666,10 +666,6 @@
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
     }
 
-    .p-profiles-favorites .cc-favourites.sortable .b-catalog_entry::before {
-        text-shadow: none;
-    }
-
     .b-log_entry > .reason, .b-catalog_entry .cover .title {
         font-size: 16px;
     }
@@ -694,6 +690,15 @@
         .b-quote .b-user16 img {
             margin-top: 6px;
         }
+
+    .b-quote-v2 {
+        background-color: var(--quote-back-color);
+        padding-left: 14px;
+        border-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+        border-left: 4px solid var(--tile-border-color);
+        color: var(--main-text-color);
+    }
 
     .b-abuse_marker::before {
         margin-top: 3px;
@@ -882,7 +887,7 @@
         color: var(--ter-text-color);
         margin-top: 10px;
     }
-    
+
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
         font-size: 12.5px;
     }
@@ -915,7 +920,7 @@
             color: var(--main-link-color);
         }
 
-    .bar.horizontal .line .x_label, header.head h1 a.back::before, header.head h2 a.back::before, .b-comment > .inner header .name-date .time, .b-message > .inner header .name-date .time, .b-status-line .section.created_at time::before, .b-status-line .section.additional .comments::before, .b-review_votes::before, .b-status-line .section.changed_at time::before, .b-topic > .inner > header .about > span, .b-forums .forum .topics, .p-dashboards .user_list .list-change .note, .b-topic > .inner header .name-date .time, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .p-user_rates-index .l-content .order-control, .p-user_rates-index .list-lines tr td .episodes_total, .b-user.detailed .history .line .date, .b-table th, .p-userlist_comparer .comparer table .notice, .p-user_history-index .history-page .history-interval p .date, .b-club .info .number, .b-comment .inner .name-date a.name .normal, .b-db_entry > .c-about .additional-links .key, .b-header_filters .filter-line .title, .b-header_filters .filter-line a.current, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .bar.vertical .line .x_label, .b-replies, .b-input .hint, .b-log_entry .date, .b-log_entry .id-label, .b-abuse_request .comment-hash, .b-ban .date, .b-comment header .hash, .b-comment header a.hash, .b-ban .duration, .b-ban .comment-hash, .b-status-line .section.additional .collection-size, .b-nothing_here, .b-source .contributors .key, .b-source .mal .key, .b-source .source .key, .p-contests-index .contest .date, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-options-floated.count, .p-contests .match-day > .date .from, .p-contests .match-day > .date .to, .p-contests .match-day .match-link .started::before, .p-contests .match-day .matches-num, .p-contests .rating .member .position, .p-achievements-global table.statistics td:first-child, .b-user_rate_log .date, .b-user_rate_log .info .field .label, .b-achievement .c-about .hint, .b-achievement .c-about .percent, .p-achievements-index .p-achievements-global .level, .b-catalog_entry-tooltip .inner .additional-images .link .title, .p-contests .results .cc-result .c-rounds .label, .b-db_entry-variant-list_item > .info .line .key, .p-user_history-index .history-page .history-interval p .destroy, .b-dialog > .inner header .name-date .time, header.head .notice, .b-user_rate_log .action.update, .b-subposter-action, .profile-actions .mail, .club-actions .invite, .club-actions .upload, .club-actions .leave, .buttons a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .c-actions .new_review::after, .c-actions .new_comment::after, .c-actions .fav-add::after, .c-actions .edit::after, .c-actions .fav-remove::after, .b-show_more, .b-show_more-more .hide-more, .p-characters .item-edit, .profile-actions .ban, .profile-actions .settings, .profile-actions .talk, .profile-actions .fav-add, .profile-actions .ignore-add, .c-actions .fav-add, .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles header.head .misc, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.zero, .buttons .main-controls a, .b-subposter-action::after, .p-studios .block > .studio .animes, .p-studios .block > .studio .years, .b-user.detailed .history .line .event, .b-user.moderation .history .line .event, .item-mobile.selected, .item-add, .b-log_entry .change-details .field-changes .label, .p-moderations-index.p-users-index .b-user .last-online, .p-moderations-show.p-roles-show .b-user .last-online, .b-log_entry .change-details .reason span, .b-poll .poll-variants .poll-variant.result .votes-percent, .b-poll .poll-variants .poll-variant.result .votes-total, .p-animes-show .c-info-right .watch-online .kind, .p-mangas-show .c-info-right .watch-online .kind, .p-ranobe-show .c-info-right .watch-online .kind, .b-bb_codes-examples .example .title, .b-bb_codes-examples .result .title, .b-achievements_notifier .achievement .content .name .level, .b-input.file.optional.user_avatar input {
+    .bar.horizontal .line .x_label, header.head h1 a.back::before, header.head h2 a.back::before, .b-comment > .inner header .name-date .time, .b-message > .inner header .name-date .time, .b-status-line .section.created_at time::before, .b-status-line .section.additional .comments::before, .b-review_votes::before, .b-status-line .section.changed_at time::before, .b-topic > .inner > header .about > span, .b-forums .forum .topics, .p-dashboards .user_list .list-change .note, .b-topic > .inner header .name-date .time, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .p-user_rates-index .l-content .order-control, .p-user_rates-index .list-lines tr td .episodes_total, .b-user.detailed .history .line .date, .b-table th, .p-userlist_comparer .comparer table .notice, .p-user_history-index .history-page .history-interval p .date, .b-club .info .number, .b-comment .inner .name-date a.name .normal, .b-db_entry > .c-about .additional-links .key, .b-header_filters .filter-line .title, .b-header_filters .filter-line a.current, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .bar.vertical .line .x_label, .b-replies, .b-input .hint, .b-log_entry .date, .b-log_entry .id-label, .b-abuse_request .comment-hash, .b-ban .date, .b-comment header .hash, .b-comment header a.hash, .b-ban .duration, .b-ban .comment-hash, .b-status-line .section.additional .collection-size, .b-nothing_here, .b-source .contributors .key, .b-source .mal .key, .b-source .source .key, .p-contests-index .contest .date, .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action, .b-contest_match .vs .not-selected, .b-options-floated.count, .p-contests .match-day > .date .from, .p-contests .match-day > .date .to, .p-contests .match-day .match-link .started::before, .p-contests .match-day .matches-num, .p-contests .rating .member .position, .p-achievements-global table.statistics td:first-child, .b-user_rate_log .date, .b-user_rate_log .info .field .label, .b-achievement .c-about .hint, .b-achievement .c-about .percent, .p-achievements-index .p-achievements-global .level, .b-catalog_entry-tooltip .inner .additional-images .link .title, .p-contests .results .cc-result .c-rounds .label, .b-db_entry-variant-list_item > .info .line .key, .p-user_history-index .history-page .history-interval p .destroy, .b-dialog > .inner header .name-date .time, header.head .notice, .b-user_rate_log .action.update, .b-subposter-action, .profile-actions .mail, .club-actions .invite, .club-actions .upload, .club-actions .leave, .buttons a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .c-actions .new_review::after, .c-actions .new_comment::after, .c-actions .fav-add::after, .c-actions .edit::after, .c-actions .fav-remove::after, .b-show_more, .b-show_more-more .hide-more, .p-characters .item-edit, .profile-actions .ban, .profile-actions .settings, .profile-actions .talk, .profile-actions .fav-add, .profile-actions .ignore-add, .c-actions .fav-add, .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles header.head .misc, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.zero, .buttons .main-controls a, .b-subposter-action::after, .p-studios .block > .studio .animes, .p-studios .block > .studio .years, .b-user.detailed .history .line .event, .b-user.moderation .history .line .event, .item-mobile.selected, .item-add, .b-log_entry .change-details .field-changes .label, .p-moderations-index.p-users-index .b-user .last-online, .p-moderations-show.p-roles-show .b-user .last-online, .b-log_entry .change-details .reason span, .b-poll .poll-variants .poll-variant.result .votes-percent, .b-poll .poll-variants .poll-variant.result .votes-total, .p-animes-show .c-info-right .watch-online .kind, .p-mangas-show .c-info-right .watch-online .kind, .p-ranobe-show .c-info-right .watch-online .kind, .b-bb_codes-examples .example .title, .b-bb_codes-examples .result .title, .b-achievements_notifier .achievement .content .name .level, .b-input.file.optional.user_avatar input, h2, h3, h4 {
         color: var(--sec-text-color);
     }
 
@@ -944,7 +949,7 @@
         list-style-image: none;
         list-style-type: disc;
     }
-    
+
         .b-list li::before {
             background: none;
         }
@@ -1058,7 +1063,7 @@
         background-color: white;
     }
 
-    .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-collection_search .field input, .p-user_rates-index .list-lines tr.edit-form .b-input.integer input, .b-input textarea, .b-input input[type="number"], .b-input textarea[type="number"], .b-add_to_list .trigger {
+    .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, .p-user_rates-index .list-lines tr.edit-form .b-input.integer input, .b-input textarea, .b-input input[type="number"], .b-input textarea[type="number"], .b-add_to_list .trigger, .b-spoiler_inline, .b-spoiler_block > button {
         border-radius: 3px;
     }
 
@@ -1129,30 +1134,30 @@
     .p-contests .match-day .match-link.active, .p-contests .match-day .match-link.active:hover, .p-contests .match-day .match-link:hover, .p-user_rates-index .list-lines .selectable:hover, .p-userlist_comparer .comparer table .selectable:hover, .p-userlist_comparer .comparer table .exact-same, .p-userlist_comparer .legend .exact-same, .p-userlist_comparer .comparer table .almost-same, .p-userlist_comparer .legend .almost-same, .p-userlist_comparer .comparer table .slightly-difr, .p-userlist_comparer .legend .slightly-difr, .p-userlist_comparer .comparer table .abslt-difr, .p-userlist_comparer .legend .abslt-difr {
         background: var(--li-hover-color);
     }
-    
-    .p-userlist_comparer .comparer table .exact-same .num {
-        color: var(--green-color);
-    }
 
-    .p-userlist_comparer .comparer table .almost-same .num {
-        color: var(--green-color);
-        background: -webkit-linear-gradient(270deg, var(--green-color) 60%, var(--main-text-color) 80%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-shadow: none;
-    }
+        .p-userlist_comparer .comparer table .exact-same .num {
+            color: var(--green-color);
+        }
 
-    .p-userlist_comparer .comparer table .slightly-difr .num {
-        color: var(--orange-hover-color);
-        background: -webkit-linear-gradient(270deg, var(--orange-hover-color) 60%, var(--main-text-color) 80%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-shadow: none;
-    }
+        .p-userlist_comparer .comparer table .almost-same .num {
+            color: var(--green-color);
+            background: -webkit-linear-gradient(270deg, var(--green-color) 60%, var(--main-text-color) 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: none;
+        }
 
-    .p-userlist_comparer .comparer table .abslt-difr .num {
-        color: var(--orange-hover-color);
-    }
+        .p-userlist_comparer .comparer table .slightly-difr .num {
+            color: var(--orange-hover-color);
+            background: -webkit-linear-gradient(270deg, var(--orange-hover-color) 60%, var(--main-text-color) 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: none;
+        }
+
+        .p-userlist_comparer .comparer table .abslt-difr .num {
+            color: var(--orange-hover-color);
+        }
 
     .p-user_rates-index .list-lines tr.edit-form form {
         background-color: var(--quote-back-color);
@@ -1204,6 +1209,29 @@
 
     hr {
         background-image: -webkit-linear-gradient(left, transparent, var(--sec-text-color), transparent);
+        background-image: linear-gradient(90deg, transparent, var(--sec-text-color), transparent);
+    }
+
+    h1 + hr, h2 + hr, h3 + hr, h4 + hr {
+        background-image: -webkit-linear-gradient(left, var(--sec-text-color), transparent);
+        background-image: linear-gradient(90deg, var(--sec-text-color), transparent);
+    }
+
+    .b-spoiler_block > button {
+        background-color: var(--headline-color);
+    }
+
+    .b-spoiler_block > div {
+        background-color: var(--quote-back-color);
+        border-radius: 3px;
+        border-top-left-radius: 0;
+        border: 1px solid var(--headline-color);
+        border-left: 4px solid var(--headline-color);
+    }
+
+    .b-spoiler_block.is-opened > button {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
 
     .text.shortened::before, .body-truncated::before, .inner.shortened::before {
@@ -1343,7 +1371,7 @@
         .p-profiles .profile-head .c-brief .avatar img {
             visibility: hidden;
         }
-        
+
     .p-clubs-index .b-club {
         width: 100% !important;
     }
@@ -1351,25 +1379,25 @@
     .p-moderations-index .date-filter {
         margin-right: 24px !important;
     }
-    
+
     .b-dropzone {
         background-color: var(--quote-back-color);
         border: 2px dashed var(--tile-border-color);
         border-radius: 3px;
     }
-    
-    .b-dropzone:hover {
-        border-color: var(--quat-text-color);
-    }
-    
+
+        .b-dropzone:hover {
+            border-color: var(--quat-text-color);
+        }
+
         .b-dropzone::before {
             color: var(--quat-text-color);
         }
-    
+
         .b-dropzone:hover::before {
             color: var(--ter-text-color);
         }
-    
+
     .p-topics-new .topic-video .form, .p-topics-edit .topic-video .form, .p-topics-create .topic-video .form, .p-topics-update .topic-video .form, .p-articles-new .topic-video .form, .p-articles-edit .topic-video .form, .p-articles-create .topic-video .form, .p-articles-update .topic-video .form {
         background-color: var(--quote-back-color);
         border-radius: 3px;
@@ -1382,7 +1410,7 @@
         border-radius: 3px;
         border: 1px solid var(--tile-border-color);
     }
-    
+
     .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-info, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child), .p-profiles .profile-head .c-history {
         padding: 20px;
         background-color: var(--tile-back-color);
@@ -1390,23 +1418,23 @@
         border: 1px solid var(--tile-border-color);
     }
 
-        .l-menu .block > .block, .l-menu .block2 > .block, .c-generated_news .block > .block, .b-menu-links.menu-topics-block.history.m30 > .block {
-            border: none;
-            padding: 0;
-            margin: 0;
-            background: none;
-        }
+    .l-menu .block > .block, .l-menu .block2 > .block, .c-generated_news .block > .block, .b-menu-links.menu-topics-block.history.m30 > .block {
+        border: none;
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
 
-        .l-menu .block > .block {
-            margin-bottom: 20px;
-        }
+    .l-menu .block > .block {
+        margin-bottom: 20px;
+    }
 
-        .p-clubs .l-menu .block, .p-clubs .b-clubs-menu .b-subposter-actions, .p-clubs .l-menu .b-menu_logo, .p-club_pages .l-menu .block, .p-club_pages .b-clubs-menu .b-subposter-actions, .p-club_pages .l-menu .b-menu_logo {
-            border: none;
-            padding: 0;
-            background: none;
-            margin-bottom: 20px;
-        }
+    .p-clubs .l-menu .block, .p-clubs .b-clubs-menu .b-subposter-actions, .p-clubs .l-menu .b-menu_logo, .p-club_pages .l-menu .block, .p-club_pages .b-clubs-menu .b-subposter-actions, .p-club_pages .l-menu .b-menu_logo {
+        border: none;
+        padding: 0;
+        background: none;
+        margin-bottom: 20px;
+    }
 
     .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination {
         margin-top: 0;
@@ -1440,12 +1468,12 @@
     .b-options-floated, .b-collection-filters .block > .filter {
         right: 25px;
     }
-    
-    .b-options-floated.about-options {
-        margin-top: 2px;
-        font-size: 14px;
-    }
-    
+
+        .b-options-floated.about-options {
+            margin-top: 2px;
+            font-size: 14px;
+        }
+
     .comments-search .subheadline-input {
         right: 22px;
     }
@@ -1699,7 +1727,7 @@
     :root {
         --padding-width: 20px;
     }
-    
+
     .p-profiles .profile-head .c-brief header {
         position: absolute;
         top: 0;
@@ -2012,7 +2040,7 @@
     .b-status-line .section.about .author .b-user16 img {
         margin-top: 5px;
     }
-    
+
     .subheadline-input {
         margin-top: 8.5px;
     }
@@ -2144,11 +2172,11 @@
     :root {
         --padding-width: 10px;
     }
-    
+
     header.head {
         padding-left: 15px;
     }
-    
+
     .p-profiles .profile-head .c-mobile-actions, .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .activity, .p-profiles-show .profile-content .about.block, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .block:last-child:not(:first-child) {
         margin-top: -15px;
     }
@@ -2216,7 +2244,7 @@
         font-size: 15px;
     }
 
-    .b-log_entry > .reason, .b-block_list li.selected, .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-collection_search .field input, input, optgroup, select, textarea, .b-forums .forum .link-with-input .link, .b-achievement .c-about a.title, .b-catalog_entry-tooltip .inner a.name, .l-page {
+    .b-log_entry > .reason, .b-block_list li.selected, .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, input, optgroup, select, textarea, .b-forums .forum .link-with-input .link, .b-achievement .c-about a.title, .b-catalog_entry-tooltip .inner a.name, .l-page {
         font-size: 18px;
     }
 
@@ -2232,9 +2260,9 @@
         font-size: 16px;
     }
 
-    body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text, .b-stats_bar .stat_names .stat_name a, .b-stats_bar .stat_names .stat_name, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .b-comment > .inner header .name-date a.name, .p-achievements-global table.statistics tr th, .p-user_rates-index .stat-categories .t2, .b-topic > .inner > header .name-date a, .b-topic > .inner > header .about a, .p-dashboards .user_list .list-stat .value, .p-profiles .profile-head .c-info .c-additionals div a {
-        font-size: 17px;
-    }
+        body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text, .b-stats_bar .stat_names .stat_name a, .b-stats_bar .stat_names .stat_name, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .b-comment > .inner header .name-date a.name, .p-achievements-global table.statistics tr th, .p-user_rates-index .stat-categories .t2, .b-topic > .inner > header .name-date a, .b-topic > .inner > header .about a, .p-dashboards .user_list .list-stat .value, .p-profiles .profile-head .c-info .c-additionals div a {
+            font-size: 17px;
+        }
 
     .b-achievement.badge::before {
         font-size: 17px;
@@ -2371,7 +2399,7 @@
     .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
         margin-bottom: 10px;
     }
-    
+
     .p-messages-index .b-options-floated.mobile-phone_portrait {
         display: block;
     }
