@@ -326,6 +326,12 @@
         min-width: 106px;
     }
 
+    /* Fenrisi / Irroha edit */
+    .l-top_menu-v2 .icon-avatar img {
+        width: 30px;
+        height: 30px;
+    }
+
     .b-comments-notifier {
         background: var(--button-hover-color);
         top: 33px !important;
