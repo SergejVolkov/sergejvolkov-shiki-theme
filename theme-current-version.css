@@ -1,6 +1,13 @@
 /* sergejvolkov-shiki-theme, 12.08.2020 shiki-exo 2.3.4, SergejVolkov, 2020
     Подробности релиза на https://shikimori.one/clubs/2385-shiki-exo/pages/1781-istoriya-versiy */
 
+:root {
+  --link-color: var(--main-link-color);
+  --link-hover-color: var(--main-link-hover-color);
+  --link-active-color: var(--main-link-hover-color);
+  --headline-background-color: var(--headline-color);
+}
+
 
 @media screen {
     body {
@@ -474,7 +481,7 @@
             border: none !important;
         }
 
-    .b-link_button:hover, .b-link_button.dark:hover, .b-spoiler_block > button:hover {
+    .b-link_button:hover, .b-link_button.dark:hover, .b-spoiler_block > span:hover {
         background-color: var(--button-hover-color);
         color: white;
     }
@@ -1069,7 +1076,7 @@
         background-color: white;
     }
 
-    .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, .p-user_rates-index .list-lines tr.edit-form .b-input.integer input, .b-input textarea, .b-input input[type="number"], .b-input textarea[type="number"], .b-add_to_list .trigger, .b-spoiler_inline, .b-spoiler_block > button {
+    .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, .p-user_rates-index .list-lines tr.edit-form .b-input.integer input, .b-input textarea, .b-input input[type="number"], .b-input textarea[type="number"], .b-add_to_list .trigger, .b-spoiler_inline, .b-spoiler_block > span {
         border-radius: 3px;
     }
 
@@ -1223,7 +1230,7 @@
         background-image: linear-gradient(90deg, var(--sec-text-color), transparent);
     }
 
-    .b-spoiler_block > button {
+    .b-spoiler_block > span {
         background-color: var(--headline-color);
     }
 
@@ -1238,7 +1245,7 @@
         padding-bottom: 10px;
     }
 
-    .b-spoiler_block.is-opened > button {
+    .b-spoiler_block.is-opened > span {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
