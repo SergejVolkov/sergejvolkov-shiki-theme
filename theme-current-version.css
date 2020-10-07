@@ -1,13 +1,6 @@
 /* sergejvolkov-shiki-theme, 12.08.2020 shiki-exo 2.3.4, SergejVolkov, 2020
     Подробности релиза на https://shikimori.one/clubs/2385-shiki-exo/pages/1781-istoriya-versiy */
 
-:root {
-  --link-color: var(--main-link-color);
-  --link-hover-color: var(--main-link-hover-color);
-  --link-active-color: var(--main-link-hover-color);
-  --headline-background-color: var(--headline-color);
-}
-
 
 @media screen {
     body {
@@ -2438,4 +2431,8 @@
     --font-main: var(--main-font);
     --font-alt: var(--main-font);
     --font-alt-text-letter-spacing: normal;
+    --link-color: var(--main-link-color);
+    --link-hover-color: var(--main-link-hover-color);
+    --link-active-color: var(--main-link-hover-color);
+    --headline-background-color: var(--headline-color);
 }
