@@ -1,4 +1,4 @@
-/* sergejvolkov-shiki-theme, 12.08.2020 shiki-exo 2.3.4, SergejVolkov, 2020
+/* sergejvolkov-shiki-theme, 19.10.2020 shiki-exo 2.4.0, SergejVolkov, 2020
     Подробности релиза на https://shikimori.one/clubs/2385-shiki-exo/pages/1781-istoriya-versiy */
 
 
@@ -1262,7 +1262,7 @@
     }
 
     .l-footer .copyright::before {
-        content: 'shiki-exo 2.3.4';
+        content: 'shiki-exo 2.4.0';
         text-align: right;
         display: block;
         position: relative;
@@ -1289,6 +1289,62 @@
     .l-footer .links {
         margin-top: 17px;
     }
+    
+    /* WYSIWYG */
+    
+.b-shiki_editor-v2 .menubar {
+  background: var(--quote-back-color);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 1px solid var(--tile-border-color);
+  border-bottom-width: 0;
+}
+
+.b-shiki_editor-v2 .menubar .menu_group + .menu_group::before {
+  border-right-color: var(--sec-text-color);
+}
+
+.b-shiki_editor-v2 .menubar .icons .icon.is-active {
+  background: none;
+  color: var(--green-color) !important;
+}
+
+.b-shiki_editor-v2 .menubar .icons .icon:not(.is-disabled) {
+  color: var(--sec-text-color);
+}
+
+.b-shiki_editor-v2 .menubar .icons .icon:not(.is-disabled):hover {
+  color: var(--orange-hover-color);
+}
+
+.b-shiki_editor-v2 .menubar .icons .icon.is-disabled {
+  color: var(--quat-text-color);
+}
+
+.b-tip.smileys {
+  border-radius: 3px;
+}
+
+.ProseMirror {
+  font-size: 16px;
+  color: var(--main-text-color);
+  background: var(--tile-back-color);
+}
+
+.b-shiki_editor-v2 .editor-container.is-loading::before {
+  background: var(--tile-back-color);
+}
+
+.b-shiki_editor-v2 .editor-container .preview, .ProseMirror {
+  border: 1px solid var(--tile-border-color);
+  border-top-width: 0;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.b-spoiler_block.is-opened > span > i:hover {
+  background: var(--headline-color) !important;
+}
 
     /* Общие настройки обложек на станицах тайтлов */
 
@@ -2257,7 +2313,7 @@
         font-size: 15px;
     }
 
-    .b-log_entry > .reason, .b-block_list li.selected, .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, input, optgroup, select, textarea, .b-forums .forum .link-with-input .link, .b-achievement .c-about a.title, .b-catalog_entry-tooltip .inner a.name, .l-page {
+    .b-log_entry > .reason, .b-block_list li.selected, .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, input, optgroup, select, textarea, .b-forums .forum .link-with-input .link, .b-achievement .c-about a.title, .b-catalog_entry-tooltip .inner a.name, .l-page, .ProseMirror {
         font-size: 18px;
     }
 
