@@ -688,7 +688,7 @@
             background-color: var(--quote-back-color);
         }
 
-        .b-quote .quoteable::before {
+        .b-quote .quoteable::before, .b-quote-v2 .quoteable::before {
             color: var(--sec-text-color);
             text-shadow: 0 0 0.1em var(--sec-text-color);
         }
@@ -699,11 +699,12 @@
 
     .b-quote-v2 {
         background-color: var(--quote-back-color);
-        padding-left: 14px;
+        padding: 6px 14px;
         border-radius: 3px;
         border: 1px solid var(--tile-border-color);
         border-left: 4px solid var(--tile-border-color);
         color: var(--main-text-color);
+        overflow: hidden;
     }
 
     .b-abuse_marker::before {
