@@ -859,16 +859,6 @@
         background: none;
     }
 
-    .b-catalog_entry .cover .image-decor > .text {
-        border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;
-        background-color: #000010c7;
-    }
-
-        .b-catalog_entry .cover .image-decor > .text::before {
-            background: none;
-        }
-
     .p-user_rates-index .list-posters .user_rate > .text {
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
@@ -1378,10 +1368,18 @@
 
     /* Тень и углы */
 
-    .b-catalog_entry a .image-cutter, .b-db_entry-variant-list_item .image img, .b-catalog_entry .cover .image-decor img, .p-db_entries .b-db_entry .c-poster img, .b-catalog_entry-tooltip .image, .p-profiles .profile-head .c-history .entry img, .b-catalog_entry-tooltip .inner .additional-images .link img {
+    .b-db_entry-variant-list_item .image img, .b-catalog_entry .cover .image-decor, .p-db_entries .b-db_entry .c-poster img, .b-catalog_entry-tooltip .image, .p-profiles .profile-head .c-history .entry img, .b-catalog_entry-tooltip .inner .additional-images .link img {
         border-radius: 3px;
         box-shadow: 0 0 4px #0b0b0be0;
     }
+    
+    .b-catalog_entry .cover .image-decor {
+        overflow: hidden;
+    }
+
+        .b-catalog_entry .cover .image-decor > .text::before {
+            background: none;
+        }
 
     /*Anime & manga markers in history*/
 
