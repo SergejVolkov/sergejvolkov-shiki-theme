@@ -1353,7 +1353,7 @@
         }
 
     /* Позиционирование изображения */
-    .b-catalog_entry .cover .image-decor img {
+    .b-catalog_entry .cover .image-decor .image-cutter > img {
         position: absolute;
         top: 0;
         right: -100%;
