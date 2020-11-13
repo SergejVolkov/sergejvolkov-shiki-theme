@@ -5,18 +5,21 @@
     --top-menu-submenu-back-color: #027f9cde;
     --top-menu-button-hover-color: #01414da0;
     --top-menu-border-color: none;
+    
     --l-page-back-color-desktop: #75d4e6;
     --l-page-back-color-mobile: #75d4e6;
     --quote-back-color: #31d3f788;
     --tile-back-color: #a0e5fad4;
     --tile-border-color: none;
     --headline-color: #0599b0e5;
+    
     --main-text-shadow-color: #0000;
     --main-text-color: black;
     --sec-text-color: #424242;
     --ter-text-color: #666666;
     --quat-text-color: #828282;
     --profile-nickname-color: black;
+    
     --li-hover-color: #b0b0b088;
     --li-active-color: #0599b088;
     --main-link-color: #176093;
@@ -24,9 +27,12 @@
     --sec-link-color: #4a4a4a;
     --sec-link-active-color: #01663a;
     --sec-link-hover-color: #303030;
+    
     --button-hover-color: #00899ea8;
     --orange-hover-color: #ff6f00;
     --green-color: #1c9e16;
+    --blue-color: #1080ff;
+    
     --bar-s0-color: #247d91c9;
     --bar-s1-color: #3599b0c9;
     --bar-s2-color: #4bb2c9c9;
