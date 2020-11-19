@@ -376,6 +376,14 @@
     .bar.simple .bar.s3, .bar.simple .bar.s3:hover, .b-poll .poll-variants .poll-variant.result .bar .bar.s0, .b-poll .poll-variants .poll-variant.result .bar .bar.s0:hover {
         background: var(--bar-s3-color);
     }
+    
+    .bar.simple .bar {
+        border-radius: 3px;
+    }
+    
+    .activity .bar.simple .bar {
+        border-radius: 3px 3px 0px 0px;
+    }
 
     .headline, .midheadline, .subheadline {
         background-color: var(--headline-color);
