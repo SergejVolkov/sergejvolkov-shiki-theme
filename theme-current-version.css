@@ -1068,7 +1068,7 @@
         background-color: white;
     }
 
-    .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, .p-user_rates-index .list-lines tr.edit-form .b-input.integer input, .b-input textarea, .b-input input[type="number"], .b-input textarea[type="number"], .b-add_to_list .trigger, .b-spoiler_inline, .b-spoiler_block > span, .p-profiles-show .lifetime .bar, .bar.simple .bar, .b-stats_bar .bar {
+    .b-quote, .b-shiki_editor .body .editor textarea, .b-code, .b-code-v2, .b-collection_search .field input, .p-user_rates-index .list-lines tr.edit-form .b-input.integer input, .b-input textarea, .b-input input[type="number"], .b-input textarea[type="number"], .b-add_to_list .trigger, .b-spoiler_inline, .b-spoiler_block > span, .p-profiles-show .lifetime .bar, .bar.simple .bar, .b-stats_bar .bar, .b-poll .poll-variants .poll-variant.result .bar .line {
         border-radius: 3px;
     }
 
