@@ -1329,9 +1329,8 @@
 
 .b-shiki_editor-v2 .editor-container .preview, .ProseMirror {
   border: 1px solid var(--tile-border-color);
-  border-top-width: 0;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-width: 0 !important;
+  border-radius: 0 0 3px 3px;
 }
 
 .b-spoiler_block.is-opened > span > i:hover {
@@ -1567,6 +1566,13 @@
 
     .tooltip-inner .inner .markers {
         margin-top: 5px;
+    }
+    
+    .b-shiki_editor .body .editor textarea {
+        background-color: var(--tile-back-color);
+        color: var(--main-text-color);
+        text-shadow: 0 0 0.06em var(--main-text-shadow-color);
+        border: 1px solid var(--tile-border-color) !important;
     }
     
     .p-dashboards-show .v2 > .block2:nth-child(6) .headline {
