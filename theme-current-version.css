@@ -376,13 +376,13 @@
     .bar.simple .bar.s3, .bar.simple .bar.s3:hover, .b-poll .poll-variants .poll-variant.result .bar .bar.s0, .b-poll .poll-variants .poll-variant.result .bar .bar.s0:hover {
         background: var(--bar-s3-color);
     }
-    
+
     .activity .bar.simple .bar {
         border-radius: 3px 3px 0px 0px;
     }
 
     .headline, .midheadline, .subheadline {
-        background-color: var(--headline-color);
+        background-color: var(--main-headline-color);
         color: black;
         border-radius: 1.5px;
         border-left-color: #f0f0f0c0;
@@ -482,9 +482,9 @@
         background-color: var(--button-hover-color);
         color: white;
     }
-    
+
     .p-dashboards-show .v2 .create-topic {
-        background-color: var(--headline-color);
+        background-color: var(--main-headline-color);
         padding-top: 6.5px;
     }
 
@@ -946,7 +946,7 @@
         font-family: var(--main-font);
         font-size: 14px;
     }
-    
+
     .b-log_entry .state.taken {
         color: var(--blue-color);
     }
@@ -1228,15 +1228,15 @@
     }
 
     .b-spoiler_block > span {
-        background-color: var(--headline-color);
+        background-color: var(--main-headline-color);
     }
 
     .b-spoiler_block > div {
         background-color: var(--quote-back-color);
         border-radius: 3px;
         border-top-left-radius: 0;
-        border: 1px solid var(--headline-color);
-        border-left: 4px solid var(--headline-color);
+        border: 1px solid var(--main-headline-color);
+        border-left: 4px solid var(--main-headline-color);
         padding: var(--padding-width);
         padding-top: 5px;
         padding-bottom: 10px;
@@ -1293,49 +1293,49 @@
     .l-footer .links {
         margin-top: 17px;
     }
-    
+
     /* WYSIWYG */
-    
-.b-shiki_editor-v2 .menubar {
-  background: var(--quote-back-color);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border: 1px solid var(--tile-border-color);
-  border-bottom-width: 0;
-}
 
-.b-shiki_editor-v2 .menubar .menu_group + .menu_group::before {
-  border-right-color: var(--sec-text-color);
-}
+    .b-shiki_editor-v2 .menubar {
+        background: var(--quote-back-color);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+        border-bottom-width: 0;
+    }
 
-.b-shiki_editor-v2 .menubar .icons .icon.is-active {
-  background: none;
-  color: var(--green-color) !important;
-}
+        .b-shiki_editor-v2 .menubar .menu_group + .menu_group::before {
+            border-right-color: var(--sec-text-color);
+        }
 
-.b-tip.smileys {
-  border-radius: 3px;
-}
+        .b-shiki_editor-v2 .menubar .icons .icon.is-active {
+            background: none;
+            color: var(--green-color) !important;
+        }
 
-.ProseMirror {
-  font-size: 16px;
-  color: var(--main-text-color);
-  background: var(--tile-back-color);
-}
+    .b-tip.smileys {
+        border-radius: 3px;
+    }
 
-.b-shiki_editor-v2 .editor-container.is-loading::before {
-  background: var(--tile-back-color);
-}
+    .ProseMirror {
+        font-size: 16px;
+        color: var(--main-text-color);
+        background: var(--tile-back-color);
+    }
 
-.b-shiki_editor-v2 .editor-container .preview, .ProseMirror {
-  border: 1px solid var(--tile-border-color);
-  border-top-width: 0 !important;
-  border-radius: 0 0 3px 3px;
-}
+    .b-shiki_editor-v2 .editor-container.is-loading::before {
+        background: var(--tile-back-color);
+    }
 
-.b-spoiler_block.is-opened > span > i:hover {
-  background: var(--headline-color) !important;
-}
+    .b-shiki_editor-v2 .editor-container .preview, .ProseMirror {
+        border: 1px solid var(--tile-border-color);
+        border-top-width: 0 !important;
+        border-radius: 0 0 3px 3px;
+    }
+
+    .b-spoiler_block.is-opened > span > i:hover {
+        background: var(--main-headline-color) !important;
+    }
 
     /* Общие настройки обложек на станицах тайтлов */
 
@@ -1373,9 +1373,9 @@
         box-shadow: 0 0 4px #0b0b0be0;
     }
 
-        .b-catalog_entry .cover .image-decor > .text::before {
-            background: none;
-        }
+    .b-catalog_entry .cover .image-decor > .text::before {
+        background: none;
+    }
 
     /*Anime & manga markers in history*/
 
@@ -1533,10 +1533,10 @@
         right: 25px;
     }
 
-        .p-profiles-edit .profile .about-options {
-            margin-top: 2px;
-            font-size: 14px;
-        }
+    .p-profiles-edit .profile .about-options {
+        margin-top: 2px;
+        font-size: 14px;
+    }
 
     .comments-search .subheadline-input {
         right: 22px;
@@ -1567,14 +1567,14 @@
     .tooltip-inner .inner .markers {
         margin-top: 5px;
     }
-    
+
     .b-shiki_editor .body .editor textarea {
         background-color: var(--tile-back-color);
         color: var(--main-text-color);
         text-shadow: 0 0 0.06em var(--main-text-shadow-color);
         border: 1px solid var(--tile-border-color) !important;
     }
-    
+
     .p-dashboards-show .v2 > .block2:nth-child(6) .headline {
         overflow: visible;
         margin: calc(var(--padding-width) + 15px) var(--padding-width) 0 var(--padding-width);
@@ -1592,7 +1592,7 @@
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
-    
+
     .p-dashboards-show .headline {
         line-height: 1.02em;
     }
@@ -1607,11 +1607,11 @@
         border-bottom-left-radius: 0;
     }
 
-        .p-dashboards-show .v2 > .block2:nth-child(2) .f-user .my-list {
-            background: none;
-            padding: 0;
-            border: none;
-        }
+    .p-dashboards-show .v2 > .block2:nth-child(2) .f-user .my-list {
+        background: none;
+        padding: 0;
+        border: none;
+    }
 }
 
 
@@ -1662,7 +1662,7 @@
     .menu-slide-outer.x199 .l-menu {
         width: calc(23.6% - 15px);
     }
-    
+
     .p-polls-show .cc-3_2 > .c-column:first-child {
         margin-right: 15px;
         width: calc(35.33333% - 15px);
@@ -1914,7 +1914,7 @@
     .p-dashboards .animes .studios {
         margin-top: 51px;
     }
-    
+
     .p-dashboards-show .v2 > .block2:nth-child(2) .f-user {
         width: 350px;
         margin-right: 15px;
@@ -2003,7 +2003,7 @@
     .p-profiles-show .profile-content {
         margin: 20px 10px 0 10px;
     }
-    
+
     .p-polls-show .cc-3_2 > .c-column:first-child {
         width: calc(35.33333% - 10px);
         margin-right: 10px;
@@ -2593,6 +2593,7 @@
     --link-color: var(--main-link-color) !important;
     --link-hover-color: var(--main-link-hover-color) !important;
     --link-active-color: var(--main-link-hover-color) !important;
-    --headline-background-color: var(--headline-color) !important;
+    --headline-color: var(--main-headline-color) !important;
+    --headline-background-color: var(--main-headline-color) !important;
     --blue-color: #0074d9;
 }
