@@ -1607,7 +1607,7 @@
         border-bottom-left-radius: 0;
     }
 
-    .p-dashboards-show .v2 > .block2:nth-child(2) .f-user .my-list {
+    .p-dashboards-show .v2 > .block2:nth-child(2) .f-user .my-list, .p-dashboards-show .v2 .my-list {
         background: none;
         padding: 0;
         border: none;
