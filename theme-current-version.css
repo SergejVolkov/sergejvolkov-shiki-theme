@@ -408,6 +408,8 @@
         .b-reviews_navigation .navigation-node-all:not(.is-active):not(.is-empty):hover {
             background-color: var(--main-headline-color);
             border-left-color: #f0f0f0c0;
+            color: white;
+            text-shadow: 0 0 0.1em white;
         }
 
     .b-reviews_navigation .navigation-node-positive {
