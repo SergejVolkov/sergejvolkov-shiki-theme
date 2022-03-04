@@ -1001,7 +1001,7 @@
         font-size: 16px;
     }
 
-    .p-profiles-show .lifetime .times .time, .b-tag, .b-entry-info .line .b-tag, .b-catalog_entry-tooltip .inner .line .value .b-tag, .b-catalog_entry-tooltip .inner .line .value, .b-entry-info .line .value, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered, .p-studios .block > .studio .animes .num, .p-studios .block > .studio .years .num, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .p-dashboards-show .v2 .my-list .label span {
+    .p-profiles-show .lifetime .times .time, .b-tag, .b-entry-info .line .b-tag, .b-catalog_entry-tooltip .inner .line .value .b-tag, .b-catalog_entry-tooltip .inner .line .value, .b-entry-info .line .value, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered, .p-studios .block > .studio .animes .num, .p-studios .block > .studio .years .num, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .p-dashboards-show .v2 .my-list .label span, .b-topic > .inner .name-date span.name {
         color: var(--main-text-color);
     }
 
