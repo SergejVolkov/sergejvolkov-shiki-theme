@@ -1,0 +1,39 @@
+/* Dark blue yellow theme / Темная сине-желтая тема */
+:root {
+    --top-menu-color: #0256ac;
+    --top-menu-submenu-back-color: #094a8d;
+    --top-menu-button-hover-color: #084583;
+    --top-menu-border-color: #f0f0f0;
+
+    --l-page-back-color-desktop: #2a2a2a;
+    --l-page-back-color-mobile: #303030;
+    --quote-back-color: #3e3e3e;
+    --tile-back-color: #363636;
+    --tile-border-color: #777;
+    --main-headline-color: #0c62c1;
+
+    --main-text-shadow-color: black;
+    --main-text-color: white;
+    --sec-text-color: #ebebeb;
+    --ter-text-color: #dedede;
+    --quat-text-color: #ababab;
+    --profile-nickname-color: #74b6ff;
+
+    --li-hover-color: #2f5279;
+    --li-active-color: #c3a400;
+    --main-link-color: #47c0ff;
+    --main-link-hover-color: #edca0c;
+    --sec-link-color: #dedede;
+    --sec-link-active-color: #ffd700;
+    --sec-link-hover-color: white;
+
+    --button-hover-color: #1e6cc2;
+    --orange-hover-color: #ff8644;
+    --green-color: #2ad370;
+    --blue-color: #4094f0;
+
+    --bar-s0-color: #b89b01;
+    --bar-s1-color: #c8ae21;
+    --bar-s2-color: #dcc445;
+    --bar-s3-color: #f3df70;
+}
