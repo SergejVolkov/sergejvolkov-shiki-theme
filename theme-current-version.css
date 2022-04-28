@@ -238,7 +238,7 @@
         text-decoration: none !important;
     }
 
-    .search-results .b-db_entry-variant-list_item > .info .line .key {
+    .search-results .b-db_entry-variant-list_item > .info .line .key, .b-reviews_navigation .navigation-node.is-empty:not(.is-active) .label, .b-reviews_navigation .navigation-node.is-empty:not(.is-active) .count {
         color: #ebebeb;
     }
 
@@ -1001,7 +1001,7 @@
         font-size: 16px;
     }
 
-    .p-profiles-show .lifetime .times .time, .b-tag, .b-entry-info .line .b-tag, .b-catalog_entry-tooltip .inner .line .value .b-tag, .b-catalog_entry-tooltip .inner .line .value, .b-entry-info .line .value, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered, .p-studios .block > .studio .animes .num, .p-studios .block > .studio .years .num, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .p-dashboards-show .v2 .my-list .label span, .b-topic > .inner .name-date span.name {
+    .p-profiles-show .lifetime .times .time, .b-tag, .b-entry-info .line .b-tag, .b-catalog_entry-tooltip .inner .line .value .b-tag, .b-catalog_entry-tooltip .inner .line .value, .b-entry-info .line .value, .b-animes-menu .total-rates, .b-rate .text-score, .p-topics header h1 a.reload, .span, .p-user_rates-index .list-lines tr td .rate-text, .b-user_rate .rate-show .note, .b-catalog_entry-tooltip .inner .rating, .p-achievements-global table.statistics td, .p-profiles-show .achievements .header .title, h3, .b-feedback-inner .about, .tooltip-details .b-nothing_here.centered, .p-studios .block > .studio .animes .num, .p-studios .block > .studio .years .num, .p-profiles-show .lifetime .title, .p-profiles-show .profile-content .activity .title, .p-dashboards-show .v2 .my-list .label span, .b-topic > .inner .name-date span.name, .b-critique-topic .critique-stars .title {
         color: var(--main-text-color);
     }
 
