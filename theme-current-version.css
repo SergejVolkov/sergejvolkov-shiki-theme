@@ -1448,7 +1448,7 @@
         .b-catalog_entry .cover .image-cutter::before {
             content: '';
             display: block;
-            padding-bottom: 155.5%;
+            /* padding-bottom: 155.5%; */
         }
 
     /* Позиционирование изображения */
