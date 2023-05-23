@@ -1982,7 +1982,7 @@
     .p-profiles .profile-head .c-brief header {
         position: absolute;
         top: 0;
-        margin: 15px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
         padding-top: 8px;
         width: calc(100% - 40px);
         float: left;
