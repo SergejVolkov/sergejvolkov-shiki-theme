@@ -1246,7 +1246,7 @@
 
         .p-userlist_comparer .comparer table .almost-same .num {
             color: var(--green-color);
-            background: -webkit-linear-gradient(270deg, var(--green-color) 60%, var(--main-text-color) 80%);
+            background: -webkit-linear-gradient(90deg, var(--green-color) 30%, var(--main-text-color) 70%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-shadow: none;
@@ -1254,7 +1254,7 @@
 
         .p-userlist_comparer .comparer table .slightly-difr .num {
             color: var(--orange-hover-color);
-            background: -webkit-linear-gradient(270deg, var(--orange-hover-color) 60%, var(--main-text-color) 80%);
+            background: -webkit-linear-gradient(90deg, var(--green-color) 30%, var(--orange-hover-color) 70%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-shadow: none;
